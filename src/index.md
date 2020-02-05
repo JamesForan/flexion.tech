@@ -1,6 +1,8 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
+title: Flexion
+metaTitle: Flexion Tech Pty Ltd
+metaDesc: Transforming your Transport technology TMS Logistics
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
