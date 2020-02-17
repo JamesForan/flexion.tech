@@ -1,10 +1,10 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
+title: Flexion
+metaTitle: Flexion Tech Pty Ltd
+metaDesc: Transforming your Transport technology TMS Logistics
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
 ---
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself.
-
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+We are passionate about transport and logistics technology. We help organisations get the most out of their technology investment. This is our blog site. We hope you find some useful content here that helps you deliver better outcomes to your customers.
