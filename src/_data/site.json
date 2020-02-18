@@ -1,8 +1,8 @@
 {
   "showThemeCredit": true,
   "name": "Flexion",
-  "logo": "/images/logo.svg",
-  "nameSVG": "/images/text.svg",
+  "logo": "/images/logo-gradient.svg",
+  "siteNameSVG": true,
   "shortDesc": "Flexion Tech Pty Ltd is a Melbourne based company specialising in transport and logistics technology.",
   "url": "https://flexion.tech",
   "authorEmail": "james@flexion.tech",

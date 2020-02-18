@@ -3,12 +3,11 @@
     font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
-    display:flex;
+    
   }
 
   &__logo {
-    height: 4em;
-    // filter: invert(1);
+    height: 5em;
   }
   &__textSVG {
     fill: var(--color-text);
