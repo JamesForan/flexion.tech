@@ -62,6 +62,8 @@ collections:
         file: "src/_data/site.json"
         fields:
           - {label: "Site Name", name: "name", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "string"}
+          - {label: "NameSVG", name: "nameSVG", widget: "string"}
           - {label: "Site Url", name: "url", widget: "string"}
           - {label: "Author Name", name: "authorName", widget: "string"}
           - {label: "Author Email Address", name: "authorEmail", widget: "string"}
