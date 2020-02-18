@@ -3,5 +3,24 @@
     font-weight: 700;
     text-decoration: none;
     color: var(--color-text);
+    display:flex;
+  }
+
+  &__logo {
+    height: 4em;
+    // filter: invert(1);
+  }
+  &__textSVG {
+    fill: var(--color-text);
+  }
+
+  &__logoSVG {
+    fill: var(--color-highlight);
+  }
+
+  &__logoTXT {
+    height: 2em;
+    
+    
   }
 }
