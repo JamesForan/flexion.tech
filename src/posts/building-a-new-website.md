@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Building a new website
+title: The first build of this website
 metaTitle: Netlify 11ty Hylia JAMStack website
 metaDesc: >-
   A breif blog about the thought process i went through to create the first
