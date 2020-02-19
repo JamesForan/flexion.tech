@@ -63,7 +63,7 @@ collections:
         fields:
           - {label: "Site Name", name: "name", widget: "string"}
           - {label: "Logo", name: "logo", widget: "image"}
-          - {label: "NameSVG", name: "nameSVG", widget: "code", lang: "xml"}
+          - {label: "siteNameSVG", name: "nameSVG", widget: "code", default_language: "svg", allow_language_selection: false }
           - {label: "Site Url", name: "url", widget: "string"}
           - {label: "Author Name", name: "authorName", widget: "string"}
           - {label: "Author Email Address", name: "authorEmail", widget: "string"}
