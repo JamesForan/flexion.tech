@@ -7,9 +7,11 @@
         <span class="visually-hidden">{{ 'Back to homepage' if page.url != '/' else 'Homepage' }}</span>
         <span><img class="[ site-head__logo ]" aria-hidden="true" src="{{ site.logo }}"></span>
       </a>
-      {% if site.siteNameSVG %}
-        {% include "partials/components/sitename-text.svg"%}  
-        {# {% include "./images/sitename-text.svg"%}   #}
+      
+        {# {% include "partials/components/sitename-text.svg"%}   #}
+      
+      {% if site.siteNameSVG.code %}
+          {{site.siteNameSVG.code | replace("\\","") | safe }}
       {% else %}
         <span class="[ site-head__site-name ] [ text-600 ]" aria-hidden="true">{{ site.name }}</span>
       {% endif %}
