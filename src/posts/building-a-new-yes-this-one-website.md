@@ -6,7 +6,7 @@ metaDesc: >-
   description of the thought process i went through to select tech stack for the
   flexion.tech website. jamStack site
 socialImage: images/Flexion-logo_Round.png
-date: 2020-02-18T07:18:17.965Z
+date: 2020-02-19T07:18:17.965Z
 tags:
   - '#website #jamstack #11ty'
 ---
