@@ -8,7 +8,7 @@ metaDesc: >-
 socialImage: images/flexion-share.jpg
 date: 2020-02-19T10:17:58.728Z
 tags:
-  - '#11ty #netlify #hylia #website'
+  - '11ty netlify hylia website'
 ---
 New Beginnings
 ===========
