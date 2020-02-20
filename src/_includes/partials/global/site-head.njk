@@ -10,11 +10,12 @@
       
         {# {% include "partials/components/sitename-text.svg"%}   #}
       
-      {% if site.siteNameSVG.code %}
-          {{site.siteNameSVG.code | replace("\\","") | safe }}
+      {% if site.nameSVG.code %}
+         <span class="[ site-head__text ]" aria-hidden="true"> {{site.nameSVG.code | replace("\\","") | safe }}
       {% else %}
-        <span class="[ site-head__site-name ] [ text-600 ]" aria-hidden="true">{{ site.name }}</span>
+        <span class="[ site-head__site-name ]" aria-hidden="true">{{ site.name }}
       {% endif %}
+      </span>
       {% include "partials/components/nav.njk" %}
       
     

@@ -5,11 +5,13 @@
     color: var(--color-text);
     
   }
-
   &__logo {
     height: 5em;
   }
-  &__textSVG {
+  &__text svg{
+    height: 2em;
+  }
+  &__text path {
     fill: var(--color-text);
   }
 
@@ -17,9 +19,5 @@
     fill: var(--color-highlight);
   }
 
-  &__logoTXT {
-    height: 2em;
-    
-    
-  }
+  
 }
