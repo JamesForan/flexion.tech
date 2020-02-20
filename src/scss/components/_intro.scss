@@ -16,8 +16,10 @@
 
   &__heading {
     max-width: 40ex;
-    color: var(--color-theme-feature-text);
-
+    // color: var(--color-theme-feature-text);
+    background: -webkit-linear-gradient(left bottom,var(--color-primary-glare),var(--color-theme-feature-text));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--heading-fill-color) ;
     &--compact {
       max-width: 20ex;
     }

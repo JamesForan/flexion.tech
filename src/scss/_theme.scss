@@ -19,6 +19,9 @@
   --color-theme-primary-glare: #{get-color('primary-glare')};
   --color-theme-highlight: #{get-color('highlight')};
   --color-theme-highlight-block: #{get-color('highlight')};
+  --heading-fill-color: #{get-color('primary-shade')};
+
+
 }
 
 @include dark-mode() {
@@ -35,6 +38,7 @@
   --color-theme-highlight: #{get-color('highlight')};
   --color-theme-highlight-block: #{get-color('slate')};
   --color-theme-feature-text: #{get-color('highlight')};
+  --heading-fill-color:transparent;
 }
 
 body {
