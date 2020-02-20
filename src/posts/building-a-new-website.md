@@ -9,6 +9,9 @@ socialImage: images/flexion-share.jpg
 date: 2020-02-19T10:17:58.728Z
 tags:
   - website
+  - netlify
+  - 11ty
+  - hylia
 ---
 New Beginnings
 ===========
@@ -18,7 +21,7 @@ Now I find my self in need of a website. I am determined to do it myself, and le
 
 # Tech Stack
 
-About 4 weeks ago, i started on my journey of learing , HTML, and CSS really well, and doing a bit of javaScript if required.
+About 4 weeks ago, i started on my journey of learning , HTML, and CSS really well, and doing a bit of javaScript if required.
 
 
 I have spent much time doing tutorials on youTube, reading and researching on [w3schools](https://developer.mozilla.org/en-US/ "USE MDN instead!"), learning Adobe XD, and also Affinity Design. Because of course I don't want to just build a website, I want to design it, and make it beautiful.
@@ -42,7 +45,7 @@ SO where to from here? JAMStack is pretty new, and as I said, many of the tools 
 
 Thankfully, Andy  has already solved this problem with the [hylia Starter Kit](https://hylia.website/). It is super easy to get started with this template, and deploy to [Netlify](https://www.netlify.com/). Netlify are the company who has popularised static websites, by re-branding it as JAMStack. 
 
-In addition, this also allows me to slowly learn more about headless CMS, build tools, HTML templates and javacript in the future.
+In addition, this also allows me to slowly learn more about headless CMS, build tools, HTML templates and JavaScript in the future.
 
 That is how I got this site up and running within 24 hours. I have made a few minor updates to the template, but all in all, I have left it vanilla for now. I will now focus my efforts on getting great content out there, while continuing to progress the website design.
 
