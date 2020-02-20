@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: The first build of this website
 metaTitle: Netlify 11ty Hylia JAMStack website
 metaDesc: >-
-  A breif blog about the thought process i went through to create the first
+  A brief blog about the thought process i went through to create the first
   flexion.tech website
 socialImage: images/flexion-share.jpg
 date: 2020-02-19T10:17:58.728Z
