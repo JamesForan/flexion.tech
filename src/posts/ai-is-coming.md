@@ -16,6 +16,12 @@ tags:
 ---
 # AI is coming, are you ready?
 
+In this article >
+- [Blue Yonder](##%20Blue%20Yonder)
+- [Digitisation](##%20Digitisation)
+- [AI Example Use Case](##%20AI%20Example%20Use%20Case)
+- [Removing Unnecessary Complexity](##%20Removing%20Unnecessary%20Complexity)
+
 ## Blue Yonder
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
@@ -52,38 +58,38 @@ Lets look at an example organisation who is wanting to take the advantage of AI 
   * traffic
 * Driver capabilities - vehicle capacity
 
-## Potential Issues
+### Potential Issues
 
-### Manual procedures
+#### Manual procedures
 Even though your organisation has digitised much of its operations, it still has long standing customers who are not able to provide consignment data electronically in time for the AI algorithms to run, and decisions to be made.
 
-#### Possible resolution
+##### Possible resolution
 
 Allow for this "unknown" quantity in the algorithm, and utilise historical data to forecast consignment data
 
-### External dependencies
+#### External dependencies
 
 The algorithms accuracy is now dependent on the availability of information from many sources. Any delay in receiving information will effect the accuracy of the forecast.
-#### Possible resolution
+##### Possible resolution
 
 Build in fall-back options for every data source and enable user input for external figures
                                                                                                                                    
-## Missing parameters
+### Missing parameters
 If the algorithm does not include critical parameters that have an impact on the number of drivers needed, the accuracy of the system will not be trusted by operational personnel, and the system will not be used.
-### Resolution
+#### Resolution
 
 AI algorithms must be designed **with** operational people. This is a huge change management challenge, as these systems are seen as a threat. People will hold onto critical information if they are not part of the solution. 
-## Scale
+### Scale
 For potential benefits to turn into real benefits, appropriate scale must exist to ensure that the costs of implementation are lower than the savings to be realised by the organisation.
-### Resolution
+#### Resolution
 Engage with experts with a proven track record in the logistics industry, as well as your geography.
 
-## Unnecessary Complexity
+### Unnecessary Complexity
 Complexity come in many forms. If you are utilising multiple internal systems to capture consignments for example, or customer forecasts are in different formats, this added complexity will mean data scientists will first have to interpret and standardise data before the AI algorithms can run.
 ### Resolution
  Remove complexity where possible.
 
-# Removing Unnecessary Complexity
+## Removing Unnecessary Complexity
 
 Organisations who are have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up. 
 
@@ -95,7 +101,7 @@ The example we are looking at relies heavily multiple external factors. In a rea
 
 Lets go back to our original example of freight tracking. One of the areas the logistics industry struggles with across the board is tracking freight through depots and cross docks where predominantly manual processes exist. Organisations could serve customers better if they had a vision based system which could track freight in real time from the moment it is unloaded from a truck, to when it leaves the facility. Such systems could provide valuable input to operations and customers, and the solutions could grow in complexity over time. 
 
-### Take away's
+### Takeaways
 
 * AI is extremely reliant on a healthy digital diet. Make sure you are feeding it well.
 * Remove unnecessary complexity where possible before embarking on bespoke AI solutions.
