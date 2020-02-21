@@ -54,13 +54,34 @@ Lets look at an example organisation who is wanting to take the advantage of AI 
 
 ## Potential Issues
 
-| Issue                  | Description                                                                                                                                                                                                                                                                                            | Mitigation                                                                                                                                                                                                                      |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Manual procedures      | Even though the organisation has digitised much of its operations, it still has long standing customers who are not able to provide consignment data electronically in time for the AI algorithms to run, and staffing decisions to be made                                                            | Allow for this "unknown" quantity in the algorithm, and utilise historical data to forecast consignment data                                                                                                                    |
-| External dependencies  | The algorithms accuracy is now dependent on the availability of information from many sources. Any delay in receiving information will effect the accuracy of the forecast.                                                                                                                            | Build in fall-back options for every data source and enable user input for external figures                                                                                                                                     |
-| Missing parameters     | If the algorithm does not include critical parameters that have an impact on the number of drivers needed, the accuracy of the system will not be trusted by operational personnel, and the system will not be used                                                                                    | AI algorithms must be designed **with** operational people. This is a huge change management challenge, as these systems are seen as a threat. People will hold onto critical information if they are not part of the solution. |
-| Scale                  | For potential benefits to turn into real benefits, appropriate scale must exist to ensure that the costs of implementation are lower than the savings to be realised by the organisation.                                                                                                              | Engage with experts with a proven track record in the logistics industry, as well as your geography.                                                                                                                            |
-| Unnecessary Complexity | Complexity come in many forms. If you are utilising multiple internal systems to capture consignments for example, or customer forecasts are in different formats, this added complexity will mean data scientists will first have to interpret and standardise data before the AI algorithms can run. | Remove complexity where possible                                                                                                                                                                                                |
+### Manual procedures
+Even though your organisation has digitised much of its operations, it still has long standing customers who are not able to provide consignment data electronically in time for the AI algorithms to run, and decisions to be made.
+
+#### Possible resolution
+
+Allow for this "unknown" quantity in the algorithm, and utilise historical data to forecast consignment data
+
+### External dependencies
+
+The algorithms accuracy is now dependent on the availability of information from many sources. Any delay in receiving information will effect the accuracy of the forecast.
+#### Possible resolution
+
+Build in fall-back options for every data source and enable user input for external figures
+                                                                                                                                   
+## Missing parameters
+If the algorithm does not include critical parameters that have an impact on the number of drivers needed, the accuracy of the system will not be trusted by operational personnel, and the system will not be used.
+### Resolution
+
+AI algorithms must be designed **with** operational people. This is a huge change management challenge, as these systems are seen as a threat. People will hold onto critical information if they are not part of the solution. 
+## Scale
+For potential benefits to turn into real benefits, appropriate scale must exist to ensure that the costs of implementation are lower than the savings to be realised by the organisation.
+### Resolution
+Engage with experts with a proven track record in the logistics industry, as well as your geography.
+
+## Unnecessary Complexity
+Complexity come in many forms. If you are utilising multiple internal systems to capture consignments for example, or customer forecasts are in different formats, this added complexity will mean data scientists will first have to interpret and standardise data before the AI algorithms can run.
+Resolution
+ Remove complexity where possible                                                                                                                                                                                                |
 
 ## Removing Unnecessary Complexity
 
