@@ -26,7 +26,7 @@ In this article >
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
-In 2018, JDA purchased BlueYonder, who at the timewas a company that utilised AI and ML algorithms to help organisations make better decisions, resulting in a more efficient supply chain. Now this is 100% the focus of JDA. It says a lot about the impact is having on the technology industry, even if it is just marketing impact.
+In 2018, JDA purchased BlueYonder, who at the time was a company that utilised AI and ML algorithms to help organisations make better decisions, resulting in a more efficient supply chain. Now this is 100% the focus of JDA. It says a lot about the impact is having on the technology industry, even if it is just marketing impact.
 
 We are yet to see how this technology will be utilised to enhance [JDA TMS](https://french.jda.com/solutions/detail/transportation-management), however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come. But what will they be, and how can you get ready for them today?
 
@@ -34,14 +34,14 @@ We are yet to see how this technology will be utilised to enhance [JDA TMS](http
 
 For many businesses, realising the benefits of AI technology is also years off. But it will be critical for companies to ensure they have the correct foundations in place, to take advantage of AI and ML in the years to come.
 
-Digitisation is a word so first, I am going to define exactly what it means in this context:
+Digitisation is a word that gets used a lot in the IT industry. But what exactly does it mean? Basically, it just means, turning information into an electronic format. Wiki says:
 
 > Digitisation means converting information into a format that can be processed by a computer.
 
-Digitisation takes place in steps. Lets take freight tracking as a example, and look through the various stages of digitisation.
+Digitisation though is not a binary step. it takes place in stages, and evolves over years, and decades. Lets take freight tracking as a example, and look through the various stages of digitisation.
 
-1. Bar-codes are added to manual consignments, to allow for scanning within freight facilities.
-2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to enable consignment scanning delivery points, and generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
+1. Bar-codes are added to manual consignments, to allow for scanning within freight facilities. Barcodes only started to be used in supermarkets in around 1974. They are now on every product we purchase, and every item, package, box and pallet that moves through the supply chain. 
+2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to receive pickup instructions, and also to enable consignment scanning at pickup and delivery points. THis also enabled generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
 3. Consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, allow for partial POD's and item level freight tracking.
 
 ## AI Example Use Case
