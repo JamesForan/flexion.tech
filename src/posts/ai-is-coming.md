@@ -17,10 +17,10 @@ tags:
 # AI is coming, are you ready?
 
 In this article >
-- [Blue Yonder](##%20Blue%20Yonder)
-- [Digitisation](##%20Digitisation)
-- [AI Example Use Case](##%20AI%20Example%20Use%20Case)
-- [Removing Unnecessary Complexity](##%20Removing%20Unnecessary%20Complexity)
+- [Blue Yonder](#heading-blue-yonder)
+- [Digitisation](#heading-digitisation)
+- [AI Example Use Case](#heading-AI-Example-Use-Case)
+- [Removing Unnecessary Complexity](#heading-Removing-Unnecessary-Complexity)
 
 ## Blue Yonder
 
