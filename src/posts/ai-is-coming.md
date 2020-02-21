@@ -1,31 +1,30 @@
 ---
 layout: layouts/post.njk
-title: AI - Coming SOON 
+title: AI - Coming SOON
 metaTitle: AI Logistics Transport Artificial Intelligence JDA Blue Yonder
 metaDesc: >-
-  With the recent re-branding of JDA to Blue Yonder, we take a look at how AI might be used to improve transport operations.
-socialImage: images/flexion-share.jpg
-date: 
+  With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
+  might be used to improve transport operations.
+socialImage: images/Blue Yonder Logo.PNG
+date: 2020-02-21T04:40:20.360Z
+author: James Foran
 tags:
   - Transport
   - AI
   - Strategy
   - Digitisation
 ---
-
-
-
-# AI is coming, are you reading?
+# AI is coming, are you ready?
 
 TOC
 
 ## Blue Yonder
 
-Last week there was a major announcement that JDA has rebranded to [Blue Yonder](https://blueyonder.com/).
+Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
-In 2018, JDA purchased BlueYonder at that time was a company that utilised AI and ML algorithms to help organisations make better decisions, resulting in a more efficient supply chain.
+In 2018, JDA purchased BlueYonder, who at the timewas a company that utilised AI and ML algorithms to help organisations make better decisions, resulting in a more efficient supply chain. Now this is 100% the focus of JDA. It says a lot about the impact is having on the technology industry, even if it is just marketing impact.
 
-We are yet to see how this technology will be utilised to enhance JDA TMS, however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come.
+We are yet to see how this technology will be utilised to enhance [JDA TMS](https://french.jda.com/solutions/detail/transportation-management), however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come. But what will they be, and how can you get ready for them today?
 
 ## Digitisation
 
@@ -33,15 +32,15 @@ For many businesses, realising the benefits of AI technology is also years off. 
 
 Digitisation is a word so first, I am going to define exactly what it means in this context:
 
- Digitisation means converting information into a format that can be processed by a computer.
+> Digitisation means converting information into a format that can be processed by a computer.
 
 Digitisation takes place in steps. Lets take freight tracking as a example, and look through the various stages of digitisation.
 
-1. Barcodes are added to manual consignments, to allow for scanning within freight facilities.
-2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal 'Mobile Data Terminal') to enable consignment scanning delivery points, and genaration of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery).
-3. Consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, and allowing for partial POD's, and item level freight tracking.
+1. Bar-codes are added to manual consignments, to allow for scanning within freight facilities.
+2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal 'Mobile Data Terminal') to enable consignment scanning delivery points, and generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
+3. Consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, allow for partial POD's and item level freight tracking.
 
-## Artificial Intelligence Example
+## AI Example Use Case
 
 Lets look at an example organisation who is wanting to take the advantage of AI to enable forecasting for the number of drivers required to execute deliveries in the afternoon. The inputs into the AI algorithm will be:
 
@@ -75,7 +74,7 @@ The example we are looking at relies heavily multiple external factors. In a rea
 ## Start with Value added Services
 Lets go back to our original example of freight tracking. One of the areas the logistics industry struggles with across the board is tracking freight through depots and cross docks where predominantly manual processes exist. Organisations could serve customers better if they had a vision based system which could track freight in real time from the moment it is unloaded from a truck, to when it leaves the facility. Such systems could provide valuable input to operations and customers, and the solutions could grow in complexity over time. 
 
-### Take aways
+### Take away's
 - AI is extremely reliant on a healthy digital diet. Make sure you are feeding it well.
 - Remove unnecessary complexity where possible before embarking on bespoke AI solutions.
 - Utilise AI to add value without impacting on operations.
