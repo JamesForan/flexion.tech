@@ -80,10 +80,10 @@ Engage with experts with a proven track record in the logistics industry, as wel
 
 ## Unnecessary Complexity
 Complexity come in many forms. If you are utilising multiple internal systems to capture consignments for example, or customer forecasts are in different formats, this added complexity will mean data scientists will first have to interpret and standardise data before the AI algorithms can run.
-Resolution
- Remove complexity where possible                                                                                                                                                                                                |
+### Resolution
+ Remove complexity where possible.
 
-## Removing Unnecessary Complexity
+# Removing Unnecessary Complexity
 
 Organisations who are have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up. 
 
