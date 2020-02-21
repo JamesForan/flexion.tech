@@ -105,4 +105,4 @@ Lets go back to our original example of freight tracking. One of the areas the l
 
 * AI is extremely reliant on a healthy digital diet. Make sure you are feeding it well.
 * Remove unnecessary complexity where possible before embarking on bespoke AI solutions.
-* Utilise AI to add value without impacting on operations.
+* Utilise AI to add value and limit direct inpmact on operations.
