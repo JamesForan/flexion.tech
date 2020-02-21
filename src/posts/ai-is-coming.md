@@ -19,8 +19,8 @@ tags:
 In this article >
 - [Blue Yonder](#heading-blue-yonder)
 - [Digitisation](#heading-digitisation)
-- [AI Example Use Case](#heading-AI-Example-Use-Case)
-- [Removing Unnecessary Complexity](#heading-Removing-Unnecessary-Complexity)
+- [AI Example Use Case](#heading-ai-example-use-case)
+- [Removing Unnecessary Complexity](#heading-removing-unnecessary-complexity)
 
 ## Blue Yonder
 
