@@ -7,6 +7,7 @@ metaDesc: >-
   flexion.tech website
 socialImage: images/flexion-share.jpg
 date: 2020-02-19T10:17:58.728Z
+author: James Foran
 tags:
   - website
   - netlify
