@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: AI - Coming SOON
-metaTitle: AI Logistics Transport Artificial Intelligence JDA Blue Yonder
+metaTitle: AI in the Transport Domain. Get ready.
 metaDesc: >-
   With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
   might be used to improve transport operations.
