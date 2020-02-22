@@ -45,10 +45,10 @@ Digitisation is a word that gets used a lot in the IT industry. Companies who ha
 
 ## Freight Tracking Evolution
 
-Digitisation though is not a binary step. it takes place in stages, and evolves over years, and decades. Lets take freight tracking as a example, and look through the various stages of digitisation.
+Digitisation though is not a binary step. it takes place in stages, and evolves over years, and decades. Lets take freight tracking as a example, and look through the some of the stages of digitisation we have seen over the decades.
 
-1. Bar-codes are added to manual consignments, to allow for scanning within freight facilities. Barcodes only started to be used in supermarkets in around 1974. They are now on every product we purchase, and every item, package, box and pallet that moves through the supply chain. 
-2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to receive pickup instructions, and also to enable consignment scanning at pickup and delivery points. THis also enabled generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
+1. Bar-codes are added to manual consignments, to allow for scanning within freight facilities. Bar-codes only started to be used in supermarkets in around 1974. They are now on every product we purchase, and every item, package, box and pallet that moves through the supply chain. 
+2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to receive pick-up instructions, and also to enable consignment scanning at pick-up and delivery points. THis also enabled generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
 3. Consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, allow for partial POD's and item level freight tracking.
 
 ## AI Example Use Case
