@@ -16,7 +16,7 @@ tags:
 ---
 # AI is coming, are you ready?
 
-In this article >
+In this article:
 - [Blue Yonder](#heading-blue-yonder)
 - [Digitisation](#heading-digitisation)
 - [AI Example Use Case](#heading-ai-example-use-case)
@@ -26,15 +26,19 @@ In this article >
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
-In 2018, JDA purchased BlueYonder, who at the time was a company that utilised AI and ML algorithms to help organisations make better decisions, resulting in a more efficient supply chain. Now this is 100% the focus of JDA. It says a lot about the impact is having on the technology industry, even if it is just marketing impact.
+In 2018, JDA purchased BlueYonder, a data science based company that was utilising AI and ML algorithms to help organisations make better supply chain decisions, with the promise if improved efficiencies.
 
-We are yet to see how this technology will be utilised to enhance [JDA TMS](https://french.jda.com/solutions/detail/transportation-management), however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come. But what will they be, and how can you get ready for them today?
+With the re-branding, we will now see the focus shift completely to be marketing the powers of AI and ML. It says a lot about the impact this tech is having on the logistics industry, even if it is just marketing impact for now.
+
+We are yet to see if/how this technology will be utilised to enhance [JDA TMS](https://french.jda.com/solutions/detail/transportation-management), however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come. 
+
+But what will they be, and how can you get ready for them today? There is much that can be done today, to get ready for the coming wave of AI and ML. As the old saying goes, failing to prepare, is preparing to fail, and in the AI space, it seems [Gartner](https://www.gartner.com/en) think that is even more the case, with a bold prediction that [85% of all AI projects will "not delivery" for CIO's](https://www.bmc.com/blogs/cio-ai-artificial-intelligence/).
 
 ## Digitisation
 
-For many businesses, realising the benefits of AI technology is also years off. But it will be critical for companies to ensure they have the correct foundations in place, to take advantage of AI and ML in the years to come.
+For many businesses, realising the benefits of AI technology is years off. But it will be critical for companies to ensure they have the correct foundations in place, to take advantage of AI and ML in the years to come. [It is said](https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845) that data scientists spend only 20% of their time on algorithms, and the rest is spend preparing and cleaning up data.
 
-Digitisation is a word that gets used a lot in the IT industry. But what exactly does it mean? Basically, it just means, turning information into an electronic format. Wiki says:
+Digitisation is a word that gets used a lot in the IT industry. Companies who have higher levels of maturity in the digitising their processes will be best placed to take advantage of AI. But what exactly does digitisation mean? Basically, it just means, turning information into an electronic format. Wiki says:
 
 > Digitisation means converting information into a format that can be processed by a computer.
 
