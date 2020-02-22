@@ -22,6 +22,7 @@ In this article:
 - [Freight Tracking Evolution](#heading-freight-tracking-evolution)
 - [AI Example Use Case](#heading-ai-example-use-case)
 - [Removing Unnecessary Complexity](#heading-removing-unnecessary-complexity)
+- [tl;dr/Takeaways](#heading-takeaways)
 
 ## Blue Yonder
 
@@ -48,24 +49,25 @@ Digitisation is a word that gets used a lot in the IT industry. Companies who ha
 Digitisation though is not a binary step. it takes place in stages, and evolves over years, and decades. Lets take freight tracking as a example, and look through the some of the stages of digitisation we have seen over the decades.
 
 1. Bar-codes are added to manual consignments, to allow for scanning within freight facilities. Bar-codes only started to be used in supermarkets in around 1974. They are now on every product we purchase, and every item, package, box and pallet that moves through the supply chain. 
-2. Drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to receive pick-up instructions, and also to enable consignment scanning at pick-up and delivery points. THis also enabled generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
-3. Consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, allow for partial POD's and item level freight tracking.
+2. In the 90's, with the advacements in mobile communication, drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to receive pick-up instructions, and also to enable consignment scanning at pick-up and delivery points. This also enabled generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
+3. As the internet finds its ways into the majority of businesses and warehouses, consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, allow for partial POD's and item level freight tracking.
 
 ## AI Example Use Case
 
-Lets look at an example organisation who is wanting to take the advantage of AI to enable forecasting for the number of drivers required to execute deliveries in the afternoon. The inputs into the AI algorithm will be:
+Lets look at an example use case where an organisation is wanting to take advantage of AI to enable forecasting for the number of drivers required to execute deliveries in the afternoon, and provide accurate ETA's to customers. THe inputs into the algorithm could potentially be the following(although more would likely be needed):
 
 * Historical consignment data
 * Consignment data (destination info)
 * Consignment item details, including current location
 * customer forecasts
 * environmental forecasts 		
-
   * weather
   * traffic
 * Driver capabilities - vehicle capacity
 
 ### Potential Issues
+
+Lets take a quick look at some of the potential issues a project of this complexity might face.
 
 #### Manual procedures
 Even though your organisation has digitised much of its operations, it still has long standing customers who are not able to provide consignment data electronically in time for the AI algorithms to run, and decisions to be made.
