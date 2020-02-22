@@ -18,21 +18,13 @@ tags:
 # AI is coming, are you ready?
 
 In this article:
-- [AI is coming, are you ready?](#ai-is-coming-are-you-ready)
   - [Blue Yonder](#blue-yonder)
   - [Digitisation](#digitisation)
   - [Freight Tracking Evolution](#freight-tracking-evolution)
   - [AI Example Use Case](#ai-example-use-case)
-    - [Potential Issues](#potential-issues)
-      - [1. Manual procedures](#1-manual-procedures)
-      - [2. External dependencies](#2-external-dependencies)
-    - [3. Missing parameters](#3-missing-parameters)
-    - [Issue 4 Scale](#issue-4-scale)
-    - [5. Unnecessary Complexity](#5-unnecessary-complexity)
+ 
   - [Removing Unnecessary Complexity](#removing-unnecessary-complexity)
-    - [Don't expose operations to greater complexity](#dont-expose-operations-to-greater-complexity)
-  - [Start with Value added Services](#start-with-value-added-services)
-    - [Takeaways](#takeaways)
+  - [Takeaways](#takeaways)
 
 ## Blue Yonder
 
@@ -112,11 +104,11 @@ Organisations who are have removed as much complexity as possible will be in a f
 
 The example we are looking at relies heavily multiple external factors. In a real world example these would likely increase, to also include sub-contractor availability, warehouse and sort facility integration and would continue to increase in complexity before it was able to produce valuable input to operations. If you are going to be impacting operations, ensure AI is complimentary to existing processes, and not *replacing* them. 
 
-## Start with Value added Services
+### Start with Value added Services
 
 Lets go back to our original example of freight tracking. One of the areas the logistics industry struggles with across the board is tracking freight through depots and cross docks where predominantly manual processes exist. Organisations could serve customers better if they had a vision based system which could track freight in real time from the moment it is unloaded from a truck, to when it leaves the facility. This type of computer vision system has been used by [Amazon Go](https://www.wired.co.uk/article/amazon-go-seattle-uk-store-how-does-work) supermarkets to remove the need for checkouts! Such systems could provide valuable input to operations and customers, and the solutions could grow in complexity over time. 
 
-### Takeaways
+## Takeaways
 
 * AI is extremely reliant on a healthy digital diet. Make sure you are feeding it well.
 * Remove unnecessary complexity where possible before embarking on bespoke AI solutions.
