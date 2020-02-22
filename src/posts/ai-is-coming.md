@@ -19,6 +19,7 @@ tags:
 In this article:
 - [Blue Yonder](#heading-blue-yonder)
 - [Digitisation](#heading-digitisation)
+- [Freight Tracking Evolution](#heading-freight-tracking-evolution)
 - [AI Example Use Case](#heading-ai-example-use-case)
 - [Removing Unnecessary Complexity](#heading-removing-unnecessary-complexity)
 
@@ -41,6 +42,8 @@ For many businesses, realising the benefits of AI technology is years off. But i
 Digitisation is a word that gets used a lot in the IT industry. Companies who have higher levels of maturity in the digitising their processes will be best placed to take advantage of AI. But what exactly does digitisation mean? Basically, it just means, turning information into an electronic format. Wiki says:
 
 > Digitisation means converting information into a format that can be processed by a computer.
+
+## Freight Tracking Evolution
 
 Digitisation though is not a binary step. it takes place in stages, and evolves over years, and decades. Lets take freight tracking as a example, and look through the various stages of digitisation.
 
