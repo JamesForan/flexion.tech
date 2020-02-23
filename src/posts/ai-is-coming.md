@@ -5,8 +5,8 @@ metaTitle: 'AI is coming, are you ready?'
 metaDesc: >-
   With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
   might be used to improve transport operations.
-socialImage: images/blue-yonder-big.PNG
-date: 2020-02-21T04:40:20.360Z
+socialImage: images/blue-yonder.svg
+date: 2020-02-23T04:40:00.000Z
 author: James Foran
 tags:
   - Transport
@@ -16,12 +16,12 @@ tags:
 ---
 In this article:
 
-* [Blue Yonder](#blue-yonder)
-* [Digitisation](#digitisation)
-* [Freight Tracking Evolution](#freight-tracking-evolution)
-* [AI Example Use Case](#ai-example-use-case)
-* [Removing Unnecessary Complexity](#removing-unnecessary-complexity)
-* [Takeaways](#takeaways)
+* [Blue Yonder](#heading-blue-yonder)
+* [Digitisation](#heading-digitisation)
+* [Freight Tracking Evolution](#heading-freight-tracking-evolution)
+* [AI Example Use Case](#heading-ai-example-use-case)
+* [Removing Unnecessary Complexity](#heading-removing-unnecessary-complexity)
+* [Takeaways](#heading-takeaways)
 
 ## Blue Yonder
 
