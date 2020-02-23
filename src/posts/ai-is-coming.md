@@ -5,7 +5,7 @@ metaTitle: 'AI is coming, are you ready?'
 metaDesc: >-
   With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
   might be used to improve transport operations.
-socialImage: images/Blue Yonder Logo.PNG
+socialImage: images/blue-yonder-big.PNG
 date: 2020-02-21T04:40:20.360Z
 author: James Foran
 tags:
