@@ -39,7 +39,7 @@ But what will they be, and how can you get ready for them today? There is much t
 
 ## Digitisation
 
-For many businesses, realising the benefits of AI technology is years off. But it will be critical for companies to ensure they have the correct foundations in place, to take advantage of AI and ML in the years to come. [It is said](https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845) that data scientists spend only 20% of their time on algorithms, and the rest is spend preparing and cleaning up data.
+For many businesses, realising the benefits of AI technology is years off. But it will be critical for companies to ensure they have the correct foundations in place, to take advantage of AI and ML in the years to come. [It is said](https://towardsdatascience.com/data-scientist-the-dirtiest-job-of-the-21st-century-7f0c8215e845) that data scientists spend only 20% of their time on algorithms, and the rest is spent preparing and cleaning up data.
 
 Digitisation is a word that gets used a lot in the IT industry. Companies who have higher levels of maturity in the digitising their processes will be best placed to take advantage of AI. But what exactly does digitisation mean? Basically, it just means, turning information into an electronic format. Wiki says:
 
