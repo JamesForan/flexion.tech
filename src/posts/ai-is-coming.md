@@ -5,8 +5,8 @@ metaTitle: 'AI is coming, are you ready?'
 metaDesc: >-
   With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
   might be used to improve transport operations.
-socialImage: images/blue-yonder-big.PNG
-date: 2020-02-21T04:40:20.360Z
+socialImage: images/blue-yonder.svg
+date: 2020-02-23T04:40:00.000Z
 author: James Foran
 tags:
   - Transport
@@ -16,16 +16,16 @@ tags:
 ---
 In this article:
 
-* [Blue Yonder](#blue-yonder)
-* [Digitisation](#digitisation)
-* [Freight Tracking Evolution](#freight-tracking-evolution)
-* [AI Example Use Case](#ai-example-use-case)
-* [Removing Unnecessary Complexity](#removing-unnecessary-complexity)
-* [Takeaways](#takeaways)
+* [Blue Yonder](#heading-blue-yonder)
+* [Digitisation](#heading-digitisation)
+* [Freight Tracking Evolution](#heading-freight-tracking-evolution)
+* [AI Example Use Case](#heading-ai-example-use-case)
+* [Removing Unnecessary Complexity](#heading-removing-unnecessary-complexity)
+* [Takeaways](#heading-takeaways)
 
 ## Blue Yonder
 
-![Blue Yonder Logo](images/blue-yonder-big.PNG)
+![Blue Yonder Logo](/images/blue-yonder.svg)
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
@@ -45,7 +45,7 @@ Digitisation is a word that gets used a lot in the IT industry. Companies who ha
 
 > Digitisation means converting information into a format that can be processed by a computer.
 
-![](images/flexion-digitised-logo.png)
+![](/images/flexion-digitised-logo.png)
 
 ## Freight Tracking Evolution
 
@@ -104,6 +104,8 @@ Lets take a quick look at some of the potential issues a project of this complex
   **Resolution** Remove complexity where possible. Not doing so will only add to the complexity of your AI projects.
 
 ### Removing Unnecessary Complexity
+
+![Complexity](/images/complexity.svg)
 
 Organisations who are have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up.  Some examples of unnecessary complexity:
 
