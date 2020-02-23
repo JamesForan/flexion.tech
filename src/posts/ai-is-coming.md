@@ -107,11 +107,11 @@ Lets take a quick look at some of the potential issues a project of this complex
 
 ![Complexity](/images/complexity.svg)
 
-Organisations who are have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up.  Some examples of unnecessary complexity:
+Organisations who have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up.  Some examples of unnecessary complexity:
 
-* Workarounds on-top workarounds throughout your organisation
-* Non-standard processes across the organisation
-* Multiple systems supporting the same/similar processes in the organisation. 
+* Workarounds on-top workarounds
+* Non-standard processes/lack of documented processes
+* Multiple systems supporting the same/similar processes
 
 ### Don't expose operations to greater complexity
 
