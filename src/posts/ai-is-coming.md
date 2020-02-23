@@ -25,7 +25,7 @@ In this article:
 
 ## Blue Yonder
 
-![Blue Yonder Logo](images/Blue Yonder.svg)
+![Blue Yonder Logo](images/Blue Yonder Logo.PNG)
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
