@@ -25,7 +25,7 @@ In this article:
 
 ## Blue Yonder
 
-![Blue Yonder Logo](images/Blue Yonder Logo.PNG)
+![Blue Yonder Logo](images/blue-yonder-big.PNG)
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
@@ -44,6 +44,8 @@ For many businesses, realising the benefits of AI technology is years off. But i
 Digitisation is a word that gets used a lot in the IT industry. Companies who have higher levels of maturity in the digitising their processes will be best placed to take advantage of AI. But what exactly does digitisation mean? Basically, it just means, turning information into an electronic format. Wiki says:
 
 > Digitisation means converting information into a format that can be processed by a computer.
+
+![](images/flexion-digitised-logo.png)
 
 ## Freight Tracking Evolution
 
