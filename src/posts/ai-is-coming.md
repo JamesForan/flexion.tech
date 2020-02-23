@@ -1,11 +1,11 @@
 ---
 layout: layouts/post.njk
-title: AI - Coming SOON
-metaTitle: AI in the Transport Domain. Get ready.
+title: 'AI is coming, are you ready?'
+metaTitle: 'AI is coming, are you ready?'
 metaDesc: >-
   With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
   might be used to improve transport operations.
-socialImage: images/Blue Yonder Logo.PNG
+socialImage: images/blue-yonder-big.PNG
 date: 2020-02-21T04:40:20.360Z
 author: James Foran
 tags:
@@ -14,19 +14,18 @@ tags:
   - Strategy
   - Digitisation
 ---
-
-# AI is coming, are you ready?
-
 In this article:
-  - [Blue Yonder](#blue-yonder)
-  - [Digitisation](#digitisation)
-  - [Freight Tracking Evolution](#freight-tracking-evolution)
-  - [AI Example Use Case](#ai-example-use-case)
- 
-  - [Removing Unnecessary Complexity](#removing-unnecessary-complexity)
-  - [Takeaways](#takeaways)
+
+* [Blue Yonder](#blue-yonder)
+* [Digitisation](#digitisation)
+* [Freight Tracking Evolution](#freight-tracking-evolution)
+* [AI Example Use Case](#ai-example-use-case)
+* [Removing Unnecessary Complexity](#removing-unnecessary-complexity)
+* [Takeaways](#takeaways)
 
 ## Blue Yonder
+
+![Blue Yonder Logo](images/blue-yonder-big.PNG)
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
@@ -36,7 +35,7 @@ With the re-branding, we will now see the focus shift completely to be marketing
 
 We are yet to see if/how this technology will be utilised to enhance [JDA TMS](https://french.jda.com/solutions/detail/transportation-management), however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come. 
 
-But what will they be, and how can you get ready for them today? There is much that can be done today, to get ready for the coming wave of AI and ML. As the old saying goes, failing to prepare, is preparing to fail, and in the AI space, it seems [Gartner](https://www.gartner.com/en) think that is even more the case, with a bold prediction that [85% of all AI projects will "not delivery" for CIO's](https://www.bmc.com/blogs/cio-ai-artificial-intelligence/).
+But what will they be, and how can you get ready for them today? There is much that can be done today, to get ready for the coming wave of AI and ML. As the old saying goes, failing to prepare, is preparing to fail, and in the AI space, it seems [Gartner](https://www.gartner.com/en) think failure is even more likely, with the bold prediction that [85% of all AI projects will "not delivery" for CIO's](https://www.bmc.com/blogs/cio-ai-artificial-intelligence/).
 
 ## Digitisation
 
@@ -46,6 +45,8 @@ Digitisation is a word that gets used a lot in the IT industry. Companies who ha
 
 > Digitisation means converting information into a format that can be processed by a computer.
 
+![](images/flexion-digitised-logo.png)
+
 ## Freight Tracking Evolution
 
 Digitisation though is not a binary step. it takes place in stages, and evolves over years, and decades. Lets take freight tracking as a example, and look through the some of the stages of digitisation we have seen over the decades.
@@ -54,8 +55,8 @@ Digitisation though is not a binary step. it takes place in stages, and evolves 
 2. In the 90's, with the advancements in mobile communication, drivers are provided with [MDT's](https://en.wikipedia.org/wiki/Mobile_data_terminal "Mobile Data Terminal") to receive pick-up instructions, and also to enable consignment scanning at pick-up and delivery points. This also enabled generation of electronic [POD](https://en.wikipedia.org/wiki/Proof_of_delivery "Proof Of Delivery").
 3. As the internet finds its ways into the majority of businesses and warehouses, consignments labels are generated for each item at the despatch location , removing the need for manual data entry for billing purposes, allow for partial POD's and item level freight tracking.
 
-AI Example Use Case
----------------------
+## AI Example Use Case
+
 Lets look at an example use case where an organisation is wanting to take advantage of AI to enable forecasting for the number of drivers required to execute deliveries in the afternoon, and provide accurate ETA's to customers. Tee inputs into the algorithm could potentially be the following(although more would likely be needed):
 
 * Historical consignment data
@@ -63,6 +64,7 @@ Lets look at an example use case where an organisation is wanting to take advant
 * Consignment item details, including current location
 * customer forecasts
 * environmental forecasts 		
+
   * weather
   * traffic
 * Driver capabilities - vehicle capacity
@@ -72,6 +74,7 @@ Lets look at an example use case where an organisation is wanting to take advant
 Lets take a quick look at some of the potential issues a project of this complexity might face.
 
 #### 1. Manual procedures
+
   Even though your organisation has digitised much of its operations, it still has long standing customers who are not able to provide consignment data electronically in time for the AI algorithms to run, and decisions to be made.
 
   **Possible resolution**: Allow for this "unknown" quantity in the algorithm, and utilise historical data to forecast consignment data
@@ -81,17 +84,21 @@ Lets take a quick look at some of the potential issues a project of this complex
   The algorithms accuracy is now dependent on the availability of information from many sources. Any delay in receiving information will effect the accuracy of the forecast.
 
   **Possible resolution**: Build in fall-back options for every data source and enable user input for external figures
-                                                                                                                                      
+
 #### 3. Missing parameters
+
   If the algorithm does not include critical parameters that have an impact on the number of drivers needed, the accuracy of the system will not be trusted by operational personnel, and the system will not be used.
 
   **Resolution**: AI algorithms must be designed **with** operational people. This is a huge change management challenge, as these systems are seen as a threat. People will hold onto critical information if they are not part of the solution. 
+
 #### 4. Scale
+
   For potential benefits to turn into real benefits, appropriate scale must exist to ensure that the costs of implementation are lower than the savings to be realised by the organisation.
 
   **Resolution**: Engage with experts with a proven track record in the logistics industry, as well as your geography.
 
 #### 5. Unnecessary Complexity
+
   Complexity come in many forms. If you are utilising multiple internal systems to capture consignments for example, or customer forecasts are in different formats, this added complexity will mean data scientists will first have to interpret and standardise data before the AI algorithms can run.
 
   **Resolution** Remove complexity where possible. Not doing so will only add to the complexity of your AI projects.
@@ -99,6 +106,7 @@ Lets take a quick look at some of the potential issues a project of this complex
 ### Removing Unnecessary Complexity
 
 Organisations who are have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up.  Some examples of unnecessary complexity:
+
 * Workarounds on-top workarounds throughout your organisation
 * Non-standard processes across the organisation
 * Multiple systems supporting the same/similar processes in the organisation. 
@@ -117,5 +125,4 @@ Lets go back to our original example of freight tracking. One of the areas the l
 * Remove unnecessary complexity where possible before embarking on bespoke AI solutions.
 * Utilise AI to add value and limit direct impact on operations.
 
-
-It is going to be interesting to see how AI branded companies and projects start to delivery real value for customers. in the mean time, get your digital foundation in place and reinforced. 
+It is going to be interesting to see how AI branded companies and projects start to delivery real value for customers. in the mean time, get your digital foundation in place and reinforced.
