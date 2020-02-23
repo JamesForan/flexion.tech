@@ -25,7 +25,7 @@ In this article:
 
 ## Blue Yonder
 
-![Blue Yonder Logo](/images/blue-yonder.svg =100x20)
+![Blue Yonder Logo](/images/blue-yonder.svg)
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
@@ -45,7 +45,7 @@ Digitisation is a word that gets used a lot in the IT industry. Companies who ha
 
 > Digitisation means converting information into a format that can be processed by a computer.
 
-![](/images/flexion-digitised-logo.png =100x100)
+![](/images/flexion-digitised-logo.png)
 
 ## Freight Tracking Evolution
 
