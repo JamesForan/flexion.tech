@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: AI - Coming SOON
-metaTitle: AI in the Transport Domain. Get ready.
+title: 'AI is coming, are you ready?'
+metaTitle: 'AI is coming, are you ready?'
 metaDesc: >-
   With the recent re-branding of JDA to Blue Yonder, we take a look at how AI
   might be used to improve transport operations.
@@ -14,9 +14,6 @@ tags:
   - Strategy
   - Digitisation
 ---
-
-# AI is coming, are you ready?
-
 In this article:
   - [Blue Yonder](#blue-yonder)
   - [Digitisation](#digitisation)
