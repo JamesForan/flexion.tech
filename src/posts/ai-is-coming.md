@@ -25,7 +25,7 @@ In this article:
 
 ## Blue Yonder
 
-![Blue Yonder Logo](images/blue-yonder-big.PNG)
+![Blue Yonder Logo](/images/blue-yonder.svg)
 
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
@@ -45,7 +45,7 @@ Digitisation is a word that gets used a lot in the IT industry. Companies who ha
 
 > Digitisation means converting information into a format that can be processed by a computer.
 
-![](images/flexion-digitised-logo.png)
+![](/images/flexion-digitised-logo.png)
 
 ## Freight Tracking Evolution
 
@@ -104,6 +104,8 @@ Lets take a quick look at some of the potential issues a project of this complex
   **Resolution** Remove complexity where possible. Not doing so will only add to the complexity of your AI projects.
 
 ### Removing Unnecessary Complexity
+
+![Complexity](/images/complexity.svg)
 
 Organisations who are have removed as much complexity as possible will be in a far better position to take advantage of the latest AI technology, faster and cheaper. They will also be able to evaluate the benefits of technology faster, meaning they can fail faster too.  If an organisation must spend $X millions of dollars getting data standardised before they can run a [POC](https://en.wikipedia.org/wiki/Proof_of_concept "Proof of Concept") or pilot site, they will always be playing catch-up.  Some examples of unnecessary complexity:
 
