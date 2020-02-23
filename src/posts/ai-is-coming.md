@@ -14,8 +14,6 @@ tags:
   - Strategy
   - Digitisation
 ---
-
-
 In this article:
 
 * [Blue Yonder](#blue-yonder)
@@ -26,7 +24,9 @@ In this article:
 * [Takeaways](#takeaways)
 
 ## Blue Yonder
+
 ![Blue Yonder Logo](images/Blue Yonder.svg)
+
 Last week there was a major announcement that JDA is re-branded to [Blue Yonder](https://blueyonder.com/).
 
 In 2018, JDA purchased BlueYonder, a data science based company that was utilising AI and ML algorithms to help organisations make better supply chain decisions, with the promise if improved efficiencies.
