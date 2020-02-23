@@ -33,7 +33,7 @@ With the re-branding, we will now see the focus shift completely to be marketing
 
 We are yet to see if/how this technology will be utilised to enhance [JDA TMS](https://french.jda.com/solutions/detail/transportation-management), however, with the re-branding of JDA to Blue Yonder, we can be assured that there will be some interesting developments in the years to come. 
 
-But what will they be, and how can you get ready for them today? There is much that can be done today, to get ready for the coming wave of AI and ML. As the old saying goes, failing to prepare, is preparing to fail, and in the AI space, it seems [Gartner](https://www.gartner.com/en) think that is even more the case, with a bold prediction that [85% of all AI projects will "not delivery" for CIO's](https://www.bmc.com/blogs/cio-ai-artificial-intelligence/).
+But what will they be, and how can you get ready for them today? There is much that can be done today, to get ready for the coming wave of AI and ML. As the old saying goes, failing to prepare, is preparing to fail, and in the AI space, it seems [Gartner](https://www.gartner.com/en) think failure is even more likely, with the bold prediction that [85% of all AI projects will "not delivery" for CIO's](https://www.bmc.com/blogs/cio-ai-artificial-intelligence/).
 
 ## Digitisation
 
