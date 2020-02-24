@@ -7,7 +7,7 @@
   "authorEmail": "james@flexion.tech",
   "authorHandle": "@james_foran",
   "authorName": "James Foran",
-  "enableThirdPartyComments": false,
+  "enableThirdPartyComments": true,
   "paymentPointer": "$coil.xrptipbot.com/EjlJNShJS6O4MNeiybfujw",
   "faviconPath": "/images/flexion-favicon.png",
   "nameSVG": {
