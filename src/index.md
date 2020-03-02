@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Transforming your Transport Technology
-metaTitle: Flexion Tech Pty Ltd
+metaTitle: Flexion Tech
 metaDesc: Transforming your Transport technology TMS Logistics Telematics
 postsHeading: Latest posts
 archiveButtonText: See all posts
