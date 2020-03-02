@@ -1,14 +1,19 @@
- <div class="signup pad-bottom-900">
-    <form action="/thank-you" class="signup__form flow"  method="POST" data-netlify="true">
-        <label class="text-600"for="email">Sign up for email updates</label>
-        <div class="inline-field-control text-600">
-            <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" required="" pattern="[^@]+@[^\.]+\..+" placeholder="you_are@awesome.com">
-            <button class="button">
-                <span class="visually-hidden">Submit email</span>
-                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" width="1em" height="1em" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M11.293 5.707L16.586 11H5a1 1 0 000 2h11.586l-5.293 5.293a.999.999 0 101.414 1.414l7-7a1.006 1.006 0 000-1.414l-7-7a.999.999 0 10-1.414 1.414z"></path>
-                  </svg>  
-            </button>
+ <div class="subscribe">
+
+    <div class="subscribe__pretty">
+    	    <h1 class="subscribe__heading text-500">Subscribe to the Flexion Newsletter</h1>
+    	<p>Subscribe to get our latest content via email.</p>
+        <img class="gap-top-700" src="/images/flexion-email.svg" alt="mail icon with flexion logo">
+        
+    </div>
+    <form action="/thank-you" class="subscribe__form flow"  method="POST" data-netlify="true">
+        <div class="inline-field-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" required="true" pattern="[^@]+@[^\.]+\..+" placeholder="you_are@awesome.com">
+            <button class="button margin-top-300">Subscribe</button>
+            <p>We will not spam you. </p> <p>Un-subscribe at any time with a single click.</p>
         </div>
     </form>
     <div class="visually-hidden signup__alert flow" aria-atomic="true"role="alert"> 
