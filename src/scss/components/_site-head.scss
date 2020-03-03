@@ -10,6 +10,7 @@
   }
   &__text svg{
     height: 2em;
+    max-width: map-get($metrics, 'wrap-max-width');
   }
   &__text path {
     fill: var(--color-text);
