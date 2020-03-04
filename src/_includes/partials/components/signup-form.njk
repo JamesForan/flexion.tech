@@ -5,24 +5,31 @@
         <img class="gap-top-700" src="/images/flexion-email.svg" alt="mail icon with flexion logo">
         <p>RSS feed also available.</p>
     </div>
-    <form name="subscribe" action="/thank-you" class="subscribe__form"  method="POST" data-netlify-recaptcha="true" data-netlify="true" enctype="application/x-www-form-urlencoded">
+    <form 
+    name="subscribe"
+    class="subscribe__form"  
+    method="POST" 
+    action="/thank-you"
+    data-netlify="true" 
+    netlify-honeypot="last-name">
         <div class="inline-field-control">
             <label for="name">Name</label>
             <div class="input_background">
                 <input type="text" name="name" id="name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello">
             </div>
+            <label for="last-name" class="visually-hidden"></label>
+            <input type="text" class="visually-hidden" name="last-name">
             <label for="email">Email address</label>
             <div class="input_background">
                 <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" required="true" pattern="[^@]+@[^\.]+\..+" placeholder="you_are@awesome.com">
             </div>
-            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="button margin-top-300">Subscribe</button>
             <p>We will not spam you. </p> <p>Un-subscribe at any time with a single click.</p>
         </div>
         <div class="thank-you visually-hidden">
-        <h1 class="subscribe__heading">Thank you</h1>
-        <p>Thanks for subscribing. It is really appreciated.</p>
-        <p>We will drop you an email soon. please check your inbox or your spam filter for an email from us.</p>
+            <h1 class="subscribe__heading">Thank you</h1>
+                <p>Thanks for subscribing. It is really appreciated.</p>
+                <p>We will drop you an email soon. please check your inbox or your spam filter for an email from us.</p>
         <img src="/images/thank-you-present.svg" alt="flexion present icon">
         </div>
     </form>
