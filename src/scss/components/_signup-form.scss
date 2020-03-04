@@ -6,29 +6,23 @@
     display:grid;
     background-color: var(--color-theme-highlight-block);
     // color:var(--color-light);
-    grid-template-columns: 1fr 1fr;
-    // grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1.7fr;
     // column-gap: 2.4rem;
     max-width: 35rem;
     margin: 2em auto 4em auto;
     font-size: 1rem;
-    
-    &__heading {
-        grid-column: 1 / 3;
-        // grid-row: 1 / 2;
-        // font-size: 2em;
-    }
 
     &__pretty {
         grid-column: 1 / 2;
-        // grid-row: 2 / 3;
+        grid-row: 1 / 2;
         padding: 1em 1em;
     }
-
-    &__form {
-        grid-column: 2 / 3;
-        // grid-row: 2 / 3;
+    &__form, .thank-you{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
         padding: 3em 1em;
+        margin: .1em auto 1em auto;
     }
 
     & img {
@@ -82,26 +76,67 @@
         // margin: 0;
         font: inherit;
         line-height: 1;
-        padding: .8rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+
         caret-color: var(--color-primary-glare);
+    }
+
+    & .validity_margin {
+        margin-left:-2em;
+        padding-left: 2.5em;
     }
 
     & input {
         background:none;
+        width: 113%;
         color: var(--color-text);
     }
 
     & input:focus:invalid {
-        background: url("/images/invalid.svg") no-repeat 95% 50%;
-        background-size: 45px;
+        background: url("/images/invalid.svg") no-repeat 0% 50%;
+        background-size: 2em;
       }
 
     & input:required:focus:valid {
-        background: url("/images/valid.svg") no-repeat 95% 50%;
-        background-size: 50px;
+        background: url("/images/valid.svg") no-repeat 0% 50%;
+        background-size: 2em;
       }
     
 }
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+.subscribe {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2em;
+    max-width: 35rem;
+    margin: 2em auto 4em auto;
+    font-size: 1rem;
 
+    &__pretty {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        padding: 1em 1em;
+    }
 
+    &__form, .thank-you {
+        grid-column: 2 / 3;
+         grid-row: 1 / 2;
+        padding: 3em 1em;
+    }
+
+    & input {
+        background:none;
+        width: 118%;
+        color: var(--color-text);
+    }
+
+    }
+}
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

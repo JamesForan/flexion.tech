@@ -9,28 +9,28 @@
     name="subscribe"
     class="subscribe__form"  
     method="POST" 
-    action="/thank-you"
     data-netlify="true" 
     netlify-honeypot="last-name">
         <div class="inline-field-control">
             <label for="name">Name</label>
             <div class="input_background">
-                <input type="text" name="name" id="name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello">
+                <input class="validity_margin"  type="text" name="name" id="name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello" pattern="^\w+( +\w+)*$">
             </div>
             <label for="last-name" class="visually-hidden"></label>
-            <input type="text" class="visually-hidden" name="last-name">
+            <input type="hidden" class="visually-hidden" name="last-name">
             <label for="email">Email address</label>
             <div class="input_background">
-                <input type="email" name="email" id="email" autocapitalize="none" autocorrect="off" required="true" pattern="[^@]+@[^\.]+\..+" placeholder="you_are@awesome.com">
+                <input class="validity_margin" type="email" name="email" id="email" autocapitalize="none" autocorrect="off" required="true" pattern="[^@]+@[^\.]+\..+" placeholder="you_are@awesome.com">
             </div>
             <button type="submit" class="button margin-top-300">Subscribe</button>
             <p>We will not spam you. </p> <p>Un-subscribe at any time with a single click.</p>
         </div>
-        <div class="thank-you visually-hidden">
+    </form>
+    <div class="thank-you visually-hidden">
             <h1 class="subscribe__heading">Thank you</h1>
                 <p>Thanks for subscribing. It is really appreciated.</p>
+                <img src="/images/thank-you-present.svg" alt="flexion present icon">
                 <p>We will drop you an email soon. please check your inbox or your spam filter for an email from us.</p>
-        <img src="/images/thank-you-present.svg" alt="flexion present icon">
-        </div>
-    </form>
+    
+</div>
 </div>

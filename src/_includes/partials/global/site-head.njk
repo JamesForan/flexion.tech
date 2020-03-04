@@ -2,23 +2,21 @@
 <header role="banner" class="[ site-head ] [ pad-top-700 pad-bottom-700 ">
   <div class="wrapper">
     <span class="visually-hidden">{{ site.name }}: {{ pageType }}</span>
-    <div class="[ site-head__inner ] [ md:box-flex space-between align-center ]">
-      <a href="/" class="[ site-head__site-name ] [ leading-tight ]"{{ 'aria-current=page' if page.url == '/' | safe }}>
+    {# <div class="[site-head__inner ] [ md:box-flex space-between align-center ]"> #}
+    <div class="site-head__inner">
+      <a href="/" class="[ site-head__site-logo ] [ leading-tight ]"{{ 'aria-current=page' if page.url == '/' | safe }}>
         <span class="visually-hidden">{{ 'Back to homepage' if page.url != '/' else 'Homepage' }}</span>
         <span><img class="[ site-head__logo ]" aria-hidden="true" src="{{ site.logo }}"></span>
       </a>
       
-        {# {% include "partials/components/sitename-text.svg"%}   #}
-      
       {% if site.nameSVG.code %}
-         <span class="[ site-head__text ]" aria-hidden="true"> {{site.nameSVG.code | replace("\\","") | safe }}
+         <span class="[ site-head__site-name svgtext ]" aria-hidden="true"> {{site.nameSVG.code | replace("\\","") | safe }}
       {% else %}
-        <span class="[ site-head__site-name ]" aria-hidden="true">{{ site.name }}
+        <span class="[ site-head__site-name text ]" aria-hidden="true">{{ site.name }}
       {% endif %}
       </span>
       {% include "partials/components/nav.njk" %}
-      
-    
+
     </div>
   </div>
 </header>

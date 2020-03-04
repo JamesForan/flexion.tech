@@ -1,5 +1,8 @@
 .nav {
   &__list {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;
