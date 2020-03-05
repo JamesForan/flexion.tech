@@ -8,7 +8,8 @@ const EXCLUDED_URLS = [
   'admin',
   '.netlify',
   'https://identity.netlify.com/v1/netlify-identity-widget.js',
-  'https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js'
+  'https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js',
+  'flexion.tech'
 ];
 
 // URLS that we want to be cached when the worker is installed
