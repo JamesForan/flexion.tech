@@ -21,8 +21,8 @@ const processForm = form => {
       body: searchParams
     })
     .then(() => {
-        document.querySelector('.subscribe__form').classList.add('.visually-hidden');
-        document.querySelector('.thank-you').classList.add('.visually-hidden');
+        document.querySelector('.subscribe__form').classList.add('visually-hidden');
+        document.querySelector('.thank-you').classList.remove('visually-hidden');
     //   form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
     })
     .catch(error => {
