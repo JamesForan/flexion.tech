@@ -30,17 +30,4 @@ const processForm = form => {
     })
   }
 
-
-  $("#my-form").submit(function(e) {
-    //selects the form.
-    e.preventDefault();
-  
-    var $form = $(this);
-    //post request. 2 parameters.  returns value of the ACTION attribute
-    $.post($form.attr("action"), 
-    //serialise data into a string. similar to stringify.
-    $form.serialize()).then(function() {
-      alert("Thank you!");
-    });
-  });
   
