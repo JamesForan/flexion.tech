@@ -1,5 +1,5 @@
 const subscribe = document.getElementById('subscribe-form')
-console.log("add event listener")
+
 if (subscribe) {
   subscribe.addEventListener('submit', e => {
     e.preventDefault();
@@ -15,6 +15,7 @@ const processForm = form => {
 
       searchParams.append(pair[0], pair[1]);
    }
+   console.log(searchParams.toString());
    fetch('/', {
       method: 'POST',
       headers: {

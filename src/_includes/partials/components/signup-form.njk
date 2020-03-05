@@ -10,11 +10,12 @@
     id="subscribe-form"
     name="subscribe"
     method="POST" 
+    action="/thank-you"
     data-netlify="true" 
     netlify-honeypot="last-name">
-            <label for="name">Name</label>
+            <label for="first-name">Name</label>
             <div class="input_background">
-                <input class="validity_margin"  type="text" name="name" id="name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello" pattern="^[a-zA-Z]([\w -]*[a-zA-Z])?$">
+                <input class="validity_margin"  type="text" name="first-name" id="first-name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello" pattern="^[a-zA-Z]([\w -]*[a-zA-Z])?$">
             </div>
             <label for="last-name" class="visually-hidden"></label>
             <input type="hidden" class="visually-hidden" name="last-name">
