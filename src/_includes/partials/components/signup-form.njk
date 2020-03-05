@@ -5,14 +5,13 @@
         <img class="gap-top-700" src="/images/flexion-email.svg" alt="mail icon with flexion logo">
         <p>RSS feed also available.</p>
     </div>
+    <div class="[ subscribe__form ]">
     <form 
-    id="subscribe"
+    id="subscribe-form"
     name="subscribe"
-    class="subscribe__form"  
     method="POST" 
     data-netlify="true" 
     netlify-honeypot="last-name">
-        <div class="inline-field-control">
             <label for="name">Name</label>
             <div class="input_background">
                 <input class="validity_margin"  type="text" name="name" id="name" autocapitalize="words" autocorrect="off" required="true" placeholder="Hello" pattern="^[a-zA-Z]([\w -]*[a-zA-Z])?$">
@@ -25,8 +24,9 @@
             </div>
             <button type="submit" class="button margin-top-300">Subscribe</button>
             <p>We will not spam you. </p> <p>Un-subscribe at any time with a single click.</p>
-        </div>
     </form>
+    
+    </div>
     <div class="thank-you visually-hidden">
             <h1 class="subscribe__heading">Thank you</h1>
                 <p>Thanks for subscribing. It is really appreciated.</p>

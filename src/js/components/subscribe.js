@@ -1,4 +1,5 @@
-const subscribe = document.getElementById('subscribe')
+const subscribe = document.getElementById('subscribe-form')
+console.log("add event listener")
 if (subscribe) {
   subscribe.addEventListener('submit', e => {
     e.preventDefault();
@@ -8,11 +9,18 @@ if (subscribe) {
 
 const processForm = form => {
     const data = new FormData(form);
-    data.append('form-name', 'subscribe');
-    console.log(data);
-    fetch('/', {
+    // data.append('form-name', 'subscribe');
+    const searchParams = new URLSearchParams();
+    for(var pair of data.entries()) {
+
+      searchParams.append(pair[0], pair[1]);
+   }
+   fetch('/', {
       method: 'POST',
-      body: data,
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: searchParams,
     })
     .then(() => {
         document.querySelector('.subscribe__form').classList.add('.visually-hidden');
@@ -20,6 +28,6 @@ const processForm = form => {
     //   form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
     })
     .catch(error => {
-        form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
+        form.outerHTML = `<div class="form--error">Error: ${error}</div>`;
     })
   }
