@@ -25,8 +25,11 @@ const processForm = form => {
         document.querySelector('.thank-you').classList.remove('visually-hidden');
     //   form.innerHTML = `<div class="form--success">Almost there! Check your inbox for a confirmation e-mail.</div>`;
     })
+
+    
     .catch(error => {
-        form.outerHTML = `<div class="form--error">Error: ${error}</div>`;
+      const message = "<p>We are currently experiencing some technical difficulties. We are pretty confident your subscription has been received. Please check your email.</p>"
+        form.outerHTML = `<div class="form--error"><p>Error: ${error}</p> ${message} </div>`;
     })
   }
 
