@@ -10,18 +10,15 @@ if (subscribe) {
 const processForm = form => {
     const data = new FormData(form);
     // data.append('form-name', 'subscribe');
-    const searchParams = new URLSearchParams();
-    for(var pair of data.entries()) {
-
-      searchParams.append(pair[0], pair[1]);
-   }
-   console.log(searchParams.toString());
+    const searchParams = new URLSearchParams(data).toString();
+   console.log(searchParams);
    fetch('/', {
       method: 'POST',
       headers: {
+        'Accept': 'application/x-www-form-urlencoded;charset=UFT-8',
         'Content-Type': 'application/x-www-form-urlencoded'
       },
-      body: searchParams,
+      body: searchParams
     })
     .then(() => {
         document.querySelector('.subscribe__form').classList.add('.visually-hidden');
@@ -32,3 +29,18 @@ const processForm = form => {
         form.outerHTML = `<div class="form--error">Error: ${error}</div>`;
     })
   }
+
+
+  $("#my-form").submit(function(e) {
+    //selects the form.
+    e.preventDefault();
+  
+    var $form = $(this);
+    //post request. 2 parameters.  returns value of the ACTION attribute
+    $.post($form.attr("action"), 
+    //serialise data into a string. similar to stringify.
+    $form.serialize()).then(function() {
+      alert("Thank you!");
+    });
+  });
+  
