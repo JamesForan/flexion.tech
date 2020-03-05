@@ -16,7 +16,7 @@ const processForm = form => {
       method: 'POST',
       headers: {
         'Accept': 'application/x-www-form-urlencoded;charset=UFT-8',
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/x-www-form-urlencoded;charset=UFT-8'
       },
       body: searchParams
     })
