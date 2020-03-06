@@ -9,4 +9,4 @@ Thanks for subscribing.
 
 ![flexion present icon](/images/thank-you-present.svg)
 
-We have just tried sent you an email. Please check your email and spam filter for the email.
+We have just sent you an email. Please check your email and spam filter for the email.
