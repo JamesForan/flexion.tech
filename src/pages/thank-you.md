@@ -5,10 +5,8 @@ permalink: thank-you.html
 socialImage: images/thank-you-present.svg
 ---
 
-Thanks for subscribing to email updates. I really appreciate it.  
+Thanks for subscribing.
 
-We will be in contact with you soon. If you want to get in contact with us, please follow the links to twitter and linkedIn.
+![flexion present icon](/images/thank-you-present.svg)
 
-
-
-![present](/images/thank-you-present.svg)
+We have just tried sent you an email. Please check your email and spam filter for the email.
