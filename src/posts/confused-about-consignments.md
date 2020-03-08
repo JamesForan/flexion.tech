@@ -42,9 +42,12 @@ A consignment is similar to a way-bill, or a house bill. While these are very si
 
 # Why do we need Consignments
 
+Before getting into the structure of a consignment, and the life cycle of a consignment, i think it is best to understand what a consignment is used for in the logistics industry. This will help with understanding why a consignment is different to a shipment, or a transport order/request.
 
 
+Structure of a consignment
 
+Consignment life cycle
 
 
 
