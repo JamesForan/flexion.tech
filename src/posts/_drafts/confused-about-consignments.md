@@ -17,14 +17,10 @@ Consignments are a critical part of the transport industry. But over the years I
 
 In this article:
 
-- [What is a Consignment](#what-is-a-consignment)
-  - [Consignor](#consignor)
-  - [Consignee](#consignee)
-  - [Also Known As](#also-known-as)
-  - [Similar Too](#similar-too)
-- [Why do we need Consignments](#why-do-we-need-consignments)
-- [Structure of a consignment](#structure-of-a-consignment)
-- [Consignment - Order to Cash](#consignment---order-to-cash)
+- [What is a Consignment](#heading-what-is-a-consignment)
+- [Why do we need Consignments](#heading-why-do-we-need-consignments)
+- [Structure of a consignment](#heading-structure-of-a-consignment)
+- [Next up](#heading-next-up)
 
 
 # What is a Consignment
@@ -66,27 +62,31 @@ For a consignment to be useful, it must contain information that ensures we can:
 * Details that will enable the transport provider to pick-up, and deliver the goods.
 
 Each consignment, must each of the following:
-* Consignor
-* Consignee
-* Origin - Where are the goods being picked up?
-* Destination - Where are the goods being delivered?
-* goods - Details of the things being delivered. 
-* Transport Provider - Who is going to be responsible for the delivery of the goods to the destination.
-* Consignment Number
+* **Consignor**
+* **Consignee**
+* **Origin** - Where are the goods being picked up?
+* **Destination** - Where are the goods being delivered?
+* **goods** - Details of the things being delivered. 
+* **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination.
+* **Consignment Number**
    
 Additional information that may be provided:
-* Service Type. For example,  express, or standard. This will impact the delivery date, and also the cost.
+* **Service Type**. For example,  express, or standard. This will impact the delivery date, and also the cost.
 
-* Mode of Transport. Is a specific mode being selected? For example, rail or road. Again, this will impact the delivery date, and the costs.
-* Pick-up date and time. When will the goods be available for pickup at the destination. WE don't want the transport provider arriving at the pick-up location before the goods are ready for despatch. 
-* Delivery date and time. When do the goods need to be at the destination. Different delivery dates may drive the selection of service, and transport mode.
-* Pick-up instructions
-* Delivery instructions
-* Hazardous information - Can effect the cost, selection of service, and also what other goods can travel with this consignment. 
+* **Mode of Transport** - Is a specific mode being selected? For example, rail or road. Again, this will impact the delivery date, and the costs.
+* **Pick-up date and time** - When will the goods be available for pick-up at the destination. WE don't want the transport provider arriving at the pick-up location before the goods are ready for despatch. 
+* **Delivery date and time** - When do the goods need to be at the destination. Different delivery dates may drive the selection of service, and transport mode.
+* **Pick-up/Delivery Instructions** used to help the driver complete their task. May be as simple as an Authority to leave, to a mud-map for a construction site, or mine site. 
+* **Hazardous information** - Can effect the cost, selection of service, and also what other goods can travel with this consignment. 
 
-  
+All this information is used by the transport provider, to enable them to provide a service that is efficient and safe.
 
-# Consignment - Order to Cash
+# Next up
+
+In our next article, we will look at the life cycle of a consignment, and take a look at some more complex use cases, which might impact how you implement consignments. Things vary greatly depending who you are: shipper, transport provider, operating as a 2PL, 3PL, 4PL or a combination of them all!  
+
+If you have anything you think should be added to this article, please comment below, and if you want to get our latest content delivered via email, please subscribe to our [newsletter below](./#subscribe).
+
 
 
 
