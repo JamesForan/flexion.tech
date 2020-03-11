@@ -70,11 +70,11 @@ For a consignment to be useful, it must contain information that ensures we can:
 
 Each consignment, must each of the following:
 
-* **Consignor**
+* **Consignor** 
 * **Consignee**
-* **Origin** - Where are the goods being picked up?
-* **Destination** - Where are the goods being delivered?
-* **goods** - Details of the things being delivered. 
+* **Origin** - Where are the goods being picked up? Often not the consignor, but it can be.
+* **Destination** - Where are the goods being delivered? Often not the consignee, but it can be. 
+* **goods** - Details of the things being delivered. 1 or more of these will generally be attached to a consignment. Often referred to as a **items**.
 * **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination.
 * **Consignment Number**  
 
