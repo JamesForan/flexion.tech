@@ -11,7 +11,7 @@ tags:
   - Transport
   - TMS
 ---
-![]()
+
 
 Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion also, often on my part! In this post, I will detail my understanding of consignment, and why they are critical to the logistics industry. 
 
@@ -60,7 +60,7 @@ A transport consignment is required to store relevant information against it, to
 
 # Structure of a consignment
 
-![origin to destination](images/origin-dest.svg)
+![origin to destination](/images/origin-dest.svg)
 
 For a consignment to be useful, it must contain information that ensures we can:
 
