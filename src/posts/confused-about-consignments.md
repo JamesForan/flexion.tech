@@ -11,6 +11,8 @@ tags:
   - Transport
   - TMS
 ---
+![]()
+
 Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion also, often on my part! In this post, I will detail my understanding of consignment, and why they are critical to the logistics industry. 
 
 In this article:
@@ -24,7 +26,7 @@ In this article:
 
 It might seem a simple question. Before I got into logistics, consignment to me meant selling goods "on Consignment", which basically meant that goods could be placed on sale in a store, without the store having to ever take ownership of the goods. Once the goods have been sold, then the retailer pays the seller for the goods. 
 
-Ths same term also applies to the transportation of goods via any mode (road/rail/sea or air). The company responsible for the transport of the goods does not have to purchase the goods in order to transport them. Similar to when goods are "on Consignment", they are acting as an intermediate party between the seller and the buyer.
+The same term also applies to the transportation of goods via any mode (road/rail/sea or air). The company responsible for the transport of the goods does not have to purchase the goods in order to transport them. Similar to when goods are "on Consignment", they are acting as an intermediate party between the seller and the buyer.
 
 Lets say you make hand knitted blankets, and you sell them at a local retailer. The retailer they display your beautify blankets in the window. When the retailer sells some of your blankets, they pay you for the sold items, and they may order new ones from you. 
 
@@ -57,6 +59,8 @@ Before getting into the structure of a consignment, and the life cycle of a cons
 A transport consignment is required to store relevant information against it, to ensure that the transport provide is able to accurately calculate rates, and provide evidence to the consignor, that the goods have been delivered to the consignee. 
 
 # Structure of a consignment
+
+![origin to destination](images/origin-dest.svg)
 
 For a consignment to be useful, it must contain information that ensures we can:
 
