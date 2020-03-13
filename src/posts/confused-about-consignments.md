@@ -70,7 +70,7 @@ For a consignment to be useful, it must contain information that ensures we can:
 * Details of the goods being shipped
 * Details that will enable the transport provider to pick-up, and deliver the goods.
 
-  ![consignment structure block diagram](/images/consigment-structure.svg "Consignment Structure")
+  ![consignment structure block diagram](/images/consigment-structure.svg)
 
 Each consignment, must one of each of the following, with the exception of goods.
 
