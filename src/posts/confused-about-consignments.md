@@ -22,7 +22,7 @@ In this article:
 
 # What is a Consignment
 
-<p><img class="width-third" src="/images/flexion-box.svg" alt="Flexion delivery box" loading="lazy"></p>
+<img class="width-third" src="/images/flexion-box.svg" alt="Flexion delivery box" loading="lazy">
 
 It might seem a simple question. Before I got into logistics, consignment to me meant selling goods "on Consignment", which basically meant that goods could be placed on sale in a store, without the store having to ever take ownership of the goods. Once the goods have been sold, then the retailer pays the seller for the goods. 
 
@@ -90,8 +90,7 @@ Additional information that may be provided:
 * **Delivery date and time** - When do the freight items need to be delivered to the destination. Different delivery dates may drive the selection of service and/or transport mode.
 * **Pick-up/Delivery Instructions** used to help the driver complete their task. May be as simple as an *authority to leave*, to a [mud-map](https://en.wiktionary.org/wiki/mud_map "A rough drawing") for a construction or mine site. 
 
-  ![Package at front door](/images/package-front-door.svg)
-
+<img class="width-half" src="/images/package-front-door.svg" alt="Package at front door" loading="lazy">
 
 * **Hazardous information** - Can effect the cost, selection of service, and also what other freight items can travel with this consignment. 
 
