@@ -13,7 +13,7 @@ tags:
 ---
 
 
-Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion also, often on my part! In this post, I will detail my understanding of consignment, and why they are critical to the logistics industry. 
+Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion, often on my part! In this post, I will detail my understanding of consignment, and why they are critical to the logistics industry. 
 
 In this article:
 
@@ -74,17 +74,19 @@ Each consignment, must each of the following:
 * **Consignee**
 * **Origin** - Where are the goods being picked up? Often not the consignor, but it can be.
 * **Destination** - Where are the goods being delivered? Often not the consignee, but it can be. 
-* **goods** - Details of the things being delivered. 1 or more of these will generally be attached to a consignment. Often referred to as a **items**.
-* **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination.
-* **Consignment Number**  
+* **Goods** - Details of the things being delivered. 1 or more of these will generally be attached to a consignment. Often referred to as a **items**.  
+*Note*, this does not talk about the products, rather, what the products are being carried in or on, or, what is being physically handled by the transport operators. 
+* **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination. 
+The transport provider may utilise other 3rd party providers for part or all of the tasks associated with the movement of the goods. 
+* **Consignment Number** - A number used to help identify the consignment, and the associated goods. Often, these numbers are specific to the transport provider, but in some cases, large shippers will insist on using their own identifiers.
 
 Additional information that may be provided:
 
-* **Service Type**. For example,  express, or standard. This will impact the delivery date, and also the cost.
-* **Mode of Transport** - Is a specific mode being selected? For example, rail or road. Again, this will impact the delivery date, and the costs.
-* **Pick-up date and time** - When will the goods be available for pick-up at the destination. WE don't want the transport provider arriving at the pick-up location before the goods are ready for dispatch. 
-* **Delivery date and time** - When do the goods need to be at the destination. Different delivery dates may drive the selection of service, and transport mode.
-* **Pick-up/Delivery Instructions** used to help the driver complete their task. May be as simple as an Authority to leave, to a [mud-map](https://en.wiktionary.org/wiki/mud_map "A rough drawing") for a construction or mine site. 
+* **Service Type** - For example,  express, or standard. This will impact the delivery date, and also the cost of the consignment.
+* **Mode of Transport** - Is a specific mode being selected? For example, rail or road. Again, this will impact the delivery date, and the cost.
+* **Pick-up date and time** - When will the goods be available for pick-up at the origin location. Shippers don't want the transport provider arriving at the pick-up location before the goods are ready for dispatch. 
+* **Delivery date and time** - When do the goods need to be delivered to the destination. Different delivery dates may drive the selection of service and/or transport mode.
+* **Pick-up/Delivery Instructions** used to help the driver complete their task. May be as simple as an *authority to leave*, to a [mud-map](https://en.wiktionary.org/wiki/mud_map "A rough drawing") for a construction or mine site. 
 * **Hazardous information** - Can effect the cost, selection of service, and also what other goods can travel with this consignment. 
 
 All this information is used by the transport provider, to enable them to provide a service that is efficient and safe.
