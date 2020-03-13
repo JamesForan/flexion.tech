@@ -11,7 +11,7 @@ tags:
   - Transport
   - TMS
 ---
-
+![]()
 
 Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion, often on my part! In this post, I will detail my understanding of consignment, and why they are critical to the logistics industry. 
 
@@ -23,6 +23,8 @@ In this article:
 * [Up Next](#heading-up-next)
 
 # What is a Consignment
+
+![Flexion delivery box](/images/flexion-box.svg)
 
 It might seem a simple question. Before I got into logistics, consignment to me meant selling goods "on Consignment", which basically meant that goods could be placed on sale in a store, without the store having to ever take ownership of the goods. Once the goods have been sold, then the retailer pays the seller for the goods. 
 
@@ -56,11 +58,11 @@ A consignment is similar to a way-bill, or a house bill. While these are very si
 
 Before getting into the structure of a consignment, and the life cycle of a consignment, i think it is best to understand what a consignment is used for in the transport industry. This will help with understanding why a consignment is different to a shipment, transport request or item (we will cover all of these soon!).
 
+![parcel goes from origin to destination](/images/origin-dest.svg)
+
 A transport consignment is required to store relevant information against it, to ensure that the transport provide is able to accurately calculate rates, and provide evidence to the consignor, that the goods have been delivered to the consignee. 
 
 # Structure of a consignment
-
-![origin to destination](/images/origin-dest.svg)
 
 For a consignment to be useful, it must contain information that ensures we can:
 
@@ -68,16 +70,17 @@ For a consignment to be useful, it must contain information that ensures we can:
 * Details of the goods being shipped
 * Details that will enable the transport provider to pick-up, and deliver the goods.
 
-Each consignment, must each of the following:
+  ![consignment structure block diagram](/images/consigment-structure.svg "Consignment Structure")
+
+Each consignment, must one of each of the following, with the exception of goods.
 
 * **Consignor** 
 * **Consignee**
 * **Origin** - Where are the goods being picked up? Often not the consignor, but it can be.
 * **Destination** - Where are the goods being delivered? Often not the consignee, but it can be. 
-* **Goods** - Details of the things being delivered. 1 or more of these will generally be attached to a consignment. Often referred to as a **items**.  
-*Note*, this does not talk about the products, rather, what the products are being carried in or on, or, what is being physically handled by the transport operators. 
-* **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination. 
-The transport provider may utilise other 3rd party providers for part or all of the tasks associated with the movement of the goods. 
+* **Goods** - Details of the things being delivered. 1 or more of these will generally be attached to a consignment. Often referred to as a **items**.\
+  *Note*, this does not talk about the products, rather, what the products are being carried in or on, or, what is being physically handled by the transport operators. 
+* **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination.  The transport provider may utilise other 3rd party providers for part or all of the tasks associated with the movement of the goods. 
 * **Consignment Number** - A number used to help identify the consignment, and the associated goods. Often, these numbers are specific to the transport provider, but in some cases, large shippers will insist on using their own identifiers.
 * **Pickup date** - When *were* the goods actually picked up. All of the goods should be picked up on the same day, to form a consignment. This is critical for applying the correct rates and determining billing periods also.
 
