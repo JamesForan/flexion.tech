@@ -11,8 +11,6 @@ tags:
   - Transport
   - TMS
 ---
-![]()
-
 Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion, often on my part! In this post, I will detail my understanding of consignment, and why they are critical to the logistics industry. 
 
 In this article:
@@ -24,7 +22,7 @@ In this article:
 
 # What is a Consignment
 
-![Flexion delivery box](/images/flexion-box.svg)
+<p><img src="/images/flexion-box.svg" alt="Flexion delivery box" loading="lazy"></p>
 
 It might seem a simple question. Before I got into logistics, consignment to me meant selling goods "on Consignment", which basically meant that goods could be placed on sale in a store, without the store having to ever take ownership of the goods. Once the goods have been sold, then the retailer pays the seller for the goods. 
 
