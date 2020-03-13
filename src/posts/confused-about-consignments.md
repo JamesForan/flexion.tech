@@ -79,12 +79,13 @@ Each consignment, must each of the following:
 * **Transport Provider** - Who is going to be responsible for the delivery of the goods to the destination. 
 The transport provider may utilise other 3rd party providers for part or all of the tasks associated with the movement of the goods. 
 * **Consignment Number** - A number used to help identify the consignment, and the associated goods. Often, these numbers are specific to the transport provider, but in some cases, large shippers will insist on using their own identifiers.
+* **Pickup date** - When *were* the goods actually picked up. All of the goods should be picked up on the same day, to form a consignment. This is critical for applying the correct rates and determining billing periods also.
 
 Additional information that may be provided:
 
 * **Service Type** - For example,  express, or standard. This will impact the delivery date, and also the cost of the consignment.
 * **Mode of Transport** - Is a specific mode being selected? For example, rail or road. Again, this will impact the delivery date, and the cost.
-* **Pick-up date and time** - When will the goods be available for pick-up at the origin location. Shippers don't want the transport provider arriving at the pick-up location before the goods are ready for dispatch. 
+* **Requested Pick-up date and time** - When will the goods be available for pick-up at the origin location. Shippers don't want the transport provider arriving at the pick-up location before the goods are ready for dispatch.  
 * **Delivery date and time** - When do the goods need to be delivered to the destination. Different delivery dates may drive the selection of service and/or transport mode.
 * **Pick-up/Delivery Instructions** used to help the driver complete their task. May be as simple as an *authority to leave*, to a [mud-map](https://en.wiktionary.org/wiki/mud_map "A rough drawing") for a construction or mine site. 
 * **Hazardous information** - Can effect the cost, selection of service, and also what other goods can travel with this consignment. 
