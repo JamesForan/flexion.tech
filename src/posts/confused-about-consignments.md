@@ -22,7 +22,7 @@ In this article:
 
 # What is a Consignment
 
-<p><img class="width-third" src="/images/flexion-box.svg" alt="Flexion delivery box" loading="lazy"></p>
+<p><img class="width-third left" src="/images/flexion-box.svg" alt="Flexion delivery box" loading="lazy"></p>
 
 It might seem a simple question. Before I got into logistics, consignment to me meant selling goods "on Consignment", which basically meant that goods could be placed on sale in a store, without the store having to ever take ownership of the goods. Once the goods have been sold, then the retailer pays the seller for the goods. 
 
