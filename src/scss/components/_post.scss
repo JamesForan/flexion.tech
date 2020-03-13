@@ -103,6 +103,19 @@
       position: relative;
       z-index: 1;
     }
+    
+    img {
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    img.left {
+      margin-left:get-size(800);
+    }
+    img.right {
+      margin-right:get-size(800);
+    }
 
     figcaption {
       font-size: 0.8em;
