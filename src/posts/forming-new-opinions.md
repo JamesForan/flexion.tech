@@ -76,11 +76,15 @@ MailChimp on the other-hand was not really agreeing with me.
 
 ### ConvertKit
 
-![netlify, zapier and convertkit logo](/images/subscriber-list.png)
+
 
 I recently subscribed to [Dan Abramov 's]([overreacted.io](mailto:dan@overreacted.io)) site, and received a series of emails about JavaScript. What I loved about these emails was, they were just emails. I could read them in the email client, and there was not strange formatting, click bait, or that sort of thing. It felt really personal. Something I really want to emulate with my email marketing.
 
 So, I made the switch... And thanks to the loosely coupled architecture, it was pretty damn simple. Create an ConvertKit account, update my ZAP, and boom, away I went! 
+
+![netlify, zapier and convertkit logo](/images/subscriber-list.png)
+
+
 
 ## Next Steps
 
