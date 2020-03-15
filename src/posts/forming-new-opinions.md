@@ -14,10 +14,10 @@ tags:
 
 In this article: 
 
-[Accessibility](#heading-accessibility)
-[JAMStack](#heading-jamstack) 
-[Progressive Enhancement](#heading-progressive-enhancement) 
-[Email Subscription Service](#heading-email-subscription-service)
+- [Accessibility](#heading-accessibility)
+- [JAMStack](#heading-jamstack) 
+- [Progressive Enhancement](#heading-progressive-enhancement) 
+- [Email Subscription Service](#heading-email-subscription-service)
 
 Now that I have the basic website up and running and I am ready to start posting regular articles, I thought it was time to add a subscription option to my site. The aim here is to not rely on LinkedIn and Twitter to connect to my audiences in the future. These are really valuable platforms, particularly LinkedIn for me, however, my preference is to connect directly with people who are interested in the content I am creating.
 <img class="width-half" src="/images/flexion-email.svg" alt="flexion letter in envelope">
