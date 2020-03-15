@@ -11,20 +11,24 @@ tags:
   - Progressive-Enhancement
   - Accessibility
 ---
-In this article:
+
+In this article: 
 [Accessibility](#heading-accessibility)
-[JAMStack](#heading-jamstack)
-[Progressive Enhancement](#heading-progressive-enhancement)
+[JAMStack](#heading-jamstack) 
+[Progressive Enhancement](#heading-progressive-enhancement) 
 [Email Subscription Service](#heading-email-subscription-service)
 
 Now that I have the basic website up and running and I am ready to start posting regular articles, I thought it was time to add a subscription option to my site. The aim here is to not rely on LinkedIn and Twitter to connect to my audiences in the future. These are really valuable platforms, particularly LinkedIn for me, however, my preference is to connect directly with people who are interested in the content I am creating.
+<img class="width-half" src="/images/flexion-email.svg" alt="flexion letter in envelope">
+
 
 There are many options out there for adding forms to websites, but I wanted to ensure i am adhering the following:
-- JAMStack principles
-- loosely coupled architecture
-- Avoid external dependencies where possible.
-- progressive enhancement
-- accessibility core
+
+* JAMStack principles
+* loosely coupled architecture
+* Avoid external dependencies where possible.
+* progressive enhancement
+* accessibility core
 
 ## Accessibility
 
@@ -40,10 +44,9 @@ One of the key takeaways for me was to start with [semantic markup](https://en.w
 
 I am still new to this, but I will eventually start to test my site with a screen reader, to get a better understanding of how vision impaired people experience the web.
 
-## JAMStack 
+## JAMStack
 
-As flexion.tech is already confirming to JAMStack principles, and I am hosting it on Netlify, the company that coined the term JAMStack, I was able to find a pretty simple solution for getting my semantic HTML processed 
-Luckily for me, Netlify comes with a pretty handy solution here. By adding a few attributes to the HTML markup, I was able to get a form up and running pretty easily. I did experience quite a few issues here on my site though, when working  For a great article on getting things setup, head over to CSS Tricks and read [this article by Matthew Strom.](https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget/)
+As flexion.tech is already confirming to JAMStack principles, and I am hosting it on Netlify, the company that coined the term JAMStack, I was able to find a pretty simple solution for getting my semantic HTML processed  Luckily for me, Netlify comes with a pretty handy solution here. By adding a few attributes to the HTML markup, I was able to get a form up and running pretty easily. I did experience quite a few issues here on my site though, when working  For a great article on getting things setup, head over to CSS Tricks and read [this article by Matthew Strom.](https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget/)
 
 ### No localhost support
 
@@ -87,4 +90,4 @@ Now with all that setup, it is time for me to focus on creating new content for 
 
 Another minor issue, is that the form continues to appear after someone has subscribed. I think they only way to resolve this is by using cookies, and I really think adding more complexity to the website just to hide the subscription form is not worth it. That is why the form is at the bottom of the page. I will see what the user feedback is. If anyone has advice on this, please let me know below in the comments section. 
 
-And of course, please subscribe, if you want to receive content relating to the transport and logistics domain. 
+And of course, please subscribe, if you want to receive content relating to the transport and logistics domain.
