@@ -13,6 +13,7 @@ tags:
 ---
 
 In this article: 
+
 [Accessibility](#heading-accessibility)
 [JAMStack](#heading-jamstack) 
 [Progressive Enhancement](#heading-progressive-enhancement) 
