@@ -4,7 +4,7 @@ title: Forming New Opinions
 metaTitle: Forming New Opinions
 metaDesc: 'HTML Forms, progressive enhancement, accessibility'
 socialImage: images/flexion-email.svg
-date: 2020-03-15T10:41:00.000Z
+date: 2020-03-14T13:00:00.000Z
 author: James Foran
 tags:
   - website
