@@ -63,13 +63,13 @@ Another feature if Netlify comes to the rescue here, and that is Deploy Previews
 
 ## Progressive Enhancement
 
-With the use of Netlify Forms, which requires no client side JavaScript, it was pretty simple to implement progressive enhancement. I am still learning about this, but basically, they way I have approached is is as follows:
+With the use of Netlify Forms, which requires no client-side JavaScript, it was pretty simple to implement progressive enhancement. I am still learning about this, but basically, theway I have approached it is as follows:
 
 * HTML loaded only (no JavaScript and no CSS). The form should still work, even if it is not that pretty. I am thinking this should also help with accessibility also in some way. Do this first!
 * HTML + CSS. Form should be pretty now, and function correctly. This is the case, but when the form is submitted, it redirects to a thank-you page.
-* HTML + CSS + JavaScript.. The form is submitted, but rather than redirecting to thank-you page,  the form section is replaced with a thank-you message. 
+* HTML + CSS + JavaScript. The form is submitted, but rather than redirecting to thank-you page,  the form section is replaced with a thank-you message. 
 
-So, build the HTML first, then add CSS, and finally JavaScript, testing each step of the way.. I actually think this is a faster way to develop, especially when starting from scratch.
+So, build the HTML first, then add CSS, and finally JavaScript, testing each step of the way. I actually think this is a faster way to develop, especially when starting from scratch.
 
 
 ### Headaches
@@ -86,7 +86,7 @@ So, with the first half working, the next part was to integrate to an email mark
 
 This was really the easiest part. [Zapier](https://zapier.com/) is a breeze to setup, and the UI is really intuitive, and quite fun to use. The developers there have managed to build quite a bit of personality into the platform, and most importantly, it just works! 
 
-MailChimp on the other-hand was not really agreeing with me. 
+MailChimp on the other hand was not really agreeing with me. 
 
 ### ConvertKit
 
@@ -100,10 +100,10 @@ So, I made the switch... And thanks to the loosely coupled architecture, it was 
 
 ## Next Steps
 
-Now with all that setup, it is time for me to focus on creating new content for the site. In future the site will ideallymove away from Netlify Forms and Zapier, and build an custom API which takes the form input, and sends it to ConvertKit. 
+Now with all that setup, it is time for me to focus on creating new content for the site. In future the site will ideally move away from Netlify Forms and Zapier, and build an custom API which takes the form input, and sends it to ConvertKit. 
 
-The reasoning behind this is to ensure the best possible user experience.  As it stands today, if a user subscribes twice, the workflow exactly the same. Ideally, I want to tell the user if they have already subscribed, and give them the option to resend a confirmation email. Testing has been really good on the ConvertKit API's so far, and I am confident I am get the above working, and still align to the principles listed above.
+The reasoning behind this is to ensure the best possible user experience.  As it stands today, if a user subscribes twice, the workflow exactly the same. Ideally, I want to tell the user if they have already subscribed and give them the option to resend a confirmation email. Testing has been really good on the ConvertKit API's so far, and I am confident I can get the above working while still align to the principles listed above.
 
-Another minor issue, is that the form continues to appear after someone has subscribed. I think the only way to resolve this is by using cookies, and I really think adding more complexity to the website just to hide the subscription form is not worth it. That is why the form is at the bottom of the page. I will see what the user feedback is. If anyone has advice on this, please let me know below in the comments section. 
+Another minor issue is that the form continues to appear after someone has subscribed. I think the only way to resolve this is by using cookies, and I really think adding more complexity to the website just to hide the subscription form is not worth it. That is why the form is at the bottom of the page. I will see what the user feedback is. If anyone has advice on this, please let me know below in the comments section. 
 
 And of course, please subscribe for regular updates via email!
