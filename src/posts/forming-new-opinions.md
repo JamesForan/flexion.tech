@@ -52,7 +52,7 @@ For a great article on getting things setup, head over to CSS Tricks and read [t
 
 ### No localhost support
 
-The Netlify forms do not work when developing locally. I am aware there may be a solution to run [Netlify locally](https://www.netlify.com/products/dev/), but I was not ready to go down this path just yet. An alternative solution I found was to simply deploy a second Netlify site, from a different Github branch of the same repo. This is a pattern i will use continue to use into the future.
+The Netlify forms do not work when developing locally. I am aware there may be a solution to run [Netlify locally](https://www.netlify.com/products/dev/), but I was not ready to go down this path just yet. Deploy Previews is an awesome feature of Netlify that gets around this problem really well! Simply 
 
 ## Progressive Enhancement
 
@@ -99,4 +99,4 @@ Now with all that setup, it is time for me to focus on creating new content for 
 
 Another minor issue, is that the form continues to appear after someone has subscribed. I think they only way to resolve this is by using cookies, and I really think adding more complexity to the website just to hide the subscription form is not worth it. That is why the form is at the bottom of the page. I will see what the user feedback is. If anyone has advice on this, please let me know below in the comments section. 
 
-And of course, please subscribe, if you want to receive content relating to the transport and logistics domain.
+And of course, please subscribe, if you want to receive content relating to the transport and logistics domain. 
