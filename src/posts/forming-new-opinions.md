@@ -30,15 +30,14 @@ Now, your store is a much better experience for people who cannot walk, and also
 
 There are many great resources on the web on the topic of accessibility on the web. [A11y Project](https://a11yproject.com/) is an amazing resource, and if you are into podcasts[a11yrules](https://a11yrules.com) is a great listen. 
 
-One of the key takeaways for me was to start with [semantic markup](https://en.wikipedia.org/wiki/Semantic_HTML), which basically means, use standard HTML elements, like FORM and INPUT and BUTTON, rather than DIV. These
+One of the key takeaways for me was to start with [semantic markup](https://en.wikipedia.org/wiki/Semantic_HTML), which basically means, use standard HTML elements, like FORM and INPUT and BUTTON, rather than DIV and SPAN.
 
+I am still new to this, but I will eventually start to test my site with a screen reader, to get a better understanding of how vision impaired people experience the web.
 
+## JAMStack 
 
-and also ensure there are no external dependencies being added to this website which might result in performance and/or security issues.
-
-## JAMStack and loosely Coupled
-
-Luckily for me, Netlify comes with a pretty handy solution here. By adding a few attributes to the HTML markup, I was able to get a form up and running pretty easily. There were a few issues here tough.  For a great article on getting things setup, head over to CSS Tricks and read [this article by Matthew Strom.](https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget/)
+As flexion.tech is already confirming to JAMStack principles, and I am hosting it on Netlify, the company that coined the term JAMStack, I was able to find a pretty simple solution for getting my semantic HTML processed 
+Luckily for me, Netlify comes with a pretty handy solution here. By adding a few attributes to the HTML markup, I was able to get a form up and running pretty easily. I did experience quite a few issues here on my site though, when working  For a great article on getting things setup, head over to CSS Tricks and read [this article by Matthew Strom.](https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget/)
 
 ### No localhost support
 
