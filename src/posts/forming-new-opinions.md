@@ -11,6 +11,12 @@ tags:
   - Progressive-Enhancement
   - Accessibility
 ---
+In this article:
+[Accessibility](#heading-accessibility)
+[JAMStack](#heading-jamstack)
+[Progressive Enhancement](#heading-progressive-enhancement)
+
+
 Now that I have the basic website up and running and I am ready to start posting regular articles, I thought it was time to add a subscription option to my site. The aim here is to not rely on LinkedIn and Twitter to connect to my audiences in the future. These are really valuable platforms, particularly LinkedIn for me, however, my preference is to connect directly with people who are interested in the content I am creating.
 
 There are many options out there for adding forms to websites, but I wanted to ensure i am adhering the following:
@@ -59,7 +65,7 @@ I reached out to [Andy Bell](https://twitter.com/hankchizljaw) who thankfully pu
 
 All looking good now. The only concern I have remaining is a false positive test, which I have not been able to reproduce! Basically, someone subscribed, got the success message, but nothing made it to Netlify Forms. 
 
-# Email Subscription Service
+## Email Subscription Service
 
 So, with the first half working, the next part was to integrate to an email marketing service. Here, I chose the path of least resistance, and decided to use Zapier, at least for now, to integrate Netlify Form data, with MailChimp.
 
@@ -67,7 +73,7 @@ This was really the easiest part. Zapier is a breeze to setup, and the UI is rea
 
 MailChimp on the other-hand was not really agreeing with me. 
 
-## ConvertKit
+### ConvertKit
 
 ![netlify, zapier and convertkit logo](/images/subscriber-list.png)
 
@@ -75,7 +81,7 @@ I recently subscribed to [Dan Abramov 's]([overreacted.io](mailto:dan@overreacte
 
 So, I made the switch... And thanks to the loosely coupled architecture, it was pretty damn simple. Create an ConvertKit account, update my ZAP, and boom, away I went! 
 
-# Next Steps
+## Next Steps
 
 Now with all that setup, it is time for me to focus on creating new content for the site. I would ideally like to move away from Netlify Forms and Zapier, and build an custom API which takes the form input, and sends it to ConvertKit. The reasoning behind this is I want a better user experience.  As it stands today, if a user subscribes twice, the workflow exactly the same. Ideally, I want to tell the user if they have already subscribed, and give them the option to resend a confirmation email.  But for now, this setup seems to be meet my needs.
 
