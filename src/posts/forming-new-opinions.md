@@ -11,15 +11,32 @@ tags:
   - Progressive-Enhancement
   - Email-List
 ---
-Now that I have the basic website up and running, and I am ready to start posting regular articles, I thought it was time to add a subscription option to my site. The aim here is to not rely on LinkedIn and Twitter to connect to my audiences in the future. These are really valuable platforms, particularly LinkedIn for me, however, my preference is to connect directly with people who are interested in the content I am creating.
+Now that I have the basic website up and running and I am ready to start posting regular articles, I thought it was time to add a subscription option to my site. The aim here is to not rely on LinkedIn and Twitter to connect to my audiences in the future. These are really valuable platforms, particularly LinkedIn for me, however, my preference is to connect directly with people who are interested in the content I am creating.
 
-There are many options out there for adding forms to websites, but I wanted to ensure I am keeping this in the JAMStack, and also ensuring a loosely coupled architecture.
+There are many options out there for adding forms to websites, but I wanted to ensure i am adhering the following:
+- JAMStack principles
+- loosely coupled architecture
+- Avoid external dependencies where possible.
+- progressive enhancement
+- accessibility core
 
-So where to start? I have been finding out a bit more about accessibility on the web, again thanks to the an amazing podcast  [a11yrules](https://a11yrules.com) and the [A11y Project.](https://a11yproject.com/)
+## Accessibility
 
-One of the key takeaways for me was to start with [semantic markup](https://en.wikipedia.org/wiki/Semantic_HTML), and also ensure there are no external dependencies being added to this website which might result in performance and/or security issues.
+So is Accessibility a strange place to start? Absolutely not! If you want your site to be accessible, starting here will make your decisions much easier. If you have accessibility as one of your core principles from the start, simple decisions now avoid inaccessibility issues later on. 
 
-## Netlify Forms
+Lets take a quick example. what if you were building a retail store, and only designed the store for people who were able to walk. You may utilise steps, and your store layout may prevent people who are in wheelchairs from navigating the store easily. What if instead, you designed store with wheelchair access in mind. You avoided steps, and you utilised ramps where required.
+
+Now, your store is a much better experience for people who cannot walk, and also those caring for people who cannot walk. If you think this is not you, think again. We are all born unable to walk, and for the first few years we are pushed around in prams, which are really just small wheelchairs.
+
+There are many great resources on the web on the topic of accessibility on the web. [A11y Project](https://a11yproject.com/) is an amazing resource, and if you are into podcasts[a11yrules](https://a11yrules.com) is a great listen. 
+
+One of the key takeaways for me was to start with [semantic markup](https://en.wikipedia.org/wiki/Semantic_HTML), which basically means, use standard HTML elements, like FORM and INPUT and BUTTON, rather than DIV. These
+
+
+
+and also ensure there are no external dependencies being added to this website which might result in performance and/or security issues.
+
+## JAMStack and loosely Coupled
 
 Luckily for me, Netlify comes with a pretty handy solution here. By adding a few attributes to the HTML markup, I was able to get a form up and running pretty easily. There were a few issues here tough.  For a great article on getting things setup, head over to CSS Tricks and read [this article by Matthew Strom.](https://css-tricks.com/using-netlify-forms-and-netlify-functions-to-build-an-email-sign-up-widget/)
 
