@@ -9,7 +9,7 @@ author: James Foran
 tags:
   - HTML-Forms
   - Progressive-Enhancement
-  - Email-List
+  - Accessibility
 ---
 Now that I have the basic website up and running and I am ready to start posting regular articles, I thought it was time to add a subscription option to my site. The aim here is to not rely on LinkedIn and Twitter to connect to my audiences in the future. These are really valuable platforms, particularly LinkedIn for me, however, my preference is to connect directly with people who are interested in the content I am creating.
 
@@ -41,31 +41,31 @@ Luckily for me, Netlify comes with a pretty handy solution here. By adding a few
 
 ### No localhost support
 
-The forms do not work when developing locally. I am aware there may be a solution to run Netlify locally, but I was not ready to go down this path just yet. An alternative solution I found was to simply deploy a second Netlify site, from a different Github branch. I only resorted to this after many efforts to resolve a technical issue I was experiencing with the form after it was submitted. More about that later.
+The forms do not work when developing locally. I am aware there may be a solution to run [Netlify locally](https://www.netlify.com/products/dev/), but I was not ready to go down this path just yet. An alternative solution I found was to simply deploy a second Netlify site, from a different Github branch of the same repo. I only resorted to this after many efforts to resolve a technical issue I was experiencing with the form after it was submitted. This will become a really valuable tool for testing the site.
 
 ## Progressive Enhancement
 
-One of the other benefits of taking this approach is that I have been able to apply progressive enhancement principles to the form build. I am still learning about this, but basically, what it means is that the form should work in the following situations:
+With the Netlify form processing, which utilises server side processing, is it enables the implementation of  progressive enhancement. I am still learning about this, but basically, what it means is that the form should work in the following situations:
 
-* HTML loaded only (no JavaScript and no CSS). The form should still work, even if it is not that pretty. I am thinking this should also help with screen readers in some way.
+* HTML loaded only (no JavaScript and no CSS). The form should still work, even if it is not that pretty. I am thinking this should also help with accessibility also in some way. 
 * HTML + CSS. Form should work, be pretty, and function correctly. This is the case, but when the form is submitted, it redirects to a thank-you page.
-* HTML + CSS + JavaScript.. The form is submitted, but rather than redirecting to thank-you page,  the form section is replaced with a thank-you message.
+* HTML + CSS + JavaScript.. The form is submitted, but rather than redirecting to thank-you page,  the form section is replaced with a thank-you message. 
 
 ## Headaches
 
-In developing this way, I ran into a really difficult issue. When JavaScript was enabled, I was getting an error in the browser, even when the form was submitted. My struggles are documented in the Netlify Community page [here.](https://community.netlify.com/t/form-submission-working-but-action-path-is-not-working/9902/11)
+In developing this way, I ran into a really difficult issue. When JavaScript was enabled, I was getting an error in the browser, even when the form was submitted. My struggles are documented in detail on the Netlify Community page [here.](https://community.netlify.com/t/form-submission-working-but-action-path-is-not-working/9902/11)
 
-I reached out to [Andy Bell](https://twitter.com/hankchizljaw) who thankfully put me in contact with [Dave Beesley](https://twitter.com/davebeesley) who had experienced a similar issue with they Hylia template site. Some changes to the ServiceWorker cache settings have seen this issue resolve itself. 
+I reached out to [Andy Bell](https://twitter.com/hankchizljaw) who thankfully put me in contact with [Dave Beesley](https://twitter.com/davebeesley) who had experienced a similar issue Some changes to the Service-Worker cache settings look to have resolved this issue!  
 
 All looking good now. The only concern I have remaining is a false positive test, which I have not been able to reproduce! Basically, someone subscribed, got the success message, but nothing made it to Netlify Forms. 
 
-# Email Marketing Service
+# Email Subscription Service
 
-So, with the first half working, the next part was to integrate to an email marketing service. Here, I chose the path of least resistance, and decided to use Zapier, at least for now, to integrate Netlify Form data, with MailChimp, at least initially.
+So, with the first half working, the next part was to integrate to an email marketing service. Here, I chose the path of least resistance, and decided to use Zapier, at least for now, to integrate Netlify Form data, with MailChimp.
 
-This was really the easiest part. Zapier is a breeze to setup, and the UI is really intuitive, and quite fun to use. The developers there have managed to build in quite a bit of personality into the platform, and most importantly, it just works! 
+This was really the easiest part. Zapier is a breeze to setup, and the UI is really intuitive, and quite fun to use. The developers there have managed to build quite a bit of personality into the platform, and most importantly, it just works! 
 
-MailChimp on the otherhand was not really agreeing with me. 
+MailChimp on the other-hand was not really agreeing with me. 
 
 ## ConvertKit
 
@@ -79,6 +79,6 @@ So, I made the switch... And thanks to the loosely coupled architecture, it was 
 
 Now with all that setup, it is time for me to focus on creating new content for the site. I would ideally like to move away from Netlify Forms and Zapier, and build an custom API which takes the form input, and sends it to ConvertKit. The reasoning behind this is I want a better user experience.  As it stands today, if a user subscribes twice, the workflow exactly the same. Ideally, I want to tell the user if they have already subscribed, and give them the option to resend a confirmation email.  But for now, this setup seems to be meet my needs.
 
-Another minor issue, is that the form continues to appear after someone has subscribed. I think they only way to resolve this is by using cookies, and I am not really wanting to do that just yet. I will see what the user feedback is. If anyone has advice on this, please let me know below in the comments section. 
+Another minor issue, is that the form continues to appear after someone has subscribed. I think they only way to resolve this is by using cookies, and I really think adding more complexity to the website just to hide the subscription form is not worth it. That is why the form is at the bottom of the page. I will see what the user feedback is. If anyone has advice on this, please let me know below in the comments section. 
 
-And of course, please subscribe.
+And of course, please subscribe, if you want to receive content relating to the transport and logistics domain. 
