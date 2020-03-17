@@ -29,6 +29,7 @@ It might seem a simple question. Before I got into logistics, consignment to me 
 The term consignment is also used when transportation of goods using a third party. The company responsible for the transport of the goods does not have to purchase the goods in order to transport them. Similar to when goods are "on Consignment", they are acting as an intermediate party between the seller and the buyer.
 
 ### Confusing use case
+
 Lets say you make hand knitted blankets, and you sell them at a local retailer. The retailer they display your beautify blankets in the window. When the retailer sells some of your blankets, they pay you for the sold items, and they may order new stock from you. 
 
 Now you have a new retailer wanting to stock your goods on consignment. But they are in Sydney, while you live in Adelaide (about a 14 hour drive!). You now need to engage with a transport company to transport the goods to Sydney. You now need to consign the goods to the transport company, who will transport the goods to the Sydney retailer.
@@ -73,8 +74,8 @@ For a consignment to be useful, it must contain information that ensures we can:
 * Enable financial settlement
 
 ### Base Information
-  ![consignment structure block diagram](/images/consigment-structure.svg)
 
+![Consignment and related information](/images/consignment-structure.svg)
 
 Each consignment, must have one of each of the following, with the exception of goods.
 
@@ -85,8 +86,7 @@ Each consignment, must have one of each of the following, with the exception of 
 * **Goods** - Details of the things being delivered. 1 or more of these will generally be attached or lined to a consignment. Moving forward, we will refer to this as **freight item**, to try to avoid confusion. *Note*, this does not talk about the products, rather, what the products are being carried in or on. In other words, what is being physically handled by the transport operators. Each freight item must be individually labelled.
 * **Transport Provider** - The organisation responsible for the pickup and delivery of the freight items.  The transport provider may utilise other 3rd party providers for part or all of the tasks associated with the movement of the freight items. 
 * **Consignment Number** - A number used to help identify the consignment, and the associated freight items. Often, these numbers are specific to the transport provider, but in some cases, large shippers will insist on using their own identifiers.
-* **Pickup date** - When *were* the freight items actually picked up. All of the freight items should be picked up on the same day, to form a consignment. This date is used for applying the correct rates and determining billing periods. If freight items are picked up on separate days, then this should result in two consignments.
-   *Note*, freight items can be delivered on different days, and still be part of the same consignment.
+* **Pickup date** - When *were* the freight items actually picked up. All of the freight items should be picked up on the same day, to form a consignment. This date is used for applying the correct rates and determining billing periods. If freight items are picked up on separate days, then this should result in two consignments.  *Note*, freight items can be delivered on different days, and still be part of the same consignment.
 
 ### Additional information
 
