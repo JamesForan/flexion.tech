@@ -104,6 +104,6 @@ All this information is used by the transport provider, to enable them to provid
 
 ## Up Next
 
-In our next article, we will look at the life cycle of a consignment, and take a look at some more complex use cases, which might impact how you implement consignments. Things vary greatly depending who you are: shipper, transport provider, operating as a 2PL, 3PL, 4PL or a combination of them all!  
+In our next article, we will look at the life cycle of a consignment, and some more complex use cases, which might impact how you need to work with consignments. Things vary greatly depending who you are. A shipper will have different requirements to a transport provider, and transport providers may be operating as a 2PL, 3PL, 4PL or a combination of all, which makes for some really challenging scenarios.
 
-If you have anything you think should be added to this article, please comment below, and if you want to get our latest content delivered via email, please subscribe to our [newsletter below](./#subscribe).
+If you have anything you think should be added to, or corrected in this article, please comment below, and if you want to get our latest content delivered via email, please subscribe to our [newsletter below](./#subscribe).
