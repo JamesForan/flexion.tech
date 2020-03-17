@@ -81,8 +81,8 @@ Each consignment, must have one of each of the following, with the exception of 
 
 * **Consignor** - The shipper.
 * **Consignee** - The receiver.
-* **Origin** - Where are the goods being picked up? Often not the consignor, but it can be.
-* **Destination** - Where are the goods being delivered? Often not the consignee, but it can be. 
+* **Origin** - Where are the goods being picked up? May or may not be the consignor.
+* **Destination** - Where are the goods being delivered? May or may not be the consignee. 
 * **Goods** - Details of the things being delivered. 1 or more of these will generally be attached or lined to a consignment. Moving forward, we will refer to this as **freight item**, to try to avoid confusion. *Note*, this does not talk about the products, rather, what the products are being carried in or on. In other words, what is being physically handled by the transport operators. Each freight item must be individually labelled.
 * **Transport Provider** - The organisation responsible for the pickup and delivery of the freight items.  The transport provider may utilise other 3rd party providers for part or all of the tasks associated with the movement of the freight items. 
 * **Consignment Number** - A number used to help identify the consignment, and the associated freight items. Often, these numbers are specific to the transport provider, but in some cases, large shippers will insist on using their own identifiers.
