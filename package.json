@@ -4,14 +4,14 @@
   "description": "A simple Eleventy starter kit to help you have a blog of your own",
   "main": "index.js",
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-rss": "^1.0.6",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
     "@tbranyen/jsdom": "^13.0.0",
     "concurrently": "^4.1.0",
     "html-minifier": "^4.0.0",
     "json-to-scss": "^1.5.0",
-    "sass": "^1.26.2",
+    "sass": "^1.26.3",
     "semver": "^6.3.0",
     "slugify": "^1.4.0",
     "stalfos": "github:hankchizljaw/stalfos#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
@@ -23,7 +23,7 @@
     "cross-env": "^5.2.1",
     "make-dir-cli": "^2.0.0",
     "prettier": "^1.19.1",
-    "rollup": "^1.32.0",
+    "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0"
