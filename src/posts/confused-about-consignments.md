@@ -4,12 +4,12 @@ title: Confused about Consignments?
 metaTitle: Confused about Consignments?
 metaDesc: Consignments in the transport domain
 socialImage: /images/flexion-box.svg
-date: 2020-03-16T15:42:00.000Z
+date: 2020-03-16T13:34:00.000Z
 author: James Foran
 tags:
   - Consignments
   - Transport
-  - TMS
+  - data-model
 ---
 Consignments are a critical part of the transport industry. But over the years I have found that they have been the source of much confusion, often on my part! In this post, I will detail my understanding of consignments, and why they are critical to the logistics industry. 
 
