@@ -78,8 +78,8 @@ For a consignment to be useful, it must contain information that ensures we can:
 
 Each consignment, must have one of each of the following, with the exception of goods.
 
-* **Consignor** 
-* **Consignee**
+* **Consignor** - The shipper.
+* **Consignee** - The receiver.
 * **Origin** - Where are the goods being picked up? Often not the consignor, but it can be.
 * **Destination** - Where are the goods being delivered? Often not the consignee, but it can be. 
 * **Goods** - Details of the things being delivered. 1 or more of these will generally be attached or lined to a consignment. Moving forward, we will refer to this as **freight item**, to try to avoid confusion. *Note*, this does not talk about the products, rather, what the products are being carried in or on. In other words, what is being physically handled by the transport operators. Each freight item must be individually labelled.
