@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Confused about Consignments?
 metaTitle: Confused about Consignments?
 metaDesc: Consignments in the transport domain
-socialImage: images/flexion-box.svg
+socialImage: /images/flexion-box.svg
 date: 2020-03-16T15:42:00.000Z
 author: James Foran
 tags:
