@@ -1,34 +1,26 @@
-.zoom {
+.zoom{
   width:400px;
-  height: 500px;
+  height: 400px;
   margin: 2em auto 2em auto;
   overflow: hidden;
-
 }
 
-.zoom_img {
+.zoom__img {
   width: 100%;
-  height: 100%;
-  animation-duration: 8s;
-  animation-name: box_zoom;
-
+    height: 100%;
+    transform: scale(30) translate(28.5%,-25%);
+    animation: zoom 5s ease-in-out 3s reverse backwards ;
 }
 
-@keyframes box_zoom {
-  from {
-    margin-left:3400px;
-    margin-top: -3600px;
-    transform: scale(30);
+@keyframes zoom {
+  
+  50% {
+    transform: scale(2) translate(28.5%,-25%) ;
   }
-
-  70% {
-    margin-left:3400px;
-    margin-top: -3600px;
-    transform: scale(30);
+  30% {
+    transform: scale(2) translate(28.5%,-25%) ;
   }
   to {
-    margin-left:0;
-    margin-top: 0;
-    transform: scale(1);
+    transform: scale(.5) translate(0%,0%);
   }
 }

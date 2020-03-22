@@ -11,8 +11,7 @@ tags:
   - transport
   - tms
 ---
-![]()
 
 <div class="zoom">
-      <div class="zoom_img"><img src="/images/box-con.svg" alt=""></div>
+      <img class="zoom__img" src="/images/box-con.svg" alt="">
 </div>
