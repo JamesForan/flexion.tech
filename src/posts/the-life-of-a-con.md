@@ -18,14 +18,15 @@ In our last post, we took a detailed look at [what a transport consignment is](.
 </div>
 
 ### In this article
-- [Draft Consignment Creation](#heading-conception-draft-consignment-creation)
-- [Freight label Generation](#heading-naming-ceremony-making-things-official(ish))
-- [Goods Pickup](#heading-tying-the-knot-goods-pickup)
-- [Manifestation](#heading-manifest)
-- [In Transit](#heading-in-transit)
-- [Delivery](#heading-deliver-us-from-evil)
-- [Payment](#heading-payment-and-settlement)
-- [Take-away🥡](#heading-take-away)
+
+* [Draft Consignment Creation](#heading-conception-draft-consignment-creation)
+* [Freight label Generation](#heading-naming-ceremony-making-things-official(ish))
+* [Goods Pickup](#heading-tying-the-knot-goods-pickup)
+* [Manifestation](#heading-manifest)
+* [In Transit](#heading-in-transit)
+* [Delivery](#heading-deliver-us-from-evil)
+* [Payment](#heading-payment-and-settlement)
+* [Take-away🥡](#heading-take-away)
 
 Now, we are going to take a look at the life of a consignment from creation, to settlement.
 
@@ -66,11 +67,11 @@ Let me illustrate with an example. A car parts warehouse (CPW) offers two servic
 
 ## Naming ceremony - Freight Label Generation
 
-> two boxes, one closed, another slightly open, both with labels.
+![Open box, closed box with labels attached](/images/box-open-box.svg)
 
 We now have a draft consignment, we have a  box containing the goods and we want to close the box. At this point, we have to label the box, so we know where to send it to. What do we need to do to allow this to happen?
 
->🏷Label it! If we close the box, with the picking list inside, without first putting a label on the box, things might get a little confusing when the driver comes to pickup the freight!
+> 🏷Label it! If we close the box, with the picking list inside, without first putting a label on the box, things might get a little confusing when the driver comes to pickup the freight!
 
 To generate a label, we first need to know who the Transport Provider is. Consignment Numbers are generally specific to a carrier, and each carrier will have a specific label layout. These labels allow goods to be automatically **and** manually sorted, and of course delivered.  I could write all day about consignment numbers.... but I wont go down that 🐰🕳 today.
 
@@ -81,6 +82,7 @@ So, we have now stuck a label on a box! Our consignment is ready to be picked up
 * Consignment Number & bar-code (1D and/or 2D)
 * Item Number & bar-code (1D and/or 2D)
 * Optional:
+
   * delivery instructions
   * 🧨Dangerous Goods (DG) information.
 
@@ -121,6 +123,7 @@ The mysterious *"in transit".* What really happens between when the goods are pi
 We are starting to see more and more transport companies provide more accurate *"in transit"* events, and improve visibility. We are now even starting to see real time tracking, via GPS, where the vehicle is tracked, and we know the freight is on a specific vehicle. This is pretty easy for point-to-point deliveries, however, when moving freight through complex networks, and utilising on-forwarders, and sub-contractors, things get pretty difficult.
 
 ### Dimension and weight
+
 Accurate dimension and weight information are critical for transport companies. Shippers may not provide accurate information, if they provide any at all. More often than not the rates are based on weight and dimensions of the freight items. Transport companies will either have automated processes for capturing this information. This information will be updated against the consignment, to ensure the correct rates are applied.
 
 ## Deliver us
@@ -130,16 +133,15 @@ For the transport company, this is by far the most important step, for the simpl
 This POD should be recorded for each freight item, not simply just the consignment. There are many circumstances where freight items that belong to a single consignment will be delivered on different days. The more complex the transport networks, the more likely this is to happen. 
 
 ## Payment 💰 & Settlement
+
 This is where everything has to come together to ensure customers receive an accurate invoice, and the transport providers are appropriately compensated for the services they have provided. Providing POD is accurate, and there are no disputes around the dimension and weight, the shipper will pay for the transport services provided. 
 
 In other cases, payment is made up-front or may be pre-paid, as is the case with many postal satchel services. In these cases, updates to dimension and weight information can result in additional charges being applied, either after delivery, or prior to pickup.
 
 ## Take Away 🥡
+
 As you can see, the humble consignment is quite a complex beast. 
 
 Having the right systems and processes in place to support all the use cases that your business encounters when transporting freight is critical, and with today's digitisation, this is becoming more important than ever.
 
 Are you struggling with consignments too? Let us know in the comments below! We would love to hear from you! If you want to get regular updates via email, please [subscribe](#subscribe) below, and if you think you need help urgently, please don't hesitate to contact me via LinkedIn!
-
-
-
