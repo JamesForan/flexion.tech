@@ -3,8 +3,8 @@ backend:
   branch: master
 publish_mode: editorial_workflow
 site_url: "https://flexion.tech"
-media_folder: "/src/images"
-public_folder: "/images"
+media_folder: "src/images"
+public_folder: "images"
 collections:
   - name: "pages"
     label: "Pages"
