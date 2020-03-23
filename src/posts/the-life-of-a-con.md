@@ -58,9 +58,9 @@ Let me illustrate with an example. A car parts warehouse (CPW) offers two servic
 
 > two boxes, one closed, another slightly open, both with labels.
 
-We now have a draft consignment, we have a  box full of stuff, and we want to close the box. At this point, we have to label the box, so we know where to send it to. What do we need to do to allow this to happen?
+We now have a draft consignment, we have a  box containing the goods and we want to close the box. At this point, we have to label the box, so we know where to send it to. What do we need to do to allow this to happen?
 
-🏷Label it! If we close the box, with the packing list inside, without first putting a label on the box, things might get a little confusing! 
+>🏷Label it! If we close the box, with the picking list inside, without first putting a label on the box, things might get a little confusing when the driver comes to pickup the freight!
 
 To generate a label, we first need to know who the Transport Provider is. Consignment Numbers are generally specific to a carrier, and each carrier will have a specific label layout. These labels allow goods to be automatically **and** manually sorted, and of course delivered.  I could write all day about consignment numbers.... but I wont go down that 🐰🕳 today.
 
@@ -68,14 +68,13 @@ So, we have now stuck a label on a box! Our consignment is ready to be picked up
 
 * Destination
 * Service type
-* Consignment Number & barcode (1D and/or 2D)
-* Item Number & barcode (1D and/or 2D)
+* Consignment Number & bar-code (1D and/or 2D)
+* Item Number & bar-code (1D and/or 2D)
 * Optional:
-
   * delivery instructions
   * 🧨Dangerous Goods (DG) information.
 
-At this point, you are still able to print new labels as you need new freight items (boxes etc).
+At this point, you are still able to print new labels as you need, and create new freight items (boxes etc) to be added to the consignment, as long as they align to the rules we discussed above.
 
 *Note, for* pre-paid consignments such as satchels, this is generally not possible. 
 
