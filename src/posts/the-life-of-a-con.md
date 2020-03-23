@@ -13,6 +13,8 @@ tags:
 ---
 In our last post, we took a detailed look at [what a transport consignment is](./posts/confused-about-consignments/).  If you are not following this post, best read that one first. We compared a transport consignment to a sales consignment, and went into detail around what makes up a consignment.
 
+In this post, we are going to take a look at the life of a consignment from creation, to settlement.
+
 <div class="zoom">
       <img class="zoom__img" src="/images/box-con.svg" alt="convict behind bars">
 </div>
@@ -28,13 +30,12 @@ In our last post, we took a detailed look at [what a transport consignment is](.
 * [Payment](#heading-payment-and-settlement)
 * [Take-away🥡](#heading-take-away)
 
-Now, we are going to take a look at the life of a consignment from creation, to settlement.
 
 ## Conception - Draft Consignment Creation
 
 ![empty box](/images/open-box.svg)
 
-So where do consignments come from? It is a bit different to the reproductive systems we see in nature, where parents come together to create offspring. In the case of a consignment, we start with the offspring.  In the case of a consignment, the offspring, are our freight items (aka the goods).
+So where do consignments come from? It is a bit different to the reproductive systems we see in nature, where parents come together to create offspring. In the case of a consignment, we start with the offspring, and here, the offspring, are our freight items (aka the goods).
 
 Freight items that share certain attributes, can be grouped together into a consignment. Lets review some of the key attributes which must match for items to be grouped together into a consignment:
 
@@ -44,12 +45,12 @@ Freight items that share certain attributes, can be grouped together into a cons
 * Destination - The delivery address. Freight items being dispatched from the same origin, but delivered to different locations, each get their own consignment. They will likely be picked up together, but these freight items will be grouped into a [manifest.](https://en.wikipedia.org/wiki/Manifest_(transportation)) We touch on manifests a bit latter in this article. 
 * Pickup Date - The date the freight items/goods are actually picked up. This scenario is best highlighted with a few examples:
 
-  * You have purchase 5 items from a speciality online retailer, and one of those items is not available for dispatch today.  the retailer contacts you, and asks if you want to wait until the other goods arrive in their warehouse, before dispatching. 
+  * You have purchase 5 items from a specialty online retailer, and one of those items is not available for dispatch today.  the retailer contacts you, and asks if you want to wait until the other goods arrive in their warehouse, before dispatching. 
 
     1. You decide to wait and get the goods shipped together. This means the goods will all be dispatched together, on a single day. 1 consignment will be created. The goods may all travel in the same freight item (box, carton etc), or make up separate freight items. In this case, a single consignment is created. Good for the retailer, as they only have to pay for a single base charge, but you will have to wait a bit longer for all your items to be delivered.
     2. You want the items that are available delivered immediately. They are dispatched together, and a single consignment is created for those items. A week later, the other items arrive in the warehouse, and they are dispatched. A second consignment is created.
-  * I have starting to see some complex examples, where a distribution centre is delivery items to stores, multiple times a day. In this case, the shipper wants to group freight items by pickup date, because this reduces their costs, ie, only a single base charge is applied for two different pickup activities. This can be at the expense of accurate tracking though. Make sure you are across the commercial agreements between the shipper and transport providers.
-* Service Type - Different service types will attract different charges. A single consignment can have only **one** service type. Therefore, if some goods have an express service, and others are standard, but they share all other attributes, it may still cost less to ship these on separate consignments (think *air*, vs *road*).  However, in some cases, grouping all the goods on a single express consignment may be cheaper.
+  * I have starting to see some complex examples, where a distribution center is delivery items to stores, multiple times a day. In this case, the shipper wants to group freight items by pickup date, because this reduces their costs, ie, only a single base charge is applied for two different pickup activities. This can be at the expense of accurate tracking though. Commercial agreements between the shipper and transport providers drive how these rules are implemented. Also, restrictions on either side may mean you solve it in the shipper system, or, in the transport provider system. 
+* Service Type - Different service types will attract different charges. A single consignment only have **one** service type. Therefore, if some goods have an express service, and others are standard, but they share all other attributes, it may still cost less to ship these on separate consignments (think *air*, vs *road*).  However, in some cases, grouping all the goods on a single express consignment may be cheaper.
 * Transport Provider - In the previous example, of air vs road, the shipper may have different agreements in place with different transport providers, depending on the service selected. When the transport provider is set, depends on who is making the decision on which transport provider to use. Delaying the assignment of a transport provider can cause operational issues in the warehouse, but it is possible.
 
 So you may be wondering, *do I even need a draft consignment?* My favourite answer to these types of question is, **it depends**! You may need a draft consignment when:
@@ -58,9 +59,9 @@ So you may be wondering, *do I even need a draft consignment?* My favourite answ
 * You have orders trickling in throughout the day, for the same origin destination pair.
 * You allow customers to make changes to their orders right up until the transport provider picks up the freight.
 
-### Use case🔎Car Parts Warehouse
+### Use case🔎 Car Parts Warehouse
 
-Let me illustrate with an example. A car parts warehouse (CPW) offers two services to customers. Their customers include mechanical repair shops. They allow the repair shops to order goods as they need them.  They also offer 3 delivery services: Next day afternoon. Next day before 9am, and same day.  The order cut-off for same day is 2pm. 
+Let me illustrate with an example. Car Parts Warehouse (CPW) offers two services to customers. Their customers include mechanical repair shops. They allow the repair shops to order goods as they need them.  They also offer 3 delivery services: Next day afternoon. Next day before 9am, and same day.  The order cut-off for same day is 2pm. 
 
 1. A mechanic is placing orders throughout the day. As they need parts, they go to the CPW website and add items to their order as needed. The service selected is next day by 9am.
 2. The mechanic needs to place an urgent order, for a same day delivery for a single customer. they place the order for urgent parts @1:45pm, and agree to pay the premium price. They also decide to get all the parts delivered same day, as this will save them money for the extra delivery.
@@ -69,11 +70,11 @@ Let me illustrate with an example. A car parts warehouse (CPW) offers two servic
 
 ![Open box, closed box with labels attached](/images/box-open-box.svg)
 
-We now have a draft consignment, we have a  box containing the goods and we want to close the box. At this point, we have to label the box, so we know where to send it to. What do we need to do to allow this to happen?
+We now have a draft consignment and we have a box containing the goods and we want to close the box. At this point, we have to label the boxs or goods directly, so the transport provider know where to send it. What do we need to do to allow this to happen?
 
 > 🏷Label it! If we close the box, with the picking list inside, without first putting a label on the box, things might get a little confusing when the driver comes to pickup the freight!
 
-To generate a label, we first need to know who the Transport Provider is. Consignment Numbers are generally specific to a carrier, and each carrier will have a specific label layout. These labels allow goods to be automatically **and** manually sorted, and of course delivered.  I could write all day about consignment numbers.... but I wont go down that 🐰🕳 today.
+To generate a label, we first need to know who the Transport Provider is. Next, Consignment Numbers need to be generated. These numbers are mostly specific to a Transport Provider.. Each Transport Provider will also have a specific label layout. These labels allow goods to be automatically **and** manually sorted, and of course delivered.  I could write all day about consignment numbers.... but I wont go down that 🐰🕳 today.
 
 So, we have now stuck a label on a box! Our consignment is ready to be picked up. The label will tell us:
 
@@ -89,7 +90,7 @@ At this point, you are still able to print new labels as you need, and create ne
 
 *Note*, for pre-paid consignments such as satchels, this is generally not possible. 
 
-### Use Case🔎Car Parts Warehouse
+### Use Case🔎 Car Parts Warehouse
 
 In our example, we would have to re-label the freight items, if they had already been labelled previously. At this point, as the transport provider has not picked up the goods, Car Parts Warehouse will not be charged at all by the original carrier. 
 
