@@ -14,7 +14,7 @@ tags:
 <div class="zoom">
       <img class="zoom__img" src="/images/box-con.svg" alt="">
 </div>
-In our last post, we took a detailed look at \[what a transport consignment is](./posts/confused-about-consignments/).  If you are not following this post, best read that one first. We compared a transport consignment to a sales consignment, and went into detail around what makes up a consignment.
+In our last post, we took a detailed look at \\[what a transport consignment is](./posts/confused-about-consignments/).  If you are not following this post, best read that one first. We compared a transport consignment to a sales consignment, and went into detail around what makes up a consignment.
 
 Now, we are going to take a look at the life of a consignment  from conception, to destruction.
 
@@ -80,7 +80,7 @@ At this point, you are still able to print new labels as you need new freight it
 
 In our example, we would have to re-label the freight items, if they had already been labelled previously. At this point, as the transport provider has not picked up the goods, Car Parts Warehouse will not be charged at all by the original carrier. 
 
-![boxes on hand trolley](/images/trolley.png)
+![boxes on hand trolley](/images/trolley.svg)
 
 ## Tying the knot - A goods pickup line
 
@@ -106,4 +106,8 @@ This is also a critical milestone, as this is generally when the timer starts fo
 
 The mysterious *"in transit".* What really happens between when the goods are picked up, and when the arrive at their destination? Traditionally, this really has been a mystery, not just to shippers, but to transport companies also. The only mechanism we have today for knowing where freight is, is a scan of a bar-code, with a corresponding location. This will occur at automated sort, and sometimes freight will be scanned by the driver performing the final delivery. But what if the transport company that picked up the goods, is not the company that delivers the goods?
 
-## Delivery me
+We are starting to see more and more transport companies provide more accurate *"in transit"* events, and improve visibility. We are now even starting to see real time tracking, via GPS, where the vehicle is tracked, and we know the freight is on a specific vehicle. This is pretty easy for point-to-point deliveries, however, when moving freight through complex networks, and utilising on-forwarders, and sub-contractors, things get pretty difficult.
+
+## Delivery
+For the transport company, this is by far the most important step, for the simple reason, that this is where the collect the proof that they have delivered the freight, and at which point they can charge the customer. 
+This proof comes in the form of a *"proof of delivery"* document, or, a **POD**
