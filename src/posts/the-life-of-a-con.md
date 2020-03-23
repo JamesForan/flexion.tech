@@ -18,14 +18,14 @@ In our last post, we took a detailed look at [what a transport consignment is](.
 </div>
 
 ### In this article
-[Draft Consignment Creation](#heading-conception-draft-consignment-creation)
-[Naming Ceremony](#heading-naming-ceremony-making-things-official(ish))
-[Tying the Knot](#heading-tying-the-knot-goods-pickup)
-[Manifest](#heading-manifest)
-[In Transit](#heading-in-transit)
-[Delivery](#heading-deliver-us-from-evil)
-[Payment](#heading-payment-and-settlement)
-[Takeaways🥡](#heading-take-away)
+- [Draft Consignment Creation](#heading-conception-draft-consignment-creation)
+- [Naming Ceremony](#heading-naming-ceremony-making-things-official(ish))
+- [Tying the Knot](#heading-tying-the-knot-goods-pickup)
+- [Manifest](#heading-manifest)
+- [In Transit](#heading-in-transit)
+- [Delivery](#heading-deliver-us-from-evil)
+- [Payment](#heading-payment-and-settlement)
+- [Takeaways🥡](#heading-take-away)
 
 Now, we are going to take a look at the life of a consignment from creation, to settlement.
 
