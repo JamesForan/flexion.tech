@@ -127,9 +127,9 @@ In other cases, payment is made up-front, or, freight may be pre-paid, in the ca
 ## Take Away 🥡
 As you can see, the humble consignment is quite a complex beast. 
 
-Having the right systems and processes in place to support all the use cases that you will experience when transporting freight is critical, and with today's digitisation, this is becoming more important than ever.
+Having the right systems and processes in place to support all the use cases that your business encounters when transporting freight is critical, and with today's digitisation, this is becoming more important than ever.
 
-Are you struggling with consignments too? Let us know in the comments below! We would love to help! If you think  
+Are you struggling with consignments too? Let us know in the comments below! We would love to hear from you! If you want to get regular updates via email, please [subscribe](#subscribe) below, and if you think you need help urgently, please don't hesitate to contact me via LinkedIn!
 
 
 
