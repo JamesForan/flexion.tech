@@ -82,13 +82,12 @@ So, we have now stuck a label on a box! Our consignment is ready to be picked up
 * Consignment Number & bar-code (1D and/or 2D)
 * Item Number & bar-code (1D and/or 2D)
 * Optional:
-
   * delivery instructions
   * 🧨Dangerous Goods (DG) information.
 
-At this point, you are still able to print new labels as you need, and create new freight items (boxes etc) to be added to the consignment, as long as they align to the rules we discussed above.
+At this point, you are still able to print new labels as you need, and create new freight items (boxes etc) to be added to the consignment, as long as they conform to the rules we discussed above.
 
-*Note, for* pre-paid consignments such as satchels, this is generally not possible. 
+*Note*, for pre-paid consignments such as satchels, this is generally not possible. 
 
 ### Use Case🔎Car Parts Warehouse
 
