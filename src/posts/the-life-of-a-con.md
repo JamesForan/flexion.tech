@@ -4,7 +4,7 @@ title: The life of a CON
 metaTitle: The life of a Con
 metaDesc: The lifecycle of a consignment
 socialImage: /images/box-con-zoom.png
-date: 2020-03-22T13:35:04.376Z
+date: 2020-03-23T02:35:00.000Z
 author: James Foran
 tags:
   - Consignments
