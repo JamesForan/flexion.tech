@@ -82,8 +82,6 @@ At this point, you are still able to print new labels as you need, and create ne
 
 In our example, we would have to re-label the freight items, if they had already been labelled previously. At this point, as the transport provider has not picked up the goods, Car Parts Warehouse will not be charged at all by the original carrier. 
 
-![boxes on hand trolley](/images/trolley.svg)
-
 ## Tying the knot - A goods pickup line
 
 ![A knot in a rope](/images/knot.svg)
@@ -93,6 +91,8 @@ The Transport provider has arrived, and is ready to pick up the freight items. T
 But, in reality, for many businesses, a single pickup with be for multiple consignments, all going to different destination locations.  While the consignment is an critical for the final delivery of the freight, at the time of pickup, a manifest is required.
 
 ### Manifest
+
+![boxes on hand trolley](/images/trolley.svg)
 
 A manifest is a list of all freight items on a vehicle.  For each pickup a vehicle does, a manifest is required for all the freight being loaded onto the vehicle. Note, if Dangerous Goods are being loaded onto the vehicle, a separate manifest is required, which includes all the required hazardous goods information. 
 
