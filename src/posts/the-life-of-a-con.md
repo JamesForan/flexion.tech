@@ -78,11 +78,11 @@ At this point, you are still able to print new labels as you need, and create ne
 
 *Note, for* pre-paid consignments such as satchels, this is generally not possible. 
 
-### 🔎 Car Parts Warehouse
+### Use Case🔎Car Parts Warehouse
 
 In our example, we would have to re-label the freight items, if they had already been labelled previously. At this point, as the transport provider has not picked up the goods, Car Parts Warehouse will not be charged at all by the original carrier. 
 
-## Tying the knot - A goods pickup line
+## Tying the knot - Goods pickup
 
 ![A knot in a rope](/images/knot.svg)
 
@@ -104,12 +104,32 @@ It is critical that the Manifest accurately reflects all the freight items that 
 
 This is also a critical milestone, as this is generally when the timer starts for the delivery of the freight. The consignment pickup date will be used to measure the transport providers performance, and set estimated time of delivery (ETD).
 
-## In Transit
+## In Transit 🚚
 
 The mysterious *"in transit".* What really happens between when the goods are picked up, and when the arrive at their destination? Traditionally, this really has been a mystery, not just to shippers, but to transport companies also. The only mechanism we have today for knowing where freight is, is a scan of a bar-code, with a corresponding location. This will occur at automated sort, and sometimes freight will be scanned by the driver performing the final delivery. But what if the transport company that picked up the goods, is not the company that delivers the goods?
 
 We are starting to see more and more transport companies provide more accurate *"in transit"* events, and improve visibility. We are now even starting to see real time tracking, via GPS, where the vehicle is tracked, and we know the freight is on a specific vehicle. This is pretty easy for point-to-point deliveries, however, when moving freight through complex networks, and utilising on-forwarders, and sub-contractors, things get pretty difficult.
 
-## Delivery
+### Dimension and weight
+Accurate dimension and weight information are critical for transport companies. Shippers may not provide accurate information, if they provide any at all. More often than not the rates are based on weight and dimensions of the freight items. Transport companies will either have automated processes for capturing this information. This information will be updated against the consignment, to ensure the correct rates are applied.
 
-For the transport company, this is by far the most important step, for the simple reason, that this is where the collect the proof that they have delivered the freight, and at which point they can charge the customer.  This proof comes in the form of a *"proof of delivery"* document, or, a **POD**
+## Delivery us from evil 😈
+
+For the transport company, this is by far the most important step, for the simple reason, that this is where they collect the proof that they have delivered the freight, and at which point they can accurately charge the customer.  This proof comes in the form of a *"proof of delivery"* document, or, a **POD**. 
+
+This POD should be recorded for each freight item, not simply just the consignment. There are many circumstances where freight items that belong to a single consignment will be delivered on different days. The more complex the transport networks, the more likely this is to happen. 
+
+## Payment 💰 & Settlement
+This is where everything has to come together to ensure customers receive an accurate invoice, and the transport providers are appropriately compensated for the services they have provided. Providing POD is accurate, and there are no disputes around the dimension and weight, the shipper will pay for the transport services provided. 
+
+In other cases, payment is made up-front, or, freight may be pre-paid, in the case of satchels for example. In these cases, updates to dimension and weight information can result in additional charges being applied.  
+
+## Take Away 🥡
+As you can see, the humble consignment is quite a complex beast. 
+
+Having the right systems and processes in place to support all the various use cases that you will experience when transporting freight is critical, and with today's digitisation, this is becoming more important than ever.
+
+Are you struggling with consignments too? Let us know in the comments below! We would love to help! If you think  
+
+
+
