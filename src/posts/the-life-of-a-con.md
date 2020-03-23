@@ -17,7 +17,7 @@ In our last post, we took a detailed look at [what a transport consignment is](.
       <img class="zoom__img" src="/images/box-con.svg" alt="">
 </div>
 
-Now, we are going to take a look at the life of a consignment  from conception, to destruction.
+Now, we are going to take a look at the life of a consignment from creation, to settlement.
 
 ## Conception - Draft Consignment Creation
 
@@ -127,7 +127,7 @@ In other cases, payment is made up-front, or, freight may be pre-paid, in the ca
 ## Take Away 🥡
 As you can see, the humble consignment is quite a complex beast. 
 
-Having the right systems and processes in place to support all the various use cases that you will experience when transporting freight is critical, and with today's digitisation, this is becoming more important than ever.
+Having the right systems and processes in place to support all the use cases that you will experience when transporting freight is critical, and with today's digitisation, this is becoming more important than ever.
 
 Are you struggling with consignments too? Let us know in the comments below! We would love to help! If you think  
 
