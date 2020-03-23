@@ -22,7 +22,7 @@ In our last post, we took a detailed look at [what a transport consignment is](.
 * [Draft Consignment Creation](#heading-conception-draft-consignment-creation)
 * [Freight label Generation](#heading-naming-ceremony-making-things-official(ish))
 * [Goods Pickup](#heading-tying-the-knot-goods-pickup)
-* [Manifestation](#heading-manifest)
+* [Manifesting](#heading-Manifesting)
 * [In Transit](#heading-in-transit)
 * [Delivery](#heading-deliver-us-from-evil)
 * [Payment](#heading-payment-and-settlement)
@@ -101,7 +101,7 @@ The Transport provider has arrived, and is ready to pick up the freight items. T
 
 But, in reality, for many businesses, a single pickup with be for multiple consignments, all going to different destination locations.  While the consignment is an critical for the final delivery of the freight, at the time of pickup, a manifest is required.
 
-### Manifestation nds🙌🙌s🙌
+### Manifesting
 
 ![boxes on hand trolley](/images/trolley.svg)
 
