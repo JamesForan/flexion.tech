@@ -19,13 +19,13 @@ In our last post, we took a detailed look at [what a transport consignment is](.
 
 ### In this article
 - [Draft Consignment Creation](#heading-conception-draft-consignment-creation)
-- [Naming Ceremony](#heading-naming-ceremony-making-things-official(ish))
-- [Tying the Knot](#heading-tying-the-knot-goods-pickup)
-- [Manifest](#heading-manifest)
+- [Freight label Generation](#heading-naming-ceremony-making-things-official(ish))
+- [Goods Pickup](#heading-tying-the-knot-goods-pickup)
+- [Manifestation](#heading-manifest)
 - [In Transit](#heading-in-transit)
 - [Delivery](#heading-deliver-us-from-evil)
 - [Payment](#heading-payment-and-settlement)
-- [Takeaways🥡](#heading-take-away)
+- [Take-away🥡](#heading-take-away)
 
 Now, we are going to take a look at the life of a consignment from creation, to settlement.
 
@@ -64,7 +64,7 @@ Let me illustrate with an example. A car parts warehouse (CPW) offers two servic
 1. A mechanic is placing orders throughout the day. As they need parts, they go to the CPW website and add items to their order as needed. The service selected is next day by 9am.
 2. The mechanic needs to place an urgent order, for a same day delivery for a single customer. they place the order for urgent parts @1:45pm, and agree to pay the premium price. They also decide to get all the parts delivered same day, as this will save them money for the extra delivery.
 
-## Naming ceremony - Making things official(ish)
+## Naming ceremony - Freight Label Generation
 
 > two boxes, one closed, another slightly open, both with labels.
 
@@ -100,7 +100,7 @@ The Transport provider has arrived, and is ready to pick up the freight items. T
 
 But, in reality, for many businesses, a single pickup with be for multiple consignments, all going to different destination locations.  While the consignment is an critical for the final delivery of the freight, at the time of pickup, a manifest is required.
 
-### Manifest
+### Manifestation nds🙌🙌s🙌
 
 ![boxes on hand trolley](/images/trolley.svg)
 
@@ -123,7 +123,7 @@ We are starting to see more and more transport companies provide more accurate *
 ### Dimension and weight
 Accurate dimension and weight information are critical for transport companies. Shippers may not provide accurate information, if they provide any at all. More often than not the rates are based on weight and dimensions of the freight items. Transport companies will either have automated processes for capturing this information. This information will be updated against the consignment, to ensure the correct rates are applied.
 
-## Deliver us from evil 😈
+## Deliver us
 
 For the transport company, this is by far the most important step, for the simple reason, that this is where they collect the proof that they have delivered the freight, and at which point they can accurately charge the customer.  This proof comes in the form of a *"proof of delivery"* document, or, a **POD**. 
 
@@ -132,7 +132,7 @@ This POD should be recorded for each freight item, not simply just the consignme
 ## Payment 💰 & Settlement
 This is where everything has to come together to ensure customers receive an accurate invoice, and the transport providers are appropriately compensated for the services they have provided. Providing POD is accurate, and there are no disputes around the dimension and weight, the shipper will pay for the transport services provided. 
 
-In other cases, payment is made up-front, or, freight may be pre-paid, in the case of satchels for example. In these cases, updates to dimension and weight information can result in additional charges being applied.  
+In other cases, payment is made up-front or may be pre-paid, as is the case with many postal satchel services. In these cases, updates to dimension and weight information can result in additional charges being applied, either after delivery, or prior to pickup.
 
 ## Take Away 🥡
 As you can see, the humble consignment is quite a complex beast. 
