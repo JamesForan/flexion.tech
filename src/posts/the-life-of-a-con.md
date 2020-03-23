@@ -14,8 +14,18 @@ tags:
 In our last post, we took a detailed look at [what a transport consignment is](./posts/confused-about-consignments/).  If you are not following this post, best read that one first. We compared a transport consignment to a sales consignment, and went into detail around what makes up a consignment.
 
 <div class="zoom">
-      <img class="zoom__img" src="/images/box-con.svg" alt="">
+      <img class="zoom__img" src="/images/box-con.svg" alt="convict behind bars">
 </div>
+
+### In this article
+[Draft Consignment Creation](#heading-conception-draft-consignment-creation)
+[Naming Ceremony](#heading-naming-ceremony-making-things-official(ish))
+[Tying the Knot](#heading-tying-the-knot-goods-pickup)
+[Manifest](#heading-manifest)
+[In Transit](#heading-in-transit)
+[Delivery](#heading-deliver-us-from-evil)
+[Payment](#heading-payment-and-settlement)
+[Takeaways🥡](#heading-take-away)
 
 Now, we are going to take a look at the life of a consignment from creation, to settlement.
 
@@ -113,7 +123,7 @@ We are starting to see more and more transport companies provide more accurate *
 ### Dimension and weight
 Accurate dimension and weight information are critical for transport companies. Shippers may not provide accurate information, if they provide any at all. More often than not the rates are based on weight and dimensions of the freight items. Transport companies will either have automated processes for capturing this information. This information will be updated against the consignment, to ensure the correct rates are applied.
 
-## Delivery us from evil 😈
+## Deliver us from evil 😈
 
 For the transport company, this is by far the most important step, for the simple reason, that this is where they collect the proof that they have delivered the freight, and at which point they can accurately charge the customer.  This proof comes in the form of a *"proof of delivery"* document, or, a **POD**. 
 
