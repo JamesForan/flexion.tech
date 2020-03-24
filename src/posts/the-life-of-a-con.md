@@ -38,7 +38,7 @@ In this post, we are going to take a look at the life of a consignment from crea
 So where do consignments come from? It is a bit different to the reproductive systems we see in nature, where parents come together to create offspring. In the case of a consignment, we start with the offspring, and here, the offspring, are our freight items (aka the goods).
 
 <img 
-class="width-third pad-top-800" 
+class="width-half pad-top-800" 
 src="/images/open-box.svg" 
 alt="Empty box" 
 loading="lazy">
