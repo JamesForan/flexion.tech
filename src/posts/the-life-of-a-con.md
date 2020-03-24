@@ -33,9 +33,15 @@ In this post, we are going to take a look at the life of a consignment from crea
 
 ## Conception - Draft Consignment Creation
 
-![empty box](/images/open-box.svg)
+![empty box]()
 
 So where do consignments come from? It is a bit different to the reproductive systems we see in nature, where parents come together to create offspring. In the case of a consignment, we start with the offspring, and here, the offspring, are our freight items (aka the goods).
+
+<img 
+class="width-third pad-top-800" 
+src="/images/open-box.svg" 
+alt="Empty box" 
+loading="lazy">
 
 Freight items that share certain attributes, can be grouped together into a consignment. Lets review some of the key attributes which must match for items to be grouped together into a consignment:
 
