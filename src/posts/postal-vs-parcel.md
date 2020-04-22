@@ -56,9 +56,11 @@ But to send a parcel, you do not write the address on the box. you have to stick
 
 So the Freight label is quite a strange one.... So why not just write the address on the box? 
 
-
+![Australia Post Label](/images/parcel_label2.png)
 
 As we mentioned before, there is no single network, meaning there is also no single location where all parcels addressed to you go, before the last leg of the journey. Each parcel carrier will have their own set of hubs or nodes. Unlike the postal network, where the last leg will always start from the local post office, the last leg for parcels can originate from anywhere really. 
+
+![generic freight label](/images/parcel_label1.png)
 
 Another consideration is that each network has their own automated sortation system, if they have one at all.  It is more complicated that mail not just due 6 sides, but also the way logistics companies charge for these services.   
 
