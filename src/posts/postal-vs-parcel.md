@@ -11,6 +11,8 @@ tags:
   - labels
   - ""
 ---
+![]()
+
 If your household is anything like mine, you have seen a huge increase in the number of parcels that have been delivered to your house in the last month. With the entire world in lockdown, online shopping is one of the only "normal" things that we have left in our lives.
 
 But how do all these items make it to your house? It appears to be quite different from the postal network that delivers our 🐌mail. You cannot simply write an address on a box, and send it!
@@ -68,12 +70,51 @@ Another consideration is that each network has their own automated sortation sys
 
 In the largest networks nodes, the systems exist to automatically scan labels, and also weight and measure the freight items as they are sorted. Dimentional weight (DIM Weight), and is a critical part of revenue collection, as the dimentions and weight imact the cost to the customer.  I will write a separate article dedicated to DIM weight!
 
-Also, in many cases, the freight charges are not pre-paid. Logistics companies will pickup freight prior invoicing a customer.  This is in part to ensure that they charge based on actual information.
+Also, in many cases, the freight charges are not pre-paid. Logistics companies will pickup freight prior invoicing a customer.  The actual weight and dimensions are cricical inputs into the charge calculation.
 
-# Scanning a Freight Label
+## Scanning a Freight Label
 
-You can do this at home, with your smart phone! 
+![Scanning a freight label via mobile device](/images/scan_label.png)
 
-## Standards GS1
+You can do this at home, with your smart phone!  YEs thats right. Try it for yourself. Here's how. 
 
-So, next time you get something delivered, check out the freight label in a little more detail. And if you receive a letter, or post card, look out for the orange barcode, and see if you can work out what it says!
+1. Open Google Chrome, or Microsoft Edge web browser ( I use an iPhone)
+2. Select a New TAB. 
+3. Select the 📷 camera icon. This should open your camera with in the app, providing you have given the right permissions.
+4. There should be options at the bottom to select barcode. select this.
+5. Point the camera at a freight barcode. Most 2 dimentional, or 1 dimentional barcodes will work. 
+6. The data from the label will then be entered into a google search. 
+
+The information returned will vary depending on the barcode type. In most cases, it will just be a string if numbers, however, with some QR codes, you should get your actual address returned directly from the scan!
+
+## Label Formats
+
+The data contained within the barcodes varies greatly. Often that data is just a reference, which on its own means nothing, and other times it will be a physical address!
+
+Take a look at these two freight labels:
+
+![label comp]()
+
+Both are from Australia Post. The one on the left is Star Track, and the one on the right is for the postal business.
+
+These two formats are vastly differnt. I cannot work out how to read the startTrack 2 dimentional code. If someone can give me more info on this, I would appreciate it! Please add your comments below.
+
+So, labels even within a single organisation are not standard. I am sure Australia Post has different labels for international freight also.  By why is there no standard?
+
+The answer in this case is legacy systems. When Australia Post aquired Star Track back in 2003, they also aquired all their technology, and label formats. These two divisions still primarily operate as separate networks. 
+
+One of the main reasons that these networks are not interoperable is label formats and scanning technology.
+
+## Standard Labels
+
+So surely the answer is, standard Label formats. There is an organisation GS1 have done exactly that. They have developed standard label formats, which companies can. Unforunately, these standards are open to interpretation. For example, both Australia Post and Toll have implemented GS1 compliant labels, however, they are using different 2 dimentional barcode formats.
+
+## Why?
+
+So why is this important? well, as our dependency in parcel networks continues to grow, our economy will become more and more reliant in reliable networks. These networks are under huge strain at the moment do parcel volumes being 4-5 times the average for this time of year due to corona virus.
+
+Earlier this year, we also saw the Toll parcel networks unable to operate auomated systems, or even print labels, due to a systems outage that lasted weeks.  
+
+A nation wide standard label format would give more choise to the customer. It would also allow networks to flex, and provide real interoperability *between* parcel networks. We already see this interoperability working for international transport. 
+
+What does the future of parcel deliveries look like to you? What are the major challenges? Add your comments below.
