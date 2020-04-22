@@ -51,12 +51,8 @@ collections:
       - {label: "SEO Meta Description", name: "metaDesc", widget: "string", required: false}
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "string", required: true, default: ["James Foran"]}
-      - {label: "Tags (comma separated)", name: "tags", widget: "list", allow_add: true,  
-      pattern: [
-        "^[^\\s#]+$",
-        "No spaces and # allowed in tags. Please separate multiple tags with comma.",]
-      }
+      - {label: "Author", name: "author", widget: "string", required: true, default: "James Foran" }
+      - {label: "Tags (comma separated)", name: "tags", widget: "list", allow_add: true, pattern: ["^[^\\s#]+$", "No spaces and # allowed in tags. Please separate multiple tags with comma.",]}
       - {label: "Body", name: "body", widget: "markdown"}
   - label: "Globals"
     name: "globals"
