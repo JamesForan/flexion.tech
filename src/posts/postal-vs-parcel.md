@@ -23,17 +23,17 @@ Ok.. time back on track. What I actually wanted to talk about first is postal ne
 
 To send a letter, all you have to do is write an address, preferably neatly, and ideally, at least in Australia, you will write the postcode in the 4 small boxes provided. Next, you affix a stamp, which is how you pay for the service, and drop the letter in a post box.
 
-![blank envelope](images/blank_envelope.png)
+![blank envelope](/images/blank_envelope.png)
 
 From there, the mail goes to a local sort facility, starting its multi-leg journey to its recipient.
 
 Automatic sortation systems can process over 50,000 letters an hour. For letters staying in country, sortation is done based on the postcode (aka zip code) . The systems that read the address have a pretty tough job. But, they do it quickly, and the actually print a postal barcode on the envelope or post card, which is then used to sort the mail automatically through the rest of the network.
 
-![post-card barcode](images/postcard.png)
+![post-card barcode](/images/postcard.png)
 
 Here is an postcard my son received recently. You can see the 4 state barcode faintly on the letter.
 
-![letter 4 state barcode](images/postal_barcode.png)
+![letter 4 state barcode](/images/postal_barcode.png)
 
 Another example of a 4 state barcode on a letter. These ones are printed on the letter by the sender, and are almost always BILLS!
 
@@ -71,5 +71,3 @@ You can do this at home, with your smart phone! That QR code, may contain
 ## Standards GS1
 
 So, next time you get something delivered, check out the freight label in a little more detail. And if you receive a letter, or post card, look out for the orange barcode, and see if you can work out what it says!
-
-<!--EndFragment-->
