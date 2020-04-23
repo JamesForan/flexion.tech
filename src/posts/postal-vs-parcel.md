@@ -15,8 +15,7 @@ If your household is anything like mine, you have seen a huge increase in the nu
 
 # The Post
 
-Before we go on, have you ever wondered why it is called POST? Well I have, and there is a very interesting story on [Wikipedia](https://en.wikipedia.org/wiki/Mail#History). The mail used to be nailed to a POST.. and eventually, the mail-bag was nailed to a post, and people used to go a "check the post". Ok.. time back on track. What I wanted to talk about first is postal networks, the ones we used to use to send letters all around the globe, and that companies still use to send bills!
-To send a letter, all you have to do is write an address, preferably neatly, and ideally, at least in Australia, you will write the postcode in the 4 small boxes provided. Next, you affix a stamp, which is how you pay for the service, and drop the letter in a post box.
+Before we go on, have you ever wondered why it is called POST? Well I have, and there is a very interesting story on [Wikipedia](https://en.wikipedia.org/wiki/Mail#History). The mail used to be nailed to a POST.. and eventually, the mail-bag was nailed to a post, and people used to go a "check the post". Ok.. time back on track. What I wanted to talk about first is postal networks, the ones we used to use to send letters all around the globe, and that companies still use to send bills! To send a letter, all you have to do is write an address, preferably neatly, and ideally, at least in Australia, you will write the postcode in the 4 small boxes provided. Next, you affix a stamp, which is how you pay for the service, and drop the letter in a post box.
 
 ![blank envelope](/images/blank_envelope.png)
 
@@ -32,8 +31,7 @@ Another example of a 4 state barcode on a letter. These are printed on the lette
 
 # Parcel
 
-Today, postal networks are now capable of handling small, non-flat parcels too. But for this discussion, we are going to focus on parcels that cannot go via regular post. So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at your address! Simple. But, several things make it more complex.
-Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address too.
+Today, postal networks are now capable of handling small, non-flat parcels too. But for this discussion, we are going to focus on parcels that cannot go via regular post. So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at your address! Simple. But, several things make it more complex. Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address too.
 a Parcel, on the other hand, will have 6 sides and will vary in shape, dimensions and weight! You can stick a freight label anywhere you want too.
 Parcel networks have far fewer nodes. While most towns will have a post office, each major city may have only 1 parcel sortation facility per network.
 There is no single parcel network. While national postal companies offer this service, they are not alone. Even within single logistics organisations, multiple parcel networks may, and do exist.
@@ -42,6 +40,16 @@ But to send a parcel, you do not write the address on the box. you have to stick
 # Freight Label
 
 So the Freight label is quite a strange one... So why not just write the address on the box?
+
+So what is all this additoinal information?
+
+\- Item Barcode: Each Consignment (link to Consignment) can be made up of multiple freight items. Each freight item must be uniquely identified. 
+
+\- MEL  What is this for? It actually stands for Melbourne. This is a visual aid that will help this parcel get onto the correct linehaul truck, should automated sortation not be available.
+
+\- Delivery Instructions: 
+
+
 
 ![Australia Post Label](/images/parcel_label2.png)
 
