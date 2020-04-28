@@ -47,14 +47,14 @@ But to send a parcel, you do not write the address on the box. you have to stick
 
 So the Freight label is quite a strange one... So why not just write the address on the box?
 
-So what is all this additional information?
+The label above is a mixture of machine readable barcodes, and human readable information, that will be used throughout the network, to ensure the item is delivered successfully.  Lets take a look at some of the information:
 
-\- Item Barcode: Each [Consignment](https://flexion.tech/posts/the-life-of-a-con/) can be made up of multiple freight items. Each freight item must be uniquely identified so it can be tracked through the network. 
+\- Item Barcode: Each [Consignment](https://flexion.tech/posts/the-life-of-a-con/) can be made up of multiple freight items. Each freight item must be uniquely identified so it can be routed through the network. 
 
-\- MEL  What is this for? It actually stands for Melbourne. This is a visual aid that will help this parcel get onto the correct linehaul truck, should automated sortation not be available.
+\- MEL  It actually stands for Melbourne. This is a visual aid that will help this parcel get onto the correct linehaul truck, should automated sortation not be available. In Australia, this is similar to the first digit of the post code.  
 
 \- Delivery Instructions: 
-This is something unique to the parcel networks. We dont have delivery instructions for letters, except for registered post. A parcel can contain valuable items though, and having the latest iPhone delivered to your house, and left on the front door step is not idea. It can also not really be put in the letter box. These delivery instructions help drivers complete the delivery. 
+This is something we definately dont see. We dont have delivery instructions for letters, except for registered post. A parcel can contain valuable items though, and having the latest iPhone delivered to your house, and left on the front door step is not idea. It can also not really be put in the letter box. These delivery instructions help drivers complete the delivery. 
 
 \- Authority to Leave
 This is set per delivery item, and is either set by the sender, or the receiver.
@@ -62,15 +62,15 @@ This is set per delivery item, and is either set by the sender, or the receiver.
 \- Alternative Delivery Point
 If a delivery is not made, then the package may be sent to an alternative location. For Australia Post, this would be the local post office, or sortation facility. For other networks, this could be the News Agent, a pharmacy, or anywhere really that is part of the specific network. 
 
-As we mentioned before, there is no single network, meaning there is also no single location where all parcels addressed to you go, before the last leg of the journey. Each parcel carrier will have their own set of hubs or nodes. Unlike the postal network, where the last leg will always start from the local post office, the last leg for parcels can originate from anywhere really.
+As we mentioned before, there is no single network, meaning there is also no single location where all parcels addressed to you go, before the last leg of the journey. Each parcel carrier will have their own set of hubs/nodes. Unlike the postal network, where the last leg will always start from the local post office, the last leg for parcels can originate from anywhere within a 50-100km radius, depending on where you live.
 
 ![generic freight label](/images/parcel_label1.png)
 
 Another consideration is that each network has a specific automated sortation system, if they have one at all. It is more complicated than mail not just due to 6 sides, but also the way logistics companies charge for these services.
 
-## Dimensional Weight
+## Payment
 
-In the largest networks nodes, the systems exist to automatically scan labels, and also weight and measure the freight items as they are sorted. Dimensional weight (DIM Weight), and is a critical part of revenue collection, as the dimensions and weight impact the cost to the customer. I will write a separate article dedicated to DIM weight! Also, in many cases, the freight charges are not pre-paid. Logistics companies will pickup freight prior invoicing a customer. The actual weight and dimensions are crucial inputs into the charge calculation.
+In many cases, the freight charges are not pre-paid for parcels. This is in part due to the iregularlity of parcel weight and dimensions.  Logistics companies will pickup freight prior invoicing a customer. After the freight has been weighted, and demensions captured, billing weights will be calculated. A new article will be out soon dedicated to discussing dimesional weight.
 
 ## Scanning a Freight Label
 
@@ -107,11 +107,11 @@ One of the main reasons that these networks are not interoperable is label forma
 
 ## Standard Labels
 
-So surely the answer is standard Label formats. There is an organisation GS1 have done exactly that. They have developed standard label formats, which companies can. Unfortunately, these standards are open to interpretation. For example, both Australia Post and Toll have implemented GS1 compliant labels, however, they are using different 2-dimensional barcode formats.
+So surely the answer is standard Label formats. There is an organisation GS1 have done exactly that. They have developed standard label formats, which companies can use. Unfortunately, these standards are open to interpretation. For example, both Australia Post and Toll have implemented GS1 compliant labels, however, they are using different 2-dimensional barcode formats, meaning that you cannot route an Australia Post parcel through a Toll sortation facility, and vice versa.
 
-## Why?
+## So what?
 
-So why is this important? well, as our dependency on parcel networks continues to grow, our economy will become more and more reliant in reliable networks. These networks are under huge strain at the moment do parcel volumes being 4-5 times the average for this time of year due to COVID-19.
+So why is this important? well, as our dependency on parcel networks continues to grow, our economy will become more and more reliant in reliable networks. These networks are under huge strain at the moment due parcel volumes being 4-5 times the average for this time of year due to COVID-19.
 
 Earlier this year, we also saw the Toll parcel networks unable to operate automated systems, or even print labels, due to a systems outage that lasted weeks.
 
