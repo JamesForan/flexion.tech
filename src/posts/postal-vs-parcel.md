@@ -11,11 +11,15 @@ tags:
   - labels
   - ""
 ---
-If your household is anything like mine, you have seen a huge increase in the number of parcels that have been delivered to your house in the last month. With the entire world in lockdown, online shopping is one of the only "normal" things that we have left in our lives. But how do all these items make it to your house? It appears to be quite different from the postal network that delivers our 🐌mail. You cannot simply write an address on a box, and send it!
+If your household is anything like mine, you have seen a huge increase in the number of parcels that have been delivered to your house in the last month. With seemingly the entire world in some form of lockdown, online shopping is one of the only "normal" things that we have left in our lives. But how do all these items make it to your house? It appears to be quite different from the postal network that delivers our 🐌mail. You cannot simply write an address on a box, and send it!
 
 # The Post
 
-Before we go on, have you ever wondered why it is called POST? Well I have, and there is a very interesting story on [Wikipedia](https://en.wikipedia.org/wiki/Mail#History). The mail used to be nailed to a POST.. and eventually, the mail-bag was nailed to a post, and people used to go a "check the post". Ok.. time back on track. What I wanted to talk about first is postal networks, the ones we used to use to send letters all around the globe, and that companies still use to send bills! To send a letter, all you have to do is write an address, preferably neatly, and ideally, at least in Australia, you will write the postcode in the 4 small boxes provided. Next, you affix a stamp, which is how you pay for the service, and drop the letter in a post box.
+<img class="width-half " src="/images/flexion-email.svg" alt="Package at front door" loading="lazy">
+
+Before we go on, have you ever wondered why it is called POST? Apparently, back in the day, the mail used to be nailed to a POST in the center of town and eventually, the mail-bag was nailed to a post, and people used to go a "check the post". More details over at [Wikipedia](https://en.wikipedia.org/wiki/Mail#History). There were apparently posts between towns, and mail was transferred between POSTS, forming the first postal network. Things have changed a little now. Every single house now has its every own post(box), and the postal network extends across the entire globe! Pretty amazing really. You can even send a letter to the north pole!
+
+To send a letter, all you have to do is write an address, preferably neatly, and ideally, at least in Australia, you will write the postcode in the 4 small boxes provided. Next, you affix a stamp, which is how you pay for the service, and drop the letter in a post box.
 
 ![blank envelope](/images/blank_envelope.png)
 
@@ -27,31 +31,36 @@ Here is a postcard my son received recently. You can see the 4 state barcode fai
 
 ![letter 4 state barcode](/images/postal_barcode.png)
 
-Another example of a 4 state barcode on a letter. These are printed on the letter by the sender, and are almost always BILLS! For more info on these, read [this artcile from Australia Post](https://auspost.com.au/content/dam/auspost_corp/media/documents/barcoding-fact-sheet-oct14.pdf).
+Another example of a 4 state barcode on a letter. These are printed on the letter by the sender, and are almost always BILLS! For more info on these, read [this article from Australia Post](https://auspost.com.au/content/dam/auspost_corp/media/documents/barcoding-fact-sheet-oct14.pdf).
 
 # Parcel
 
-Today, postal networks are now capable of handling small, non-flat parcels too. But for this discussion, we are going to focus on parcels that cannot go via regular post. So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at your address! Simple. But, several things make it more complex. Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address too.
-a Parcel, on the other hand, will have 6 sides and will vary in shape, dimensions and weight! You can stick a freight label anywhere you want too.
+Today, postal networks are now capable of handling small, non-flat parcels too. But for this discussion, we are going to focus on parcels that cannot go via regular post. So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at your address! Simple. But, several things make it more complex. Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address too. a Parcel, on the other hand, will have 6 sides and will vary in shape, dimensions and weight! You can stick a freight label anywhere you want too.
 Parcel networks have far fewer nodes. While most towns will have a post office, each major city may have only 1 parcel sortation facility per network.
+
 There is no single parcel network. While national postal companies offer this service, they are not alone. Even within single logistics organisations, multiple parcel networks may, and do exist.
 But to send a parcel, you do not write the address on the box. you have to stick a label on the box, that contains a whole lot more information than just an address, or so it seems at least!
 
 # Freight Label
 
+![Australia Post Label](/images/parcel_label2.png)
+
 So the Freight label is quite a strange one... So why not just write the address on the box?
 
-So what is all this additoinal information?
+So what is all this additional information?
 
-\- Item Barcode: Each Consignment (link to Consignment) can be made up of multiple freight items. Each freight item must be uniquely identified. 
+\- Item Barcode: Each [Consignment](https://flexion.tech/posts/the-life-of-a-con/) can be made up of multiple freight items. Each freight item must be uniquely identified so it can be tracked through the network. 
 
 \- MEL  What is this for? It actually stands for Melbourne. This is a visual aid that will help this parcel get onto the correct linehaul truck, should automated sortation not be available.
 
 \- Delivery Instructions: 
+This is something unique to the parcel networks. We dont have delivery instructions for letters, except for registered post. A parcel can contain valuable items though, and having the latest iPhone delivered to your house, and left on the front door step is not idea. It can also not really be put in the letter box. These delivery instructions help drivers complete the delivery. 
 
+\- Authority to Leave
+This is set per delivery item, and is either set by the sender, or the receiver.
 
-
-![Australia Post Label](/images/parcel_label2.png)
+\- Alternative Delivery Point
+If a delivery is not made, then the package may be sent to an alternative location. For Australia Post, this would be the local post office, or sortation facility. For other networks, this could be the News Agent, a pharmacy, or anywhere really that is part of the specific network. 
 
 As we mentioned before, there is no single network, meaning there is also no single location where all parcels addressed to you go, before the last leg of the journey. Each parcel carrier will have their own set of hubs or nodes. Unlike the postal network, where the last leg will always start from the local post office, the last leg for parcels can originate from anywhere really.
 
@@ -59,7 +68,7 @@ As we mentioned before, there is no single network, meaning there is also no sin
 
 Another consideration is that each network has a specific automated sortation system, if they have one at all. It is more complicated than mail not just due to 6 sides, but also the way logistics companies charge for these services.
 
-## Dimentional Weight
+## Dimensional Weight
 
 In the largest networks nodes, the systems exist to automatically scan labels, and also weight and measure the freight items as they are sorted. Dimensional weight (DIM Weight), and is a critical part of revenue collection, as the dimensions and weight impact the cost to the customer. I will write a separate article dedicated to DIM weight! Also, in many cases, the freight charges are not pre-paid. Logistics companies will pickup freight prior invoicing a customer. The actual weight and dimensions are crucial inputs into the charge calculation.
 
@@ -67,7 +76,7 @@ In the largest networks nodes, the systems exist to automatically scan labels, a
 
 ![Scanning a freight label via mobile device](/images/scan_label.png)
 
-You can do this at home, with your smartphone! Yes, that's right. Try it for yourself. Here's how.
+You can do this at home, with your smart-phone! Yes, that's right. It really is ~~hours~~ minutes of fun. Try it for yourself. Here's how.
 
 1. Open Google Chrome, or Microsoft Edge web browser ( I use an iPhone)
 2. Select a New TAB.
