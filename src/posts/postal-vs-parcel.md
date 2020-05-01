@@ -114,14 +114,16 @@ One of the main reasons that these networks are not interoperable is label forma
 
 ## Standard Labels
 
-So surely the answer is standard Label formats. There is an organisation GS1 have done exactly that. They have developed standard label formats, which companies can use. Unfortunately, these standards are open to interpretation. For example, both Australia Post and Toll have implemented GS1 compliant labels, however, they are using different 2-dimensional barcode formats, meaning that you cannot route an Australia Post parcel through a Toll sortation facility, and vice versa.
+So surely the answer is standard Label formats. There is an organisation GS1 have done exactly that. They have developed standard label formats, which companies can use. Unfortunately, these standards are still open to interpretation. For example, both Australia Post and Toll have implemented GS1 compliant freight labels, however, they are using different 2-dimensional barcode formats, meaning that you cannot route an Australia Post parcel through a Toll sortation facility, and vice versa.
 
 ## So what?
 
-So why is this important? well, as our dependency on parcel networks continues to grow, our economy will become more and more reliant in reliable networks. These networks are under huge strain at the moment due parcel volumes being 4-5 times the average for this time of year due to COVID-19.
+So why is this important? well, as our dependency on parcel networks continues to grow, our economy will become more and more reliant on the resilience and scalability of the parcel networks. These networks are under huge strain at the moment, seeing volumes being 4-5 times the average for this time of year due to COVID-19.
 
 Earlier this year, we also saw the Toll parcel networks unable to operate automated systems, or even print labels, due to a systems outage that lasted weeks.
 
 A nationwide standard label format would give more choice to the customer. It would also allow networks to flex, and provide real interoperability between parcel networks. We already see this interoperability working for international transport.
 
-What does the future of parcel deliveries look like to you or your company? What are the major challenges you are facing, and do you think a standard freight label could help?
+Will we see a consolidation of parcel networks? Will Australia Post become the only way to deliver parcels in Australia, similar to how it is the only way to deliver a letter? 
+
+I would love to hear your thoughts below. 
