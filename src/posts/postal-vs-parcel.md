@@ -52,19 +52,18 @@ So the Freight label is quite a strange one... So why not just write the address
 
 The label above is a mixture of machine readable barcodes, and human readable information, that will be used throughout the network, to ensure the item is delivered successfully.  Lets take a look at some of extra information we see on freight labels:
 
-\- Item Barcode: Each [Consignment](https://flexion.tech/posts/the-life-of-a-con/) can be made up of multiple freight items. Each freight item must be uniquely identified so it can be routed through the network. If you are sending 4 items in a single consignment, each item is individually labelled and tracked.
+- Item Barcode: Each [Consignment](https://flexion.tech/posts/the-life-of-a-con/) can be made up of multiple freight items. Each freight item must be uniquely identified so it can be routed through the network. If you are sending 4 items in a single consignment, each item is individually labelled and tracked.
 
-\- MEL  It actually stands for Melbourne. This is a visual aid that will help this parcel get onto the correct linehaul truck, should automated sortation not be available. In Australia, this is similar to the first digit of the post code.  
+- MEL  It actually stands for Melbourne. This is a visual aid that will help this parcel get onto the correct linehaul truck, should automated sortation not be available. In Australia, this is similar to the first digit of the post code.  
 
-\- Delivery Instructions: 
+- Delivery Instructions: 
 This is something we definitely don't see letters. A parcel can contain valuable items though, and having the latest iPhone delivered to your house, and left on the front door step is not ideal. It can also not really be put in the letter box. These delivery instructions help transport companies complete a delivery even when the driver is unable to deliver the items in person at the delivery address.
 
-\- Authority to Leave
+- Authority to Leave
 This is set per delivery item, and is either set by the sender, or the receiver. For low value items, this is used frequently.  
-
 Today, in the current lockdown environment, this is the default, as most people are home. 
 
-\- Alternative Delivery Point
+- Alternative Delivery Point
 If a delivery is not made, then the package may be sent to an alternative location. For Australia Post, this would be the local post office, or sortation facility. For other networks, this could be the Newsagency, a pharmacy, or anywhere really that is part of the specific network. 
 
 ## Parcel Networks
