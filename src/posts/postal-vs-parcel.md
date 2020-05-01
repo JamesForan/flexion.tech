@@ -73,11 +73,11 @@ As we mentioned before, there is no single network, meaning there is also no sin
 
 ![generic freight label](/images/parcel_label1.png)
 
-Another consideration is that each network has a specific automated sortation system, if they have one at all. It is more complicated than mail not just due to 6 sides, but also the way logistics companies charge for these services.
+Another consideration is that each network has a unique automated sortation system, if they have one at all. It is more complicated than mail not just due to 6 sides, but also the way logistics companies charge for these services.
 
 ## Payment
 
-In many cases, the freight charges are not pre-paid for parcels. This is in part due to the irregularity of parcel weight and dimensions.  Logistics companies will pickup freight prior invoicing a customer. After the freight has been weighted, and dimensions captured, billing weights will be calculated. A new article will be out soon dedicated to discussing dimensional weight.
+In many cases, the freight charges are not pre-paid for parcels. This is in part due to the irregularity of parcel weight and dimensions. Also, drivers doing pickups are not equipped to receive payment for freight as they pick it up. Logistics companies will pickup freight prior invoicing a customer. Once freight makes it to a major hub, it will be automatically measured and weighed. Using this information, billing weights will be calculated. A new article will be out soon dedicated to discussing dimensional weight. Its a trickly one!
 
 ## Scanning a Freight Label
 
