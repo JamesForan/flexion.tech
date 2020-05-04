@@ -11,6 +11,8 @@ tags:
   - labels
   - ""
 ---
+<img class="width-half " src="/images/parcel-vs-post@2x.png" alt="Package at front door" loading="lazy">
+
 If your household is anything like mine, you have seen a huge increase in the number of parcels that have been delivered to your house in the last month. With the entire world is seemingly in some form of lockdown, online shopping is one of the only "normal" things that we have left in our lives. But how do all these items make it to your house? It appears to be quite different from the postal network that delivers our 🐌mail. You cannot simply write an address on a box, and send it! Lets start by taking a look at the post...
 
 # The Post
