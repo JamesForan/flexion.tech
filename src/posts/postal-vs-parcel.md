@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Postal vs Parcel
 metaTitle: Postal vs Parcel
-socialImage: images/flexion-box.svg
+socialImage: /images/parcel-vs-post@2x.png
 date: 2020-05-03T15:00:00.000Z
 author: James Foran
 tags:
