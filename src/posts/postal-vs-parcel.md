@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Postal vs Parcel
 metaTitle: Postal vs Parcel
 socialImage: images/flexion-box.svg
-date: 2020-04-30T16:34:00.000Z
+date: 2020-05-03T15:00:00.000Z
 author: James Foran
 tags:
   - parcel
