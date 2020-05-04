@@ -25,7 +25,7 @@ To send a letter, all you have to do is write an address, preferably neatly, and
 
 ![blank envelope](/images/blank_envelope.png)
 
-From there, the mail goes to a local sort facility, starting its multi-leg journey to the recipient. Automatic sortation systems can process over 50,000 letters an hour. For letters staying in-country, sortation is done based on the postcode (aka zip code). The systems that read the address have a pretty tough job. But, they do it quickly, and when required, they print a postal barcode on the envelope or postcard, which is then used to sort the mail automatically through the rest of the network.
+From there, the mail goes to a local sort facility, starting its multi-leg journey to the recipient. Automatic sort systems can process over 50,000 letters an hour. For letters staying in-country, sort is done based on the postcode (aka zip code). The systems that read the address have a pretty tough job. But, they do it quickly, and when required, they print a postal barcode on the envelope or postcard, which is then used to sort the mail automatically through the rest of the network.
 
 ![post-card barcode](/images/postcard.png)
 
@@ -41,7 +41,7 @@ Today, postal networks are now capable of handling small, non-flat parcels too. 
 
 So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at the recipient address. Simple. But, several things make it more complex. Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address on an envelope. A Parcel on the other hand, generally has 6 sides and will vary in shape, dimensions and weight! You can stick a freight label anywhere you want.
 
-Parcel networks also have far fewer nodes. While most towns will have a post office, each major city may have only 1 parcel sortation facility per network.
+Parcel networks also have far fewer nodes. While most towns will have a post office, each major city may have only 1 parcel sort facility per network.
 
 There is no single parcel network. While national postal companies offer this service, they are not alone. Many logistics organisations have a parcel delivery service, and event within single organisations, multiple parcel networks may, and do exist.
 But to send a parcel, you do not write the address on the box. you have to stick a label on the box, that contains a whole lot more information than just an address.
