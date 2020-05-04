@@ -11,13 +11,13 @@ tags:
   - labels
   - ""
 ---
-If your household is anything like mine, you have seen a huge increase in the number of parcels that have been delivered to your house in the last month. With seemingly the entire world in some form of lockdown, online shopping is one of the only "normal" things that we have left in our lives. But how do all these items make it to your house? It appears to be quite different from the postal network that delivers our 🐌mail. You cannot simply write an address on a box, and send it! Lets start by taking a look at the post...
+If your household is anything like mine, you have seen a huge increase in the number of parcels that have been delivered to your house in the last month. With the entire world is seemingly in some form of lockdown, online shopping is one of the only "normal" things that we have left in our lives. But how do all these items make it to your house? It appears to be quite different from the postal network that delivers our 🐌mail. You cannot simply write an address on a box, and send it! Lets start by taking a look at the post...
 
 # The Post
 
 <img class="width-half " src="/images/flexion-email.svg" alt="Package at front door" loading="lazy">
 
-Before we go on, have you ever wondered why it is called POST? Apparently, back in the day, the mail used to be nailed to a POST in the centre of town and eventually, the mail-bag was nailed to a post, and people used to go a "check the post".  There were apparently posts between towns, and mail was transferred between POSTS, forming the first postal network.  More details over at [Wikipedia](https://en.wikipedia.org/wiki/Mail#History).
+Have you ever wondered why it is called POST? Apparently, back in the day, the mail used to be nailed to a POST in the centre of town and eventually, the mail-bag was nailed to a post, and people used to go a "check the post".  There were posts between towns, and mail was transferred between POSTS, forming the first postal network.  If you want to find out more head to [Wikipedia](https://en.wikipedia.org/wiki/Mail#History).
 
 Things have changed a little now. Every single house now has its very own post(box), and the postal network extends across the entire globe! Pretty amazing really. You can even send a letter to the north pole!
 
@@ -25,7 +25,7 @@ To send a letter, all you have to do is write an address, preferably neatly, and
 
 ![blank envelope](/images/blank_envelope.png)
 
-From there, the mail goes to a local sort facility, starting its multi-leg journey to its recipient. Automatic sortation systems can process over 50,000 letters an hour. For letters staying in-country, sortation is done based on the postcode (aka zip code). The systems that read the address have a pretty tough job. But, they do it quickly, and where required, they print a postal barcode on the envelope or postcard, which is then used to sort the mail automatically through the rest of the network.
+From there, the mail goes to a local sort facility, starting its multi-leg journey to the recipient. Automatic sortation systems can process over 50,000 letters an hour. For letters staying in-country, sortation is done based on the postcode (aka zip code). The systems that read the address have a pretty tough job. But, they do it quickly, and when required, they print a postal barcode on the envelope or postcard, which is then used to sort the mail automatically through the rest of the network.
 
 ![post-card barcode](/images/postcard.png)
 
@@ -37,18 +37,20 @@ Above is another example of a 4 state barcode on a letter. These are printed on 
 
 # Parcel
 
-Today, postal networks are now capable of handling small, non-flat parcels too. But for this discussion, we are going to focus on parcels that cannot go via regular post. So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at your address! Simple. But, several things make it more complex. Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address on an envelope. a Parcel, on the other hand, generally has 6 sides and will vary in shape, dimensions and weight! You can stick a freight label anywhere you want.
+Today, postal networks are now capable of handling small, non-flat parcels too. But for this discussion, we are going to focus on parcels that do not go via regular post. 
 
-Parcel networks have far fewer nodes. While most towns will have a post office, each major city may have only 1 parcel sortation facility per network.
+So how do parcel networks vary from postal networks? The result is much the same. The items being delivered ends up at the recipient address. Simple. But, several things make it more complex. Letters are generally flat and are a fairly standard size. There is only 1 place you can write an address on an envelope. A Parcel on the other hand, generally has 6 sides and will vary in shape, dimensions and weight! You can stick a freight label anywhere you want.
 
-There is no single parcel network. While national postal companies offer this service, they are not alone. Even within single logistics organisations, multiple parcel networks may, and do exist.
-But to send a parcel, you do not write the address on the box. you have to stick a label on the box, that contains a whole lot more information than just an address, or so it seems at least!
+Parcel networks also have far fewer nodes. While most towns will have a post office, each major city may have only 1 parcel sortation facility per network.
+
+There is no single parcel network. While national postal companies offer this service, they are not alone. Many logistics organisations have a parcel delivery service, and event within single organisations, multiple parcel networks may, and do exist.
+But to send a parcel, you do not write the address on the box. you have to stick a label on the box, that contains a whole lot more information than just an address.
 
 # Freight Label
 
 ![Australia Post Label](/images/parcel_label2.png)
 
-So the Freight label is quite a strange one... So why not just write the address on the box?
+So the Freight label is quite a strange one... What is all that extra information?
 
 The label above is a mixture of machine readable barcodes, and human readable information, that will be used throughout the network, to ensure the item is delivered successfully.  Lets take a look at some of extra information we see on freight labels:
 
