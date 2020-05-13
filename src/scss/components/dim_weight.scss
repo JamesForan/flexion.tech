@@ -1,0 +1,208 @@
+@import "compass/css3";
+
+:root {
+	--length: 0.1em;
+	--width: 0.1em;
+	--height: 0.1em;
+	--perspective: 20em;
+}
+$animation-duration: 10s;
+
+body {
+	margin: 0;
+	height: 200vh;
+	perspective: --perspective;
+}
+
+main {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.factorTable {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1em;
+	row-gap: 1em;
+	text-align: center;
+	justify-items: center;
+}
+.dimInputs,
+.viewPort {
+	grid-columns: 2/3;
+}
+
+.viewPort {
+	position: relative;
+	perspective: 100em;
+	background: black;
+	width: 500px;
+	height: 500px;
+}
+
+[class*="cube"] {
+	position: absolute;
+}
+
+.cube {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform-style: preserve-3d;
+	// box-shadow: 0 0 2px 5px crimson;
+	// width:50vw;
+	// height:50vh;
+	// font-size: 8vmin;
+	transform: rotate3d(var(--i, -1), var(--j, 5), 0, var(--a, 60deg))
+		rotateY(var(--y));
+	animation: rotate 10s linear infinite;
+
+	&__face {
+		box-sizing: border-box;
+		margin-top: calc(-0.5 * #{"var( --height)"});
+		margin-left: calc(-0.5 * #{"var( --length)"});
+		backface-visibility: hidden;
+		--i: 0;
+		--j: 1;
+		// interpolate because Sass apparently has issues with this
+		background: #f3aa3b;
+		border: 2px solid #333a;
+		transition: all 1.5s ease-in-out;
+
+		&:nth-child(n + 5) {
+			--i: 1;
+			--j: 0;
+		}
+
+		@for $f from 0 to 6 {
+			&:nth-child(#{$f + 1}) {
+				--a: if($f < 4, $f, pow(-1, $f)) * 90deg;
+			}
+		}
+		&:nth-child(1),
+		&:nth-child(3) {
+			width: #{"var( --length)"};
+			height: #{"var( --height)"};
+			transform: rotate3d(var(--i), var(--j), 0, var(--a))
+				translateZ(calc(0.5 * #{"var( --width)"}));
+			animation: shade $animation-duration linear infinite;
+		}
+		&:nth-child(3) {
+			animation: shade #{$animation-duration} #{-$animation-duration/2} linear infinite;
+		}
+		&:nth-child(2),
+		&:nth-child(4) {
+			width: #{"var( --width)"};
+			height: #{"var( --height)"};
+			transform: rotate3d(var(--i), var(--j), 0, var(--a))
+				translateZ(calc(0.5 * #{"var( --width)"}));
+			animation: shade #{$animation-duration} #{-$animation-duration * 3/4} linear infinite;
+		}
+		&:nth-child(2) {
+			transform: rotate3d(var(--i), var(--j), 0, var(--a))
+				translateZ(calc(#{"var( --length)"} - (0.5 * #{"var( --width)"})));
+			animation: shade #{$animation-duration} #{-$animation-duration/4} linear infinite;
+		}
+		&:nth-child(5),
+		&:nth-child(6) {
+			width: #{"var( --length)"};
+			height: #{"var( --width)"};
+			transform: rotate3d(var(--i), var(--j), 0, var(--a))
+				translateZ(calc(0.5 * #{"var( --width)"}));
+		}
+		&:nth-child(6) {
+			backface-visibility: initial;
+			border: none;
+			background: #5555;
+			filter: blur(10px);
+			transform: rotate3d(var(--i), var(--j), 0, var(--a))
+				translateZ(calc(#{"var( --height)"} - (0.2 * #{"var( --width)"})));
+		}
+	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotateX(-15deg) rotateY(0deg);
+	}
+	100% {
+		transform: rotateX(-15deg) rotateY(360deg);
+	}
+}
+
+@keyframes shade {
+	50% {
+		background: rgba(black, 0.7);
+	}
+}
+
+// balance view and dimentions
+.balanced-view {
+	display: grid;
+	margin-top:2em;
+	justify-items: center;
+	grid-template-rows: auto auto auto;
+
+	[class*="weight-icon"]{
+		grid-row: 1/2;
+		grid-column: 1/2;
+		height: 80px;
+		line-height:80px;
+		font-size:2em;
+		color:white;
+		font-weight:bold;
+		background: #222;
+		clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+		text-align:center;
+	}
+	.dim-weight-icon {
+		justify-self: left;
+		width: 30%;
+		margin-left: 10px;
+		transform: rotate(5deg) translate(0, -17px);
+		transition: width 0.2s 0s, 
+								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
+	}
+	&.dim > .dim-weight-icon {
+			transform: rotate(-5deg) translate(0, 16px);
+		}
+
+	.weight-icon {
+		justify-self: right;
+		width: 20%;
+		margin-right: 10px;
+		transform: rotate(5deg) translate(0, 16px);
+		transition: width 0.2s 0s, 
+								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
+	}
+	
+	&.dim > .weight-icon {
+			transform: rotate(-5deg) translate(0, -15px);
+		}
+
+	.triangle {
+		grid-row: 3/4;
+		width: 80px;
+		height: 22px;
+		background: linear-gradient(#f9cf00,#F19E4D);
+		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+	}
+	.balance {
+		grid-row: 2/3;
+		width: 100%;
+		margin-top: 2px;
+		border-radius: 5px;
+		height: 15px;
+		background: linear-gradient(360deg, #F19E4D,#f9cf00);
+		transform: rotate(5deg);
+		transition: width 0.2s 0s, 
+								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
+	}
+	&.dim > .balance {
+		transform: rotate(-5deg);
+	}
+}

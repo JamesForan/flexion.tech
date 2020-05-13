@@ -1,0 +1,83 @@
+<main class="main">
+	<div class="viewPort">
+
+		<div class='cube'>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+		</div>
+		<!-- 		<div class='cube weight'>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+			<div class='cube__face'></div>
+		</div> -->
+	</div>
+	<form name="fInputs">
+		<div class="dimInputs">
+			<div class="unitswitch">
+				<input type="checkbox" name="unitswitch" class="unitswitch-checkbox" id="myunitswitch" checked>
+				<label class="unitswitch-label" for="myunitswitch">
+					<span class="unitswitch-inner"></span>
+					<span class="unitswitch-switch"></span>
+				</label>
+			</div>
+
+			<div class="dimention__input"></div>
+				<label for="length">Length</label>
+				<input id="length" class="dim_input" title="positive numbers only" type="text" value="100" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+				<!--   <span class="dimention__input__value">0</span> -->
+			</div>
+
+			<div class="dimention__input">
+				<label for="width">Width</label>
+				<input id="width" class="dim_input" title="positive numbers only" type="text" value="250" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+				<!--   <span class="dimention__input__value">0</span> -->
+			</div>
+
+			<div class="dimention__input">
+				<label for="height">Height</label>
+				<input id="height" class="dim_input" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+				<!--   <span class="dimention__input__value">0</span> -->
+			</div>
+
+			<div class="dimention__input">
+				<label for="weight">Weight</label>
+				<input id="weight" class="dim_input" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+				<!--   <span class="dimention__input__value">0</span> -->
+			</div>
+    </div>
+    
+		
+		<div class="balanced-view dim">
+      <div class="dim-weight dim-weight-icon"></div>
+      <div class="weight-icon"></div>
+      <div class="balance"></div>
+      <div class="triangle"></div>
+    </div>
+		<p>Select a dim rate factor:</p>
+		<div class="factorTable">
+			<span class="input">Factor</span><span class="cm3KG">cm3/KG</span><span class=in3LB>in3/LB</span>
+      			<input type="radio" class="dim_input" id="3000" name="factor" value="3000">
+      			<label for="3000" data-metric-factor="3000" class="cm3KG" data-imperial-factor="">3000</label><span class=in3LB>83</span>
+      		<input type="radio" class="dim_input" id="4000" name="factor" value="4000" >
+      			<label for="4000" data-metric-factor="4000" class="cm3KG" data-imperial-factor="">4000</label><span class=in3LB>111</span>
+      		<input type="radio" class="dim_input" id="5000" name="factor" value="5000" checked>
+      			<label for="5000" data-metric-factor="5000" class="cm3KG" data-imperial-factor="">5000</label><span class=in3LB>139</span>
+      		<input type="radio" class="dim_input" id="6000" name="factor" value="6000" >
+      			<label for="6000" data-metric-factor="6000" class="cm3KG" data-imperial-factor="">6000</label><span class=in3LB>166</span>
+      		<input type="radio" class="dim_input" id="7000" name="factor" value="7000" >
+      			<label for="7000" data-metric-factor="7000" class="cm3KG" data-imperial-factor="">7000</label><span class=in3LB>194</span>
+      		<input type="radio" class="dim_input" id="8000" name="factor" value="8000" >
+      			<label for="8000" data-metric-factor="8000" class="cm3KG" data-imperial-factor="">8000</label><span class=in3LB>221</span>
+      		<input type="radio" class="dim_input" id="9000" name="factor" value="9000" >
+      			<label for="9000" data-metric-factor="9000" class="cm3KG" data-imperial-factor="">9000</span></label><span class=in3LB>249</span>
+    </div>
+  </form>
+  <link rel="stylesheet" href="style.css">
+</main>
