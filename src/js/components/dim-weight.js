@@ -9,7 +9,8 @@ var fWeight = document.getElementById("weight");
 var fCube = document.querySelector(".cube");
 var dWeight = document.querySelector(".dim-weight")
 var scaleWeight = document.querySelector(".weight-icon")
-var dimFactor;
+var factorSlider = document.getElementById("factors")
+var dimFactor = factorSlider.value;
 
 var size = 300;
 
@@ -18,6 +19,10 @@ range.forEach((e) => {
   // e.nextElementSibling.innerHTML = e.value;
 });
 updateCube();
+    
+window.addEventListener("scroll", function() {
+	fCube.style.transform = "rotateX(-15deg) rotateY("+window.pageYOffset/5+"deg)";
+});
 
 function inputsUpdated(e) {
 	if((fLength.validationMessage.length > 0)||(fWidth.validationMessage.length > 0)||(fHeight.validationMessage.length > 0)||fWeight.validationMessage.length > 0 ){
@@ -29,11 +34,10 @@ function inputsUpdated(e) {
 }
 function updateCube() {
 	if(valid) {
-		dimFactor = document.querySelector('input[name="factor"]:checked').value;
+		// dimFactor = document.querySelector('input[name="factor"]:checked').value;
+		dimFactor = factorSlider.value;
 		let viewFactor = 1;
 		let maxDim = Math.max(fWidth.value,fHeight.value,fLength.value);
-		console.log(`maxDim=:${maxDim}`);
-		console.log(`size=:${size}`);
 		viewFactor = size/maxDim;
 		root.style.setProperty('--width',fWidth.value * viewFactor + "px");
 		root.style.setProperty('--height',fHeight.value * viewFactor + "px");

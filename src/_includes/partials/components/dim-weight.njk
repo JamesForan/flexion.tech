@@ -1,5 +1,5 @@
 
-	<div class="dim-grid">
+<form name="fInputs" class="dim-grid">
     <div class="viewPort">
     		<div class='cube'>
     			<div class='cube__face'></div>
@@ -10,44 +10,55 @@
     			<div class='cube__face'></div>
     		</div>
     	</div>
-    	<form name="fInputs">
-    		<div class="dimInputs ">
-    			<div class="unitswitch">
+    		<div class="inputs">
+    			<!-- <div class="unitswitch">
     				<input type="checkbox" name="unitswitch" class="unitswitch-checkbox" id="myunitswitch" checked>
     				<label class="unitswitch-label" for="myunitswitch">
     					<span class="unitswitch-inner"></span>
     					<span class="unitswitch-switch"></span>
     				</label>
-    			</div>
-    			<div class="dimention__input"></div>
-    				<label for="length">Length</label>
-    				<input id="length" class="dim_input" title="positive numbers only" type="text" value="100" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
-    			</div>
-    
-    			<div class="dimention__input">
-    				<label for="width">Width</label>
-    				<input id="width" class="dim_input" title="positive numbers only" type="text" value="250" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
-    			</div>
-    
-    			<div class="dimention__input">
-    				<label for="height">Height</label>
-    				<input id="height" class="dim_input" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
-    			</div>
-    
-    			<div class="dimention__input">
-    				<label for="weight">Weight</label>
-    				<input id="weight" class="dim_input" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
-    			</div>
+    			</div> -->
+    				<label class="inputs__dim"  for="length">Length</label>
+    				<div class="input_background inputs__dim">
+              <input id="length" class="dim_input validity_margin" title="positive numbers only" type="text" value="100" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+            </div>
+    				<label class="inputs__dim" for="width">Width</label>
+    				<div class="input_background inputs__dim">
+              <input id="width" class="dim_input validity_margin" title="positive numbers only" type="text" value="250" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+            </div>
+    				<label class="inputs__dim" for="height">Height</label>
+    				<div class="input_background inputs__dim">
+              <input id="height" class="dim_input validity_margin" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+            </div>
         </div>
-    		<div class="balanced-view dim">
+        <div class="balanced-view dim">
           <div class="dim-weight dim-weight-icon"></div>
           <div class="weight-icon"></div>
           <div class="balance"></div>
           <div class="triangle"></div>
         </div>
-    		<p>Select a dim rate factor:</p>
-    		<div class="factorTable">
-    			<span class="input">Factor</span><span class="cm3KG">cm3/KG</span><span class=in3LB>in3/LB</span>
+        <div class="inputs">
+          <label class=" inputs__dim" for="weight">Weight</label>
+          <div class="input_background inputs__dim">
+            <input id="weight" class="dim_input validity_margin" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+          </div>
+        </div>
+        <div class="calcs"></div>
+        <div class="range">
+          <label class="gap-top-600 gap-bottom-300 factors">DIM Factor Selector</label>
+          <input class="dim_input range__slider" type="range" name="factors" id="factors" min="3000" max="9000" step="1000">
+          <div class="factorTable">
+            <div class="3000">3000</div>
+            <div class="4000">4000</div>
+            <div class="5000">5000</div>
+            <div class="6000">6000</div>
+            <div class="7000">7000</div>
+            <div class="8000">8000</div>
+            <div class="9000">9000</div>
+          </div>
+        </div>
+    		<div class="factorTable visually-hidden">
+    			<span class="input ">Factor</span><span class="cm3KG">cm3/KG</span><span class=in3LB>in3/LB</span>
           			<input type="radio" class="dim_input" id="3000" name="factor" value="3000">
           			<label for="3000" data-metric-factor="3000" class="cm3KG" data-imperial-factor="">3000</label><span class=in3LB>83</span>
           		<input type="radio" class="dim_input" id="4000" name="factor" value="4000" >
@@ -62,6 +73,5 @@
           			<label for="8000" data-metric-factor="8000" class="cm3KG" data-imperial-factor="">8000</label><span class=in3LB>221</span>
           		<input type="radio" class="dim_input" id="9000" name="factor" value="9000" >
           			<label for="9000" data-metric-factor="9000" class="cm3KG" data-imperial-factor="">9000</span></label><span class=in3LB>249</span>
-        </div>
-      </form>
   </div>
+</form>

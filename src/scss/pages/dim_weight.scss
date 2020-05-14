@@ -16,31 +16,66 @@ $animation-duration: 10s;
 
 .dim-grid {
 	display: grid;
-	max-width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 30px;
-	padding-right: 30px;
+	grid-template-columns: 450px auto;
+	grid-template-rows: 450px auto;
+	// grid-template-rows: 
 }
 
 .factorTable {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 1em;
-	row-gap: 1em;
-	text-align: center;
-	justify-items: center;
+	display: flex;
+	justify-content: space-between;
+	 div {
+		writing-mode: vertical-rl;
+		text-orientation: upright;
+	 }
 }
-.dimInputs,
+.inputs,
 .viewPort {
 	grid-columns: 2/3;
+}
+
+.inputs {
+	display:grid;
+	background-color: var(--color-theme-highlight-block);
+    // color:var(--color-light);
+    grid-template-columns: 1fr 1fr .5fr;
+		// column-gap: 2.4rem;
+		row-gap: .2em;
+    max-width: 35rem;
+    margin: 2em auto 4em auto;
+		font-size: 1rem;
+		align-items: center;
+		padding: 1em;
+		border-radius: 1em;
+		input[type] {
+			text-align: right;
+			width: 124%;
+			padding-right: .4em;
+		}
+		label {
+			text-align: right;
+			margin: .1em 2em;
+		}
+		 .input_background {
+			 margin: 0;
+		 }
+}
+
+label.inputs__dim  {
+	grid-column: 1/2;
+}
+div.input__dim {
+	grid-column: 2/3;
+	margin: .1em 2em;
 }
 
 .viewPort {
 	position: relative;
 	perspective: 100em;
-	width: 500px;
-	height: 500px;
+	width: 450px;
+	height: 450px;
+	transition: all 1s ease-in-out;
+
 }
 
 [class*="cube"] {
@@ -56,9 +91,8 @@ $animation-duration: 10s;
 	// width:50vw;
 	// height:50vh;
 	// font-size: 8vmin;
-	transform: rotate3d(var(--i, -1), var(--j, 5), 0, var(--a, 60deg))
-		rotateY(var(--y));
-	animation: rotate 10s linear infinite;
+	transform: rotateX(-15deg) rotateY(360deg) ;
+	// animation: rotate 10s linear infinite;
 
 	&__face {
 		box-sizing: border-box;
@@ -70,7 +104,7 @@ $animation-duration: 10s;
 		// interpolate because Sass apparently has issues with this
 		background: #f3aa3b;
 		border: 2px solid #333a;
-		transition: all 1.5s ease-in-out;
+		transition: all 1.5s cubic-bezier(1,.06,.52,1.35);
 
 		&:nth-child(n + 5) {
 			--i: 1;
@@ -100,10 +134,10 @@ $animation-duration: 10s;
 			height: #{"var( --height)"};
 			transform: rotate3d(var(--i), var(--j), 0, var(--a))
 				translateZ(calc(0.5 * #{"var( --width)"}));
-			animation: shade $animation-duration linear infinite;
+			// animation: shade $animation-duration linear infinite;
 		}
 		&:nth-child(3) {
-			animation: shade #{$animation-duration} #{-$animation-duration/2} linear infinite;
+			// animation: shade #{$animation-duration} #{-$animation-duration/2} linear infinite;
 		}
 		&:nth-child(2),
 		&:nth-child(4) {
@@ -111,12 +145,12 @@ $animation-duration: 10s;
 			height: #{"var( --height)"};
 			transform: rotate3d(var(--i), var(--j), 0, var(--a))
 				translateZ(calc(0.5 * #{"var( --width)"}));
-			animation: shade #{$animation-duration} #{-$animation-duration * 3/4} linear infinite;
+			// animation: shade #{$animation-duration} #{-$animation-duration * 3/4} linear infinite;
 		}
 		&:nth-child(2) {
 			transform: rotate3d(var(--i), var(--j), 0, var(--a))
 				translateZ(calc(#{"var( --length)"} - (0.5 * #{"var( --width)"})));
-			animation: shade #{$animation-duration} #{-$animation-duration/4} linear infinite;
+			// animation: shade #{$animation-duration} #{-$animation-duration/4} linear infinite;
 		}
 		&:nth-child(5),
 		&:nth-child(6) {
@@ -154,7 +188,8 @@ $animation-duration: 10s;
 // balance view and dimentions
 .balanced-view {
 	display: grid;
-	margin-top:2em;
+	margin:2em;
+
 	justify-items: center;
 	grid-template-rows: auto auto auto;
 
@@ -162,8 +197,8 @@ $animation-duration: 10s;
 		grid-row: 1/2;
 		grid-column: 1/2;
 		height: 80px;
-		line-height:80px;
-		font-size:2em;
+		line-height:120px;
+		font-size:1.5em;
 		color:white;
 		font-weight:bold;
 		background: #222;
@@ -174,25 +209,25 @@ $animation-duration: 10s;
 		justify-self: left;
 		width: 30%;
 		margin-left: 10px;
-		transform: rotate(5deg) translate(0, -17px);
+		transform: rotate(5deg) translate(0, -10px);
 		transition: width 0.2s 0s, 
 								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
 	}
 	&.dim > .dim-weight-icon {
-			transform: rotate(-5deg) translate(0, 16px);
+			transform: rotate(-5deg) translate(-6px, 11px);
 		}
 
 	.weight-icon {
 		justify-self: right;
 		width: 20%;
 		margin-right: 10px;
-		transform: rotate(5deg) translate(0, 16px);
+		transform: rotate(5deg) translate(6px, 11px);
 		transition: width 0.2s 0s, 
 								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
 	}
 	
 	&.dim > .weight-icon {
-			transform: rotate(-5deg) translate(0, -15px);
+			transform: rotate(-5deg) translate(0, -10px);
 		}
 
 	.triangle {
