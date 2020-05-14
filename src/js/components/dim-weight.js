@@ -13,7 +13,6 @@ var dimFactor;
 
 var size = 300;
 
-
 range.forEach((e) => {
   e.oninput = inputsUpdated;
   // e.nextElementSibling.innerHTML = e.value;
@@ -21,18 +20,13 @@ range.forEach((e) => {
 updateCube();
 
 function inputsUpdated(e) {
-	if((fLength.validationMessage.length > 0)||(fWidth.validationMessage.length > 0)||(fHeight.validationMessage.length > 0)){
+	if((fLength.validationMessage.length > 0)||(fWidth.validationMessage.length > 0)||(fHeight.validationMessage.length > 0)||fWeight.validationMessage.length > 0 ){
 		valid = false;
 	} else {
 		valid = true;
 		updateCube();
 	}
-	
-	
-  // e.target.nextElementSibling.innerHTML = e.target.value;
-  
 }
-
 function updateCube() {
 	if(valid) {
 		dimFactor = document.querySelector('input[name="factor"]:checked').value;
@@ -41,12 +35,6 @@ function updateCube() {
 		console.log(`maxDim=:${maxDim}`);
 		console.log(`size=:${size}`);
 		viewFactor = size/maxDim;
-		// if (maxDim > size) {
-		// 	viewFactor = size/maxDim;
-		// } else {
-		// 	viewFactor = maxDim/size;
-		// }
-		// console.log(viewFactor);
 		root.style.setProperty('--width',fWidth.value * viewFactor + "px");
 		root.style.setProperty('--height',fHeight.value * viewFactor + "px");
 		root.style.setProperty('--length',fLength.value * viewFactor + "px");
@@ -67,10 +55,7 @@ function updateCube() {
 			document.querySelector(".balanced-view").classList.remove("dim")
 			dWeight.style.width = "25%"
 			scaleWeight.style.width = "35%"
-		}
-			
+		}		
 	}
-  // fCube.style.width = fWidth.value * viewFactor + "px";
-  // fCube.style.height = fHeight.value * viewFactor + "px";
 }
 

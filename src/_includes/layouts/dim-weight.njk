@@ -1,0 +1,20 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'dim-weight' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set component_css = "../../css/dim_weight.css" %}
+{% set component_js = "/js/components/dim-weight.js" %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1" class="[ post ] [ h-entry ]">
+    <article>
+      {% include "partials/components/intro.njk" %}
+      <div class="post__body inner-wrapper">
+        {% include "partials/components/dim-weight.njk" %}
+      </div>
+    </article>
+  </main>
+{% endblock %}
+
+

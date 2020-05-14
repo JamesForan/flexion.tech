@@ -1,4 +1,4 @@
-@import "compass/css3";
+// @import "compass/css3";
 
 :root {
 	--length: 0.1em;
@@ -8,13 +8,14 @@
 }
 $animation-duration: 10s;
 
-body {
-	margin: 0;
-	height: 200vh;
-	perspective: --perspective;
-}
+// body {
+// 	margin: 0;
+// 	height: 200vh;
+// 	perspective: --perspective;
+// }
 
-main {
+.dim-grid {
+	display: grid;
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
@@ -38,7 +39,6 @@ main {
 .viewPort {
 	position: relative;
 	perspective: 100em;
-	background: black;
 	width: 500px;
 	height: 500px;
 }
@@ -76,11 +76,23 @@ main {
 			--i: 1;
 			--j: 0;
 		}
-
-		@for $f from 0 to 6 {
-			&:nth-child(#{$f + 1}) {
-				--a: if($f < 4, $f, pow(-1, $f)) * 90deg;
-			}
+		&:nth-child(1) {
+			--a: 0deg;
+		}
+		&:nth-child(2) {
+			--a: 90deg;
+		}
+		&:nth-child(3) {
+			--a: 180deg;
+		}
+		&:nth-child(4) {
+			--a: 270deg;
+		}
+		&:nth-child(5) {
+			--a: 90deg;
+		}
+		&:nth-child(6) {
+			--a: -90deg;
 		}
 		&:nth-child(1),
 		&:nth-child(3) {

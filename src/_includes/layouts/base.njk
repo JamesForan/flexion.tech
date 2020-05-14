@@ -9,6 +9,9 @@
   {% include "partials/global/meta-info.njk" %}
   <script>document.documentElement.classList.remove('no-js');</script>
   <style>{% include "assets/css/global.css" %}</style>
+  {% if component_css %}
+    <link rel="stylesheet" href="{{component_css}}">
+  {% endif %}
   {% block head %}
   {% endblock %}
 </head>
@@ -21,6 +24,9 @@
   {% endblock %}
   <script type="module" src="/js/components/theme-toggle.js" async defer></script>
   <script type="module" src="/js/components/subscribe.js" async defer></script>
+  {% if component_css %}
+    <script type="module" src="{{component_js}}" async defer></script>
+  {% endif %}
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
