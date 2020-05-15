@@ -43,22 +43,27 @@ function updateCube() {
 		root.style.setProperty('--height',fHeight.value * viewFactor + "px");
 		root.style.setProperty('--length',fLength.value * viewFactor + "px");
 		// root.style.setProperty('--perspective',viewFactor*100 + "em");
-		let a = (Math.round((fWidth.value * fHeight.value * fLength.value)/dimFactor * 100)  / 100);
-		dWeight.innerText = a;
-		scaleWeight.innerText = fWeight.value;
-		if (a > fWeight.value){
+		let dimW = Math.round((fWidth.value * fHeight.value * fLength.value)/dimFactor);
+		dWeight.innerText = dimW
+		let actW = Math.round(fWeight.value)
+		scaleWeight.innerText = actW
+		//set the size to character width +2 + how far are we away from the next character...
+		let dimWl = ((""+dimW).length+2) + Math.round(dimW/(dimW.toString().replace(/[0-9]/g,"9"))*100)/100
+		let actWl = ((""+actW).length+2) + Math.round(actW/(actW.toString().replace(/[0-9]/g,"9"))*100)/100
+		// dWeight.style.width = dimWl+"ch"
+		// scaleWeight.style.width = actWl+"ch"
+		// let dimWFirst = dimW.toString().charAt(0)
+		// let bFirst = b.toString().charAt(0)
+		// console.log((a.length+2)+"ch")
+		// debugger
+		root.style.setProperty('--dimW-icon-size',((dimWl)) + "ch" )
+		root.style.setProperty('--weight-icon-size',((actWl)) + "ch")
+		// dWeight.style.height = (a.toString().charAt(0))
+		
+		if (dimW > actW) {
 			document.querySelector(".balanced-view").classList.add("dim")
-			dWeight.style.width = "35%"
-			scaleWeight.style.width = "25%"
-		} else if (a == fWeight.value){
-			document.querySelector(".balanced-view").classList.add("same")
-			dWeight.style.width = "25%"
-			scaleWeight.style.width = "25%"
-		}
-			else {
+		} else if (dimW < actW){
 			document.querySelector(".balanced-view").classList.remove("dim")
-			dWeight.style.width = "25%"
-			scaleWeight.style.width = "35%"
 		}		
 	}
 }

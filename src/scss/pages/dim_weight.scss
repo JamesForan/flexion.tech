@@ -5,6 +5,8 @@
 	--width: 0.1em;
 	--height: 0.1em;
 	--perspective: 20em;
+	--dimW-icon-size: 2em;
+	--weight-icon-size:2em;
 }
 $animation-duration: 10s;
 
@@ -104,7 +106,7 @@ div.input__dim {
 		// interpolate because Sass apparently has issues with this
 		background: #f3aa3b;
 		border: 2px solid #333a;
-		transition: all 1.5s cubic-bezier(1,.06,.52,1.35);
+		transition: all 1.5s cubic-bezier(.6,-0.29,.73,1.51);
 
 		&:nth-child(n + 5) {
 			--i: 1;
@@ -196,7 +198,6 @@ div.input__dim {
 	[class*="weight-icon"]{
 		grid-row: 1/2;
 		grid-column: 1/2;
-		height: 80px;
 		line-height:120px;
 		font-size:1.5em;
 		color:white;
@@ -204,31 +205,40 @@ div.input__dim {
 		background: #222;
 		clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 		text-align:center;
+		align-self: end;
 	}
+
+	
+	// --dimW-icon-size: 2em;
+	// --weight-icon-size:2em;
 	.dim-weight-icon {
 		justify-self: left;
-		width: 30%;
+		width: var(--dimW-icon-size);
+		height: var(--dimW-icon-size);
+		line-height: var(--dimW-icon-size);
 		margin-left: 10px;
-		transform: rotate(5deg) translate(0, -10px);
-		transition: width 0.2s 0s, 
-								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
+		// transform: rotate(5deg) translate(0, calc(var(--dim-weight-height-trans)* -0.05));
+		// transition: width 0.2s 0s, 
+		// 						transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
 	}
-	&.dim > .dim-weight-icon {
-			transform: rotate(-5deg) translate(-6px, 11px);
-		}
+	// &.dim > .dim-weight-icon {
+	// 		transform: rotate(-5deg) translate(-6px, calc(var(--dim-weight-height-trans)/2));
+	// 	}
 
 	.weight-icon {
 		justify-self: right;
-		width: 20%;
+		width: var(--weight-icon-size);
+		height: var(--weight-icon-size);
+		line-height: var(--weight-icon-size);
 		margin-right: 10px;
-		transform: rotate(5deg) translate(6px, 11px);
-		transition: width 0.2s 0s, 
-								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
+		// transform: rotate(5deg) translate(6px, calc(var(--weight-height-trans)/2));
+		// transition: width 0.2s 0s, 
+		// 						transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
 	}
 	
-	&.dim > .weight-icon {
-			transform: rotate(-5deg) translate(0, -10px);
-		}
+	// &.dim > .weight-icon {
+	// 		transform: rotate(-5deg) translate(0, calc(var(--weight-height-trans)* -0.05));
+	// 	}
 
 	.triangle {
 		grid-row: 3/4;
@@ -238,16 +248,24 @@ div.input__dim {
 		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
 	}
-	.balance {
+	.tipper{
 		grid-row: 2/3;
+		grid-column: 1/2;
+		display:grid;
 		width: 100%;
+		transform: rotate(5deg);
+		transition: width 0.2s 0s, 
+								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
+		}
+		&.dim > .tipper {
+			transform: rotate(-5deg);
+		}
+	.balance {
+		
 		margin-top: 2px;
 		border-radius: 5px;
 		height: 15px;
 		background: linear-gradient(360deg, #F19E4D,#f9cf00);
-		transform: rotate(5deg);
-		transition: width 0.2s 0s, 
-								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
 	}
 	&.dim > .balance {
 		transform: rotate(-5deg);
