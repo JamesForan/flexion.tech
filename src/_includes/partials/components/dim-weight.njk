@@ -11,6 +11,7 @@
     		</div>
     	</div>
     		<div class="inputs">
+          <h3>Step 1: Enter dimensions</h3>
     			<!-- <div class="unitswitch">
     				<input type="checkbox" name="unitswitch" class="unitswitch-checkbox" id="myunitswitch" checked>
     				<label class="unitswitch-label" for="myunitswitch">
@@ -37,43 +38,51 @@
             <div class="weight-icon"></div>
             <div class="balance"></div>
           </div>
-          <div class="triangle"></div>
+          <div class="balance-base"></div>
         </div>
         <div class="inputs">
+          <h3>Step 2: Enter Weight</h3>
           <label class=" inputs__dim" for="weight">Weight</label>
           <div class="input_background inputs__dim">
             <input id="weight" class="dim_input validity_margin" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
           </div>
         </div>
-        <div class="calcs"></div>
+        <div class="calcs">
+          <h2 class="calcs__heading">Calculations</h2> 
+          <p class="calcs__inputs">Length * Width * Height</p> <p class="calcs__result">Volume</p> 
+          <p class="calcs__inputs calcs__volume"></p><p class="calcs__result calcs__v-res"></p>
+          <p class="calcs__inputs">Volume / Dim Factor </p><p class="calcs__result">Dimentional weight</p>
+          <p class="calcs__inputs calcs__dim-weight"></p><p class="calcs__result calcs__dim-res"></p>
+          <p class="calcs__inputs">Billing Weight</p><p class="calcs__result calcs__billing"></p>
+        </div>
         <div class="range">
-          <label class="gap-top-600 gap-bottom-300 factors">DIM Factor Selector</label>
+          <h3 class="factors">Step 3: Select a Dimensional Weight Factor </h3>
           <input class="dim_input range__slider" type="range" name="factors" id="factors" min="3000" max="9000" step="1000">
           <div class="factorTable">
-            <div class="3000">3000</div>
-            <div class="4000">4000</div>
-            <div class="5000">5000</div>
-            <div class="6000">6000</div>
-            <div class="7000">7000</div>
-            <div class="8000">8000</div>
-            <div class="9000">9000</div>
+            <div class="factor__3000 selected">3000</div>
+            <div class="factor__4000">4000</div>
+            <div class="factor__5000">5000</div>
+            <div class="factor__6000">6000</div>
+            <div class="factor__7000">7000</div>
+            <div class="factor__8000">8000</div>
+            <div class="factor__9000">9000</div>
+          </div>
+          <div class="factorFacts">
+            <section class="factor__headings"><h4>cm3/kg</h4><h4>kg/m3</h4><h4>in3/lb</h4><h4>lb/ft3</h4></section>
+            <section class="factor__3000 selected"><p>3000</p><p>333</p><p>83</p><p>20.8</p></section>
+            <section class="factor__4000 visually-hidden"><p>4000</p><p>250</p><p>110</p><p>15.6</p>
+            </section>
+            <section class="factor__5000 visually-hidden"><p>5000</p><p>200</p><p>139</p><p>12.5</p>
+            </section>
+            <section class="factor__6000 visually-hidden"><p>6000</p><p>167</p><p>166</p><p>10.4</p>
+            </section>
+            <section class="factor__7000 visually-hidden"><p>7000</p><p>143</p><p>194</p><p>8.9</p>
+            </section>
+            <section class="factor__8000 visually-hidden"><p>8000</p><p>125</p><p>221</p><p>7.8</p>
+            </section>
+            <section class="factor__9000 visually-hidden"><p>9000</p><p>111</p><p>250</p><p>6.9</p>
+            </div>
           </div>
         </div>
-    		<div class="factorTable visually-hidden">
-    			<span class="input ">Factor</span><span class="cm3KG">cm3/KG</span><span class=in3LB>in3/LB</span>
-          			<input type="radio" class="dim_input" id="3000" name="factor" value="3000">
-          			<label for="3000" data-metric-factor="3000" class="cm3KG" data-imperial-factor="">3000</label><span class=in3LB>83</span>
-          		<input type="radio" class="dim_input" id="4000" name="factor" value="4000" >
-          			<label for="4000" data-metric-factor="4000" class="cm3KG" data-imperial-factor="">4000</label><span class=in3LB>111</span>
-          		<input type="radio" class="dim_input" id="5000" name="factor" value="5000" checked>
-          			<label for="5000" data-metric-factor="5000" class="cm3KG" data-imperial-factor="">5000</label><span class=in3LB>139</span>
-          		<input type="radio" class="dim_input" id="6000" name="factor" value="6000" >
-          			<label for="6000" data-metric-factor="6000" class="cm3KG" data-imperial-factor="">6000</label><span class=in3LB>166</span>
-          		<input type="radio" class="dim_input" id="7000" name="factor" value="7000" >
-          			<label for="7000" data-metric-factor="7000" class="cm3KG" data-imperial-factor="">7000</label><span class=in3LB>194</span>
-          		<input type="radio" class="dim_input" id="8000" name="factor" value="8000" >
-          			<label for="8000" data-metric-factor="8000" class="cm3KG" data-imperial-factor="">8000</label><span class=in3LB>221</span>
-          		<input type="radio" class="dim_input" id="9000" name="factor" value="9000" >
-          			<label for="9000" data-metric-factor="9000" class="cm3KG" data-imperial-factor="">9000</span></label><span class=in3LB>249</span>
   </div>
 </form>

@@ -1,273 +1,296 @@
-// @import "compass/css3";
-
 :root {
-	--length: 0.1em;
-	--width: 0.1em;
-	--height: 0.1em;
-	--perspective: 20em;
-	--dimW-icon-size: 2em;
-	--weight-icon-size:2em;
+  --length: 0.1em;
+  --width: 0.1em;
+  --height: 0.1em;
+  --dimW-icon-size: 2em;
+  --weight-icon-size: 2em;
 }
-$animation-duration: 10s;
-
-// body {
-// 	margin: 0;
-// 	height: 200vh;
-// 	perspective: --perspective;
-// }
 
 .dim-grid {
-	display: grid;
-	grid-template-columns: 450px auto;
-	grid-template-rows: 450px auto;
-	// grid-template-rows: 
+  display: grid;
+  grid-template-columns: 1fr;
+	@media (min-width: 768px) {
+		grid-template-columns: 450px auto;
+		grid-template-rows: 450px auto;
+	}
 }
 
 .factorTable {
-	display: flex;
+  display: flex;
 	justify-content: space-between;
-	 div {
-		writing-mode: vertical-rl;
+	margin-bottom: 1em;
+  div {
+    writing-mode: vertical-rl;
 		text-orientation: upright;
-	 }
+		border-radius: 1em;
+	}
+	.selected  {
+		background-color: var(--color-bg);
+	}
+}
+
+.factorFacts{
+	display:flex;
+	flex-direction: column;
+	[class*='factor__'] {
+		display:flex;
+		justify-content: space-between;
+		border-radius: 1em;
+		padding: 0 .5em;
+	}
 }
 .inputs,
 .viewPort {
-	grid-columns: 2/3;
+  grid-columns: 2/3;
 }
 
 .inputs {
-	display:grid;
-	background-color: var(--color-theme-highlight-block);
-    // color:var(--color-light);
-    grid-template-columns: 1fr 1fr .5fr;
-		// column-gap: 2.4rem;
-		row-gap: .2em;
-    max-width: 35rem;
-    margin: 2em auto 4em auto;
-		font-size: 1rem;
-		align-items: center;
-		padding: 1em;
-		border-radius: 1em;
-		input[type] {
-			text-align: right;
-			width: 124%;
-			padding-right: .4em;
-		}
-		label {
-			text-align: right;
-			margin: .1em 2em;
-		}
-		 .input_background {
-			 margin: 0;
-		 }
+  display: grid;
+  background-color: var(--color-theme-highlight-block);
+  grid-template-columns: 1fr 100px 0.5fr;
+  // column-gap: 2.4rem;
+  row-gap: 0.2em;
+  max-width: 35rem;
+  margin: 2em auto 4em auto;
+  font-size: 1rem;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+  input[type] {
+    text-align: right;
+    width: 124%;
+    padding-right: 0.4em;
+  }
+  label {
+    text-align: right;
+    margin: 0.1em 2em;
+  }
+  .input_background {
+    margin: 0;
+  }
 }
 
-label.inputs__dim  {
-	grid-column: 1/2;
+label.inputs__dim {
+  grid-column: 1/2;
 }
 div.input__dim {
-	grid-column: 2/3;
-	margin: .1em 2em;
+  grid-column: 2/3;
+  margin: 0.1em 2em;
 }
+
+.range {
+  background-color: var(--color-theme-highlight-block);
+	width: 100%;
+	padding: 1em;
+	border-radius: 1em;
+	[class*='factor'].selected{
+		background-color: var(--color-bg);
+	} 
+}
+
 
 .viewPort {
-	position: relative;
-	perspective: 100em;
-	width: 450px;
-	height: 450px;
+  position: relative;
+  perspective: 100em;
+	width: 80vw;
+	height: var(--height);
+	margin: 2em;
 	transition: all 1s ease-in-out;
-
+	@media (min-width: 768px) {
+		width: 450px;
+  	height: 450px;
+	}
 }
 
-[class*="cube"] {
-	position: absolute;
+[class*='cube'] {
+  position: absolute;
 }
 
 .cube {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform-style: preserve-3d;
-	// box-shadow: 0 0 2px 5px crimson;
-	// width:50vw;
-	// height:50vh;
-	// font-size: 8vmin;
-	transform: rotateX(-15deg) rotateY(360deg) ;
-	// animation: rotate 10s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-style: preserve-3d;
+  // box-shadow: 0 0 2px 5px crimson;
+  transform: rotateX(-15deg) rotateY(360deg);
 
-	&__face {
-		box-sizing: border-box;
-		margin-top: calc(-0.5 * #{"var( --height)"});
-		margin-left: calc(-0.5 * #{"var( --length)"});
-		backface-visibility: hidden;
-		--i: 0;
-		--j: 1;
-		// interpolate because Sass apparently has issues with this
-		background: #f3aa3b;
-		border: 2px solid #333a;
-		transition: all 1.5s cubic-bezier(.6,-0.29,.73,1.51);
+  &__face {
+    box-sizing: border-box;
+    margin-top: calc(-0.5 * #{'var( --height)'});
+    margin-left: calc(-0.5 * #{'var( --length)'});
+    backface-visibility: hidden;
+    --i: 0;
+    --j: 1;
+    // interpolate because Sass apparently has issues with this
+    background: #f3aa3b;
+    border: 2px solid var(--color-text);
+    transition: all 1.5s cubic-bezier(.27,1.26,.73,1.32);
 
-		&:nth-child(n + 5) {
-			--i: 1;
-			--j: 0;
-		}
-		&:nth-child(1) {
-			--a: 0deg;
-		}
-		&:nth-child(2) {
-			--a: 90deg;
-		}
-		&:nth-child(3) {
-			--a: 180deg;
-		}
-		&:nth-child(4) {
-			--a: 270deg;
-		}
-		&:nth-child(5) {
-			--a: 90deg;
-		}
-		&:nth-child(6) {
-			--a: -90deg;
-		}
-		&:nth-child(1),
-		&:nth-child(3) {
-			width: #{"var( --length)"};
-			height: #{"var( --height)"};
-			transform: rotate3d(var(--i), var(--j), 0, var(--a))
-				translateZ(calc(0.5 * #{"var( --width)"}));
-			// animation: shade $animation-duration linear infinite;
-		}
-		&:nth-child(3) {
-			// animation: shade #{$animation-duration} #{-$animation-duration/2} linear infinite;
-		}
-		&:nth-child(2),
-		&:nth-child(4) {
-			width: #{"var( --width)"};
-			height: #{"var( --height)"};
-			transform: rotate3d(var(--i), var(--j), 0, var(--a))
-				translateZ(calc(0.5 * #{"var( --width)"}));
-			// animation: shade #{$animation-duration} #{-$animation-duration * 3/4} linear infinite;
-		}
-		&:nth-child(2) {
-			transform: rotate3d(var(--i), var(--j), 0, var(--a))
-				translateZ(calc(#{"var( --length)"} - (0.5 * #{"var( --width)"})));
-			// animation: shade #{$animation-duration} #{-$animation-duration/4} linear infinite;
-		}
-		&:nth-child(5),
-		&:nth-child(6) {
-			width: #{"var( --length)"};
-			height: #{"var( --width)"};
-			transform: rotate3d(var(--i), var(--j), 0, var(--a))
-				translateZ(calc(0.5 * #{"var( --width)"}));
-		}
-		&:nth-child(6) {
-			backface-visibility: initial;
-			border: none;
-			background: #5555;
-			filter: blur(10px);
-			transform: rotate3d(var(--i), var(--j), 0, var(--a))
-				translateZ(calc(#{"var( --height)"} - (0.2 * #{"var( --width)"})));
-		}
-	}
+    &:nth-child(n + 5) {
+      --i: 1;
+      --j: 0;
+    }
+    &:nth-child(1) {
+      --a: 0deg;
+    }
+    &:nth-child(2) {
+      --a: 90deg;
+    }
+    &:nth-child(3) {
+      --a: 180deg;
+    }
+    &:nth-child(4) {
+      --a: 270deg;
+    }
+    &:nth-child(5) {
+      --a: 90deg;
+    }
+    &:nth-child(6) {
+      --a: -90deg;
+    }
+    &:nth-child(1),
+    &:nth-child(3) {
+      width: #{'var( --length)'};
+      height: #{'var( --height)'};
+      transform: rotate3d(var(--i), var(--j), 0, var(--a))
+        translateZ(calc(0.5 * #{'var( --width)'}));
+    }
+    &:nth-child(3) {
+    }
+    &:nth-child(2),
+    &:nth-child(4) {
+      width: #{'var( --width)'};
+      height: #{'var( --height)'};
+      transform: rotate3d(var(--i), var(--j), 0, var(--a))
+        translateZ(calc(0.5 * #{'var( --width)'}));
+    }
+    &:nth-child(2) {
+      transform: rotate3d(var(--i), var(--j), 0, var(--a))
+        translateZ(calc(#{'var( --length)'} - (0.5 * #{'var( --width)'})));
+    }
+    &:nth-child(5),
+    &:nth-child(6) {
+      width: #{'var( --length)'};
+      height: #{'var( --width)'};
+      transform: rotate3d(var(--i), var(--j), 0, var(--a))
+        translateZ(calc(0.5 * #{'var( --width)'}));
+    }
+    &:nth-child(6) {
+      backface-visibility: initial;
+      border: none;
+      background: #5555;
+      filter: blur(10px);
+      transform: rotate3d(var(--i), var(--j), 0, var(--a))
+        translateZ(calc(#{'var( --height)'} - (0.2 * #{'var( --width)'})));
+    }
+  }
 }
 
 @keyframes rotate {
-	0% {
-		transform: rotateX(-15deg) rotateY(0deg);
-	}
-	100% {
-		transform: rotateX(-15deg) rotateY(360deg);
-	}
+  0% {
+    transform: rotateX(-15deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(-15deg) rotateY(360deg);
+  }
 }
 
 @keyframes shade {
-	50% {
-		background: rgba(black, 0.7);
-	}
+  50% {
+    background: rgba(black, 0.7);
+  }
 }
 
 // balance view and dimentions
 .balanced-view {
-	display: grid;
-	margin:2em;
+  display: grid;
+  margin: 2em;
 
-	justify-items: center;
-	grid-template-rows: auto auto auto;
+  justify-items: center;
+  grid-template-rows: auto auto auto;
+  [class*='weight-icon'] {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    line-height: 120px;
+    font-size: 1.5em;
+    color: var(--color-bg);
+    font-weight: bold;
+    background: var(--color-text);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    text-align: center;
+    align-self: end;
+  }
+  .dim-weight-icon {
+    justify-self: left;
+    width: var(--dimW-icon-size);
+    height: var(--dimW-icon-size);
+    line-height: var(--dimW-icon-size);
+    margin-left: 10px;
+  }
 
-	[class*="weight-icon"]{
-		grid-row: 1/2;
-		grid-column: 1/2;
-		line-height:120px;
-		font-size:1.5em;
-		color:white;
-		font-weight:bold;
-		background: #222;
-		clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
-		text-align:center;
-		align-self: end;
-	}
+  .weight-icon {
+    justify-self: right;
+    width: var(--weight-icon-size);
+    height: var(--weight-icon-size);
+    line-height: var(--weight-icon-size);
+    margin-right: 10px;
+  }
 
-	
-	// --dimW-icon-size: 2em;
-	// --weight-icon-size:2em;
-	.dim-weight-icon {
-		justify-self: left;
-		width: var(--dimW-icon-size);
-		height: var(--dimW-icon-size);
-		line-height: var(--dimW-icon-size);
-		margin-left: 10px;
-		// transform: rotate(5deg) translate(0, calc(var(--dim-weight-height-trans)* -0.05));
-		// transition: width 0.2s 0s, 
-		// 						transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
-	}
-	// &.dim > .dim-weight-icon {
-	// 		transform: rotate(-5deg) translate(-6px, calc(var(--dim-weight-height-trans)/2));
-	// 	}
-
-	.weight-icon {
-		justify-self: right;
-		width: var(--weight-icon-size);
-		height: var(--weight-icon-size);
-		line-height: var(--weight-icon-size);
-		margin-right: 10px;
-		// transform: rotate(5deg) translate(6px, calc(var(--weight-height-trans)/2));
-		// transition: width 0.2s 0s, 
-		// 						transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
-	}
-	
-	// &.dim > .weight-icon {
-	// 		transform: rotate(-5deg) translate(0, calc(var(--weight-height-trans)* -0.05));
-	// 	}
-
-	.triangle {
-		grid-row: 3/4;
-		width: 80px;
-		height: 22px;
-		background: linear-gradient(#f9cf00,#F19E4D);
-		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-
-	}
-	.tipper{
-		grid-row: 2/3;
-		grid-column: 1/2;
-		display:grid;
+  .balance-base {
+    grid-row: 3/4;
+    width: 80px;
+		height: 40px;
+		margin-top: -1.2em;
+		z-index: -1;
+    background: linear-gradient(#f9cf00, #f19e4d);
+    clip-path: circle(50% at 50% 100%);
+  }
+  .tipper {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: grid;
 		width: 100%;
-		transform: rotate(5deg);
-		transition: width 0.2s 0s, 
-								transform 3.5s .2s cubic-bezier(1,.09,.94,1.17);
-		}
-		&.dim > .tipper {
-			transform: rotate(-5deg);
-		}
-	.balance {
-		
-		margin-top: 2px;
-		border-radius: 5px;
-		height: 15px;
-		background: linear-gradient(360deg, #F19E4D,#f9cf00);
+		transform: rotate(7deg);
+		transform-origin: bottom;
+    transition: width 0.2s 0s, transform 3.5s 0.2s cubic-bezier(1, 0.09, 0.94, 1.17);
+  }
+  &.dim > .tipper {
+    transform: rotate(-7deg);
 	}
-	&.dim > .balance {
-		transform: rotate(-5deg);
-	}
+	&.same > .tipper {
+		transform: rotate(0deg);
+		transition: transform 3.5s 0.2s cubic-bezier(.02,.78,.62,1.41);
+  }
+  .balance {
+    margin-top: 2px;
+    border-radius: 5px;
+    height: 15px;
+    background: linear-gradient(360deg, #f19e4d, #f9cf00);
+  }
+}
+h3 {
+	grid-column: 1/-1;
+}
+.calcs {
+    display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: .3em;
+		&__heading {
+			grid-column: 1/3;
+			text-align: center;
+		}
+		&__result {
+			grid-column: 2/3;
+			text-align: left;
+			font-weight: bold;
+			&::before{
+				content: "= ";
+				color: var(--color-slate);
+			}
+		}
+		&__inputs {
+			grid-column: 1/2;
+			text-align: right;
+
+		}
 }
