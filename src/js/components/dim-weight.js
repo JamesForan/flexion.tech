@@ -15,10 +15,30 @@ var calcsDimRes = document.querySelector(".calcs__dim-res")
 var calcsBilling = document.querySelector(".calcs__billing")
 var scaleWeight = document.querySelector(".weight-icon")
 var factorSlider = document.getElementById("factors")
+var UOMLength = document.querySelectorAll(".UOM__length")
+var UOMWeight = document.querySelectorAll(".UOM__weight")
 var dimFactor = factorSlider.value;
+var UOMClass = document.querySelector('input[name="unitClass"]:checked').value;
+const conversionTable = {
+	cmTOinch:0.393701, 
+	inchTOcm:2.54,
+	kgTOlb:2.20462,
+	lbTOkg:0.453592,
+	3000:20.8,
+	4000:110,
+	5000:139,
+	6000:166,
+	7000:194,
+	8000:221,
+	9000:250
+}
 
+
+//size of the view port for the Hyperrectangle
 var size = 300;
-
+//metric by default
+UOMLength.forEach((e) => e.innerHTML = "cm")
+UOMWeight.forEach((e) => e.innerHTML = "kg")
 range.forEach((e) => {
   e.oninput = inputsUpdated;
   // e.nextElementSibling.innerHTML = e.value;
@@ -30,6 +50,27 @@ window.addEventListener("scroll", function() {
 });
 
 function inputsUpdated(e) {
+	let prevUOMClass = UOMClass
+	UOMClass = UOMClass = document.querySelector('input[name="unitClass"]:checked').value
+	if(UOMClass != prevUOMClass) {
+		// debugger
+		if(UOMClass == "metric"){
+			fLength.value = Math.round(fLength.value*conversionTable.inchTOcm)
+			fWidth.value = Math.round(fWidth.value*conversionTable.inchTOcm)
+			fHeight.value = Math.round(fHeight.value*conversionTable.inchTOcm)
+			fWeight.value = Math.round(fWeight.value*conversionTable.lbTOkg)
+			UOMLength.forEach((e) => e.innerHTML = "cm")
+			UOMWeight.forEach((e) => e.innerHTML = "kg")
+		} else {
+			fLength.value = Math.round(fLength.value*conversionTable.cmTOinch)
+			fWidth.value = Math.round(fWidth.value*conversionTable.cmTOinch)
+			fHeight.value = Math.round(fHeight.value*conversionTable.cmTOinch)
+			fWeight.value = Math.round(fWeight.value*conversionTable.kgTOlb)
+			UOMLength.forEach((e) => e.innerHTML = "in")
+			UOMWeight.forEach((e) => e.innerHTML = "lb")
+
+		}
+	}
 	if((fLength.validationMessage.length > 0)||(fWidth.validationMessage.length > 0)||(fHeight.validationMessage.length > 0)||fWeight.validationMessage.length > 0 ){
 		valid = false;
 	} else {
@@ -41,6 +82,9 @@ function updateCube() {
 	if(valid) {
 		// dimFactor = document.querySelector('input[name="factor"]:checked').value;
 		dimFactor = factorSlider.value;
+		if(UOMClass=="imperial"){
+			dimFactor = conversionTable?.[dimFactor]
+		}
 		document.querySelector("section.selected").classList.add('visually-hidden')
 		document.querySelectorAll(".selected").forEach((e) => e.classList.remove('selected'))
 		document.querySelectorAll(`.factor__${factorSlider.value}`).forEach((e) => e.classList.add('selected'))

@@ -65,6 +65,14 @@
     text-align: right;
     margin: 0.1em 2em;
   }
+  &__units{
+    grid-column: 1/-1;
+    display:flex;
+    & label {
+      margin:0 4rem 0  0 ;
+    }
+    
+  }
   .input_background {
     margin: 0;
   }
@@ -88,6 +96,9 @@ div.input__dim {
 	} 
 }
 
+span[class*='UOM'] {
+  margin-inline-start: .5ch;
+}
 
 .viewPort {
   position: relative;
