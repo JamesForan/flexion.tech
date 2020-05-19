@@ -9,9 +9,11 @@
 .dim-grid {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 5em;
 	@media (min-width: 768px) {
 		grid-template-columns: 450px auto;
-		grid-template-rows: 450px auto;
+    grid-template-rows: 450px auto;
+    margin-bottom: 10em;
 	}
 }
 
@@ -135,7 +137,7 @@ span[class*='UOM'] {
     // interpolate because Sass apparently has issues with this
     background: #f3aa3b;
     border: 2px solid var(--color-text);
-    transition: all 1.5s cubic-bezier(.27,1.26,.73,1.32);
+    transition: all 1.6s cubic-bezier(.26,-0.19,.75,1.29);
 
     &:nth-child(n + 5) {
       --i: 1;
@@ -214,11 +216,12 @@ span[class*='UOM'] {
 
 // balance view and dimentions
 .balanced-view {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   margin: 2em;
-
+  grid-template-rows: 120px 40px;
   justify-items: center;
-  grid-template-rows: auto auto auto;
+
   [class*='weight-icon'] {
     grid-row: 1/2;
     grid-column: 1/2;
@@ -248,17 +251,13 @@ span[class*='UOM'] {
   }
 
   .balance-base {
-    grid-row: 3/4;
-    width: 80px;
+    align-self: center;
+    width: 100px;
 		height: 40px;
-		margin-top: -1.2em;
-		z-index: -1;
     background: linear-gradient(#f9cf00, #f19e4d);
     clip-path: circle(50% at 50% 100%);
   }
   .tipper {
-    grid-row: 2/3;
-    grid-column: 1/2;
     display: grid;
 		width: 100%;
 		transform: rotate(7deg);
