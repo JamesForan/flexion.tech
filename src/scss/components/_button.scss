@@ -29,3 +29,61 @@
 .button:active {
   transform: scale(0.99);
 }
+
+
+.range__slider {
+  -webkit-appearance: none;
+  width: 100%;//calc(100% - (#{$range-label-width + 13px}));
+  height: 10px;
+  border-radius: 10px;
+  background: var(--color-bg);
+  outline: none;
+  padding: 0;
+  margin: 0;
+
+  // Range Handle
+  &::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-bg);
+    cursor: pointer;
+    transition: background .15s ease-in-out;
+
+    &:hover {
+      background: var(--color-primary-glare);
+    }
+  }
+
+  &:active::-webkit-slider-thumb {
+    background: var(--color-text);
+  }
+
+  &::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--color-text);
+    cursor: pointer;
+    transition: background .15s ease-in-out;
+
+    &:hover {
+      background: var(--color-primary-glare);
+    }
+  }
+
+  &:active::-moz-range-thumb {
+    background: var(--color-primary-glare);
+  }
+  
+  // Focus state
+  &:focus {
+    
+    &::-webkit-slider-thumb {
+      box-shadow: 0 0 0 3px white,
+                  0 0 0 6px salmon;
+    }
+  }
+}
