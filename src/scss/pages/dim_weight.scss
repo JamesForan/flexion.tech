@@ -70,6 +70,7 @@
   &__units{
     grid-column: 1/-1;
     display:flex;
+    min-width: 300px;
     & label {
       margin:0 4rem 0  0 ;
     }

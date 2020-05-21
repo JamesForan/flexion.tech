@@ -131,6 +131,22 @@
       padding: get-size(700);
       font-size: get-size(500);
     }
+    table {
+      border-collapse: separate;
+      border-spacing: .2em;
+      margin-left: auto;
+      margin-right:auto;
+
+    }
+    td, th {
+      padding-left: 2em;
+      padding-right: 2em;
+      background:var(--color-stroke);
+    }
+    th {
+      background:var(--color-highlight);
+      color:var(--color-dark);
+    }
   }
 
   &__footer {
