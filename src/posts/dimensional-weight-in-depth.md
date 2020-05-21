@@ -8,8 +8,14 @@ author: James Foran
 tags:
   - dim-weight
 ---
-
 If you are already in the know, you can jump straight to [the tool here,](/dim-weight) if not, please read on.
+ <figure>
+  <img src="/images/dim-weight@2x.png" alt="dimensional weight tool screen shot" loading="lazy">
+  <figcaption>Screen shot of dimesional weight tool</figcaption>
+</figure> 
+
+
+
 
 # Dimensional Weight
 Dimensional weight. it is a pretty basic concept that is used by transport companies to when calculating freight charges, rather than relying on gross weight alone. This dimensional weight comes into effect often when shipping high volume, low weight items. When charging based on weight, which ever is greater between the dimensional weight, and the actual weight, is used when calculating the charges. 

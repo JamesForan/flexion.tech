@@ -14,7 +14,21 @@
 		grid-template-columns: 450px auto;
     grid-template-rows: 450px auto;
     margin-bottom: 10em;
-	}
+  }
+  @media (min-width: 768px) {
+		grid-template-columns: 450px auto;
+    grid-template-rows: 450px auto;
+    margin-bottom: 10em;
+  }
+  @media (min-width: 1200px) { 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    margin-top: 3em;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+  }
 }
 
 .factorTable {
@@ -46,7 +60,8 @@
   grid-columns: 2/3;
 }
 
-.inputs {
+.inputs, .range {
+  
   display: grid;
   background-color: var(--color-theme-highlight-block);
   grid-template-columns: 1fr 100px 0.5fr;
@@ -58,6 +73,10 @@
   align-items: center;
   padding: 1.2em;
   border-radius: 1em;
+  @media (min-width: 1200px) { 
+    grid-row:1/2;
+    margin: 1em;
+  }
   input[type] {
     text-align: right;
     width: 130%;
@@ -90,10 +109,11 @@ div.input__dim {
 }
 
 .range {
-  background-color: var(--color-theme-highlight-block);
-	width: 100%;
-	padding: 1em;
-	border-radius: 1em;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  input[type] {
+    width: 100%;
+  }
 	[class*='factor'].selected{
 		background-color: var(--color-bg);
 	} 
@@ -113,6 +133,11 @@ span[class*='UOM'] {
 	@media (min-width: 768px) {
 		width: 450px;
   	height: 450px;
+  }
+  @media (min-width: 1200px) {
+    grid-row: 2/4;
+		width: 380px;
+  	height: 400px;
 	}
 }
 
@@ -222,6 +247,12 @@ span[class*='UOM'] {
   margin: 2em;
   grid-template-rows: 120px 40px;
   justify-items: center;
+  @media (min-width: 1200px) {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 500px;
+    justify-self: center;
+	}
 
   [class*='weight-icon'] {
     grid-row: 1/2;
@@ -236,11 +267,13 @@ span[class*='UOM'] {
     align-self: end;
   }
   .dim-weight-icon {
-    justify-self: left;
     width: var(--dimW-icon-size);
     height: var(--dimW-icon-size);
     line-height: var(--dimW-icon-size);
     margin-left: 10px;
+    @media (min-width: 1200px) {
+      justify-self: right;
+    }
   }
 
   .weight-icon {
@@ -249,6 +282,9 @@ span[class*='UOM'] {
     height: var(--weight-icon-size);
     line-height: var(--weight-icon-size);
     margin-right: 10px;
+    @media (min-width: 1200px) {
+      justify-self: left;
+    }
   }
 
   .balance-base {
@@ -264,9 +300,15 @@ span[class*='UOM'] {
 		transform: rotate(7deg);
 		transform-origin: bottom;
     transition: width 0.2s 0s, transform 3.5s 0.2s cubic-bezier(1, 0.09, 0.94, 1.17);
+    @media (min-width: 1200px) {
+      transform: rotate(-7deg);
+    }
   }
   &.dim > .tipper {
     transform: rotate(-7deg);
+    @media (min-width: 1200px) {
+      transform: rotate(7deg);
+    }
 	}
 	&.same > .tipper {
 		transform: rotate(0deg);
@@ -283,6 +325,10 @@ h3 {
 	grid-column: 1/-1;
 }
 .calcs {
+    @media (min-width: 1200px) {
+      grid-column: 2/4;
+      grid-row: 3/4;
+    }
     display: grid;
 		grid-template-columns: 1fr 1fr;
     column-gap: .3em;
