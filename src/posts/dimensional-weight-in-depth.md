@@ -7,15 +7,25 @@ author: James Foran
 tags:
   - dim-weight
 ---
+
+If you are already in the know, you can jump straight to [the tool here,](/dim-weight) if not, please read on.
+
+# Dimensional Weight
+Dimensional weight. it is a pretty basic concept that is used by transport companies to when calculating freight charges, rather than relying on gross weight alone. This dimensional weight comes into effect often when shipping high volume, low weight items. When charging based on weight, which ever is greater between the dimensional weight, and the actual weight, is used when calculating the charges. 
+
+This mechanism is an incentive to shippers of low density products to reduce unnecessary packaging. it can also be a surprise to unsuspecting consumers, who are not aware of how each transport company calculates dimensional weight.
+
 To calculation dimensional weight, first you must calculate volume. For this discussion we will assume that volume is calculated either in cubic centimetres, or cubic inches. 
+
+
 
 # Calculating Volume
 
-The calculation is very simple. Length  *Width*  Height = Volume 
+The calculation is very simple. Length  * Width *  Height = Volume 
 
 volume/dimensional rate factor.
 
-If what you are shipping is not cuboid, you must take the maximum value of each dimension. This means if you are shipping a cylinder, the measurement would be length  *diameter*  diameter.
+If what you are shipping is not cuboid, you must take the maximum value of each dimension. This means if you are shipping a cylinder, the measurement would be length  * diameter *  diameter.
 
 # Calculating Dimensional Weight
 
@@ -50,7 +60,7 @@ Some will use cm3/kg, others kg/m3, and then their is the is the imperial measur
 Luckily, there is some hope. The seemingly random in3/lb values are actually based on the metric standards, so 139in3/lb is equivalent to 5000cm3/kg. The same goes for all other examples I was able to find.
 
 |cm3/kg	|kg/m3	|in3/lb	|lb/ft3	|
-|-----	|:----:	|:----:	|:----:	|
+|:----:	|:----:	|:----:	|:----:	|
 |3000	|333	|83	|20.8	|
 |4000	|250	|110	|15.6	|
 |5000	|200	|139	|12.5	|
@@ -68,6 +78,6 @@ Taking the above dimensional rate factors, and applying it to an example volume,
 
 It is literally 3 times lighter. If you are shipping low density goods, know your dim rate factors, and reduce the size of your packaging as much as possible. 
 
-To help further articulate dimensional weight, I have built a small tool that can help you calculate dimensional weight easily. 
+To help further articulate dimensional weight, I have built a small tool that can help you calculate dimensional weight easily, which can be found [here.](/dim-weight)
 
 Hope you enjoy playing around with it! If you find it useful, or think others will, please share it too!
