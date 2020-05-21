@@ -28,9 +28,11 @@ To calculation dimensional weight, first you must calculate volume. For this dis
 
 # Calculating Volume
 
-The calculation is very simple. Length  * Width *  Height = Volume 
+The calculation is very simple:
 
-volume/dimensional rate factor.
+`Length  * Width *  Height = Volume` 
+
+`volume/dimensional rate factor`
 
 If what you are shipping is not cuboid, you must take the maximum value of each dimension. This means if you are shipping a cylinder, the measurement would be length  * diameter *  diameter.
 
@@ -40,7 +42,7 @@ Dimensional rate factors is where things get a little confusing. They can be exp
 
 Volume per Weight Unit, or, weight per volume unit. to show a simple example, lets take a look at an example using Cubic CM an kilograms. The example factor we will use is 5000cm3 per 1 kilo. 
 
-Lets calculate volume:. 
+Lets calculate volume: 
 
 `100cm  * 100cm *  100cm = 1000000cm3`
 
