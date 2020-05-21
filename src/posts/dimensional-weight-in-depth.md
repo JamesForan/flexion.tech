@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Dimensional Weight - In depth
 metaTitle: Dimensional Weight explained in detail
-socialImage: /images/dim-weight.png
+socialImage: /images/dim-weight@2x.png
 date: 2020-05-20T13:17:59.818Z
 author: James Foran
 tags:
