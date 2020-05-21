@@ -22,7 +22,7 @@
 {% if site.authorHandle %}
   <meta name="twitter:creator" content="@{{ site.authorHandle | replace('@', '') }}" />
 {% endif %}
-
+<meta name="twitter:card" content="summary_large_image">
 {% if metaDesc %}
   <meta name="description" content="{{ metaDesc }}" />
   <meta name="twitter:description" content="{{ metaDesc }}" />
