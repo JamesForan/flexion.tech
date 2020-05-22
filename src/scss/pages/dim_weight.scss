@@ -327,7 +327,7 @@ span[class*='UOM'] {
 	}
 	&.same > .tipper {
 		transform: rotate(0deg);
-		transition: transform 3.5s 0.2s cubic-bezier(.02,.78,.62,1.41);
+		transition: transform 3.5s 0.2s cubic-bezier(.49,-0.03,.62,1.32);
   }
   .balance {
     margin-top: 2px;
