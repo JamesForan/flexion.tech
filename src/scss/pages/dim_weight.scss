@@ -123,6 +123,9 @@ div.input__dim {
   input[type] {
     width: 100%;
   }
+  label {
+    text-align: center;
+  }
 	[class*='factor'].selected{
 		background-color: var(--color-bg);
 	} 
