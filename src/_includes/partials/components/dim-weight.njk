@@ -1,35 +1,42 @@
 
 <form name="fInputs" class="dim-grid">
-    <div class="viewPort">
-    		<div class='cube'>
-    			<div class='cube__face'></div>
-    			<div class='cube__face'></div>
-    			<div class='cube__face'></div>
-    			<div class='cube__face'></div>
-    			<div class='cube__face'></div>
-    			<div class='cube__face'></div>
-    		</div>
-    	</div>
     		<div class="inputs">
           <h3 class="pad-bottom-300">Step 1: Enter dimensions</h3>
             <div class="inputs__units pad-bottom-300">
-                <input class="inputs__units-itm dim_input" type="radio" id="metric" name="unitClass" value="metric" checked>
+                <input class="inputs__units-itm dim_input" type="radio" id="metric" name="unitClass" value="metric" autocomplete="off" data-lpignore="true" checked>
                 <label class="inputs__units-itm" for="metric">Metric</label>
-                <input class="inputs__units-itm dim_input" type="radio" id="imperial" name="unitClass" value="imperial">
+                <input class="inputs__units-itm dim_input" type="radio" id="imperial" name="unitClass" value="imperial"  autocomplete="off" data-lpignore="true" >
                 <label class="inputs__units-itm" for="imperial">Imperial</label>
             </div>
             <label class="inputs__dim" for="width">Length</label>
     				<div class="input_background inputs__dim">
-              <input id="length" class="dim_input validity_margin" title="positive numbers only" type="text" value="100" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+              <input id="length" class="dim_input validity_margin" title="positive numbers only" type="text" value="100" pattern="^[+]?([.]\d+|\d+[.]?\d*)$"  autocomplete="off" data-lpignore="true" >
             </div><span class="UOM__length"></span>
     				<label class="inputs__dim" for="width">Width</label>
     				<div class="input_background inputs__dim">
-              <input id="width" class="dim_input validity_margin" title="positive numbers only" type="text" value="200" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+              <input id="width" class="dim_input validity_margin" title="positive numbers only" type="text" value="200" pattern="^[+]?([.]\d+|\d+[.]?\d*)$"  autocomplete="off" data-lpignore="true" >
             </div><span class="UOM__length"></span>
     				<label class="inputs__dim" for="height">Height</label>
     				<div class="input_background inputs__dim">
-              <input id="height" class="dim_input validity_margin" title="positive numbers only" type="text" value="300" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
+              <input id="height" class="dim_input validity_margin" title="positive numbers only" type="text" value="300" pattern="^[+]?([.]\d+|\d+[.]?\d*)$"  autocomplete="off" data-lpignore="true" >
             </div><span class="UOM__length"></span>
+        </div>
+        <div class="viewPort">
+          <div class='cube'>
+            <div class='cube__face'></div>
+            <div class='cube__face'></div>
+            <div class='cube__face'></div>
+            <div class='cube__face'></div>
+            <div class='cube__face'></div>
+            <div class='cube__face'></div>
+          </div>
+        </div>
+        <div class="inputs">
+          <h3 class="pad-bottom-700">Step 2: Enter Weight</h3>
+          <label class=" inputs__dim" for="weight">Weight</label>
+          <div class="input_background inputs__dim">
+            <input id="weight" class="dim_input validity_margin" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$"  autocomplete="off" data-lpignore="true" >
+          </div><span class="UOM__weight"></span>
         </div>
         <div class="balanced-view dim">
           <div class="tipper">
@@ -39,26 +46,9 @@
           </div>
           <div class="balance-base"></div>
         </div>
-        <div class="inputs">
-          <h3 class="pad-bottom-700">Step 2: Enter Weight</h3>
-          <label class=" inputs__dim" for="weight">Weight</label>
-          <div class="input_background inputs__dim">
-            <input id="weight" class="dim_input validity_margin" title="positive numbers only" type="text" value="400" pattern="^[+]?([.]\d+|\d+[.]?\d*)$">
-          </div><span class="UOM__weight"></span>
-        </div>
-        <div class="calcs">
-          <h2 class="calcs__heading">Calculations</h2> 
-          <p class="calcs__inputs">Length * Width * Height</p> <p class="calcs__result">Volume</p> 
-          <p class="calcs__inputs calcs__volume"></p><p class="calcs__result calcs__v-res"></p>
-          <p class="calcs__inputs">Volume / Dim Factor </p><p class="calcs__result">Dimentional weight</p>
-          <p class="calcs__inputs calcs__dim-weight"></p><p class="calcs__result calcs__dim-res"></p>
-          <p class="calcs__inputs">Billing Weight</p><p>
-            <span class="calcs__result calcs__billing"></span><span class="UOM__weight"></span>
-          </p>
-        </div>
         <div class="range">
           <h3  class="pad-bottom-700 factors">Step 3: Select a Dimensional Weight Factor </h3>
-          <input class="dim_input range__slider" type="range" name="factors" id="factors" min="3000" max="9000" step="1000">
+          <input class="dim_input range__slider" type="range" name="factors" id="factors" value="5000"min="3000" max="9000" step="1000">
           <div class="factorFacts">
             <section class="factor__headings"><h4>cm3/kg</h4><h4>kg/m3</h4><h4>in3/lb</h4><h4>lb/ft3</h4></section>
             <section class="factor__3000 selected"><p>3000</p><p>333</p><p>83</p><p>20.8</p></section>
@@ -75,6 +65,18 @@
             <section class="factor__9000 visually-hidden"><p>9000</p><p>111</p><p>250</p><p>6.9</p>
             </div>
           </div>
+          <div class="calcs">
+            <h2 class="calcs__heading">Calculations</h2> 
+            <p class="calcs__inputs">Length * Width * Height</p> <p class="calcs__result">Volume</p> 
+            <p class="calcs__inputs calcs__volume"></p><p class="calcs__result calcs__v-res"></p>
+            <p class="calcs__inputs">Volume / Dim Factor </p><p class="calcs__result">Dimentional weight</p>
+            <p class="calcs__inputs calcs__dim-weight"></p><p class="calcs__result calcs__dim-res"></p>
+            <p class="calcs__inputs">Billing Weight</p><p>
+              <span class="calcs__result calcs__billing"></span><span class="UOM__weight"></span>
+            </p>
+          </div>
         </div>
+        
+        
   </div>
 </form>
