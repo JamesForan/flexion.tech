@@ -49,23 +49,28 @@ window.addEventListener("scroll", function() {
 	fCube.style.transform = "rotateX(-15deg) rotateY("+window.pageYOffset/5+"deg)";
 });
 
+function rnd(number) {
+
+	return Math.round(number*100)/100
+}
+
 function inputsUpdated(e) {
 	let prevUOMClass = UOMClass
 	UOMClass = UOMClass = document.querySelector('input[name="unitClass"]:checked').value
 	if(UOMClass != prevUOMClass) {
 		// debugger
 		if(UOMClass == "metric"){
-			fLength.value = Math.round(fLength.value*conversionTable.inchTOcm)
-			fWidth.value = Math.round(fWidth.value*conversionTable.inchTOcm)
-			fHeight.value = Math.round(fHeight.value*conversionTable.inchTOcm)
-			fWeight.value = Math.round(fWeight.value*conversionTable.lbTOkg)
+			fLength.value = rnd(fLength.value*conversionTable.inchTOcm)
+			fWidth.value = rnd(fWidth.value*conversionTable.inchTOcm)
+			fHeight.value = rnd(fHeight.value*conversionTable.inchTOcm)
+			fWeight.value = rnd(fWeight.value*conversionTable.lbTOkg)
 			UOMLength.forEach((e) => e.innerHTML = "cm")
 			UOMWeight.forEach((e) => e.innerHTML = "kg")
 		} else {
-			fLength.value = Math.round(fLength.value*conversionTable.cmTOinch)
-			fWidth.value = Math.round(fWidth.value*conversionTable.cmTOinch)
-			fHeight.value = Math.round(fHeight.value*conversionTable.cmTOinch)
-			fWeight.value = Math.round(fWeight.value*conversionTable.kgTOlb)
+			fLength.value = rnd(fLength.value*conversionTable.cmTOinch)
+			fWidth.value = rnd(fWidth.value*conversionTable.cmTOinch)
+			fHeight.value = rnd(fHeight.value*conversionTable.cmTOinch)
+			fWeight.value = rnd(fWeight.value*conversionTable.kgTOlb)
 			UOMLength.forEach((e) => e.innerHTML = "in")
 			UOMWeight.forEach((e) => e.innerHTML = "lb")
 
@@ -103,15 +108,15 @@ function updateCube() {
 		scaleWeight.innerText = actW
 		//set the size to character width +2 + how far are we away from the next character...
 	
-		let dimWl = ((""+dimW).length+2) + Math.round(dimW/(dimW.toString().replace(/[0-9]/g,"9"))*100)/100
-		let actWl = ((""+actW).length+2) + Math.round(actW/(actW.toString().replace(/[0-9]/g,"9"))*100)/100
+		let dimWl = ((""+dimW).length+2) + rnd(dimW/(dimW.toString().replace(/[0-9]/g,"9")))
+		let actWl = ((""+actW).length+2) + rnd(actW/(actW.toString().replace(/[0-9]/g,"9")))
 	
 		root.style.setProperty('--dimW-icon-size',((dimWl)) + "ch" )
 		root.style.setProperty('--weight-icon-size',((actWl)) + "ch")
 		
 		calcsVolume.innerText = `${fWidth.value}*${fLength.value}*${fHeight.value}`
-		calcsVolRes.innerText =  volume
-		calcsDimWeight.innerText = `${volume}/${dimFactor}`
+		calcsVolRes.innerText =  rnd(volume)
+		calcsDimWeight.innerText = `${rnd(volume)}/${dimFactor}`
 		calcsDimRes.innerText = dimW
 		calcsBilling.innerText = actW
 		document.querySelector(".balanced-view").classList.remove("dim")
@@ -119,7 +124,7 @@ function updateCube() {
 		if (dimW > actW) {
 			calcsBilling.innerText = dimW
 			document.querySelector(".balanced-view").classList.add("dim")
-		} else if (Math.round(dimW) == Math.round(actW)){
+		} else if (rnd(dimW) == rnd(actW)){
 			document.querySelector(".balanced-view").classList.add("same")
 		}
 	}
